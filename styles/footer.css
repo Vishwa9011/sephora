@@ -1,0 +1,101 @@
+#footer {
+    width: 100%;
+    margin: auto;
+    font-family: Avenir-Next, sans-serif;
+    font-size: 14px
+}
+
+#footer h1,
+p,
+h2 {
+    text-align: center;
+}
+
+#footer p,
+a {
+    color: #656565;
+}
+
+#footer a {
+    color: black;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    height: 40px;
+}
+
+#top {
+    background-color: #f2f2f2;
+    padding: 25px;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+#top2 {
+    width: 100%;
+}
+
+#middle {
+    width: 80%;
+    margin: auto;
+}
+
+#subscribe {
+    background-color: black;
+    color: white;
+}
+
+.contact {
+    padding: 30px;
+    border: 0px;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    font-size: 15px;
+}
+
+.bottom a {
+    font-size: 12px;
+    border-bottom: none;
+
+}
+
+.bottom a {
+    font-size: 12px;
+    border-bottom: none;
+    text-decoration: none;
+
+}
+
+#faq {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#faq a {
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#about a {
+    font-size: 12px;
+    border-bottom: none;
+    text-decoration: none;
+}
+
+#middle a:hover {
+    color: rgb(191, 30, 84);
+}
