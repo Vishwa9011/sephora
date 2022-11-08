@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Avenir-Next,sans-serif;
+    font-size: 14px
+}
+#navbar{
+  border: 1px solid black;
+  width: 100%;
+  height: 200px;
+}
+#first{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    gap: 1%;
+    background-color: #f3f3f3;
+    color: gray;
+}
+#firstR{
+    width: 22%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;  
+}
+#firstR>img{
+    width: 40%;
+    height: 100%;
+}
+#firstM{
+    width: 45%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2%; 
+}
+.star span{
+rotate: -45deg;
+font-size: 20px;
+}
+#firstL{
+    width: 34%;
+    height: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3%;  
+}
+#firstL>div{
+    display: flex;
+}
+#mid{
+  display: flex;
+  width: 100%;
+  height: 30%;
+  border: 1px solid black;
+  justify-content: space-between;
+}
+#midSearch{
+    display: flex;
+    justify-content: center;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  padding: 1%;
+}
+#midSearch>div{
+    width: 100%;
+    height: 100%;
+    padding: 5% 0px 0px 0px;
+    display: flex;
+    gap: 2%;
+    border-bottom: 1px solid black;
+}
+#midSearch input{
+    border: none;
+   outline: none;
+}
+#midimg{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    padding: 1%;
+}
+#midimg img{
+    width: 100%;
+    height: 70px;
+}
+#midspan{
+display: flex;
+justify-content: space-around;
+width: 15%;
+text-align: center;
+align-items: center;
+}
