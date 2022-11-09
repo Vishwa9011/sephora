@@ -54,3 +54,6 @@ const slideImage = () => {
 		document.querySelector(".next").style.cursor = "pointer";
 	}
 };
+
+//todo ------------Beauty Offers in brands----------
+const cardContainer = document.querySelector("#card-container");

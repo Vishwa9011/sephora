@@ -1,0 +1,267 @@
+{
+	"posts": [
+		{
+			"id": 1,
+			"title": "json-server",
+			"author": "typicode"
+		}
+	],
+	"comments": [
+		{
+			"id": 1,
+			"body": "some comment",
+			"postId": 1
+		}
+	],
+	"profile": {
+		"name": "typicode"
+	},
+	"ikoo": [
+		{
+			"brand": "IKOO",
+			"product": "Paddle X Pops Hair Brush - Let's Tango",
+			"price": "Rs. 3300",
+			"link": "https://cdn12.nnnow.com/web-images/medium/styles/TEVSC5X3JS9/1655180513758/1.jpg"
+		},
+		{
+			"brand": "IKOO",
+			"product": "E-Styler Jet Styling Brush - Beluga Black",
+			"price": "Rs. 15,200",
+			"link": "https://cdn11.nnnow.com/web-images/medium/styles/08PM20PAB24/1655180513781/1.jpg"
+		},
+		{
+			"brand": "IKOO",
+			"product": "Paddle X Hair Brush - Manhattan Glam",
+			"price": "Rs. 4,100",
+			"link": "https://cdn03.nnnow.com/web-images/medium/styles/3UZBRXTC9UV/1655180513849/1.jpg"
+		},
+		{
+			"brand": "IKOO",
+			"product": "Paddle X Pops Hair Brush - Love Affair",
+			"price": "Rs. 3,300",
+			"link": "https://cdn18.nnnow.com/web-images/medium/styles/MM21IQFEDNJ/1655180513924/1.jpg"
+		},
+		{
+			"brand": "IKOO",
+			"product": "Paddle X Hair Brush - Beluga Black",
+			"price": "Rs. 3,700",
+			"link": "https://cdn13.nnnow.com/web-images/medium/styles/LKP6CZ3JTJG/1655180513765/1.jpg"
+		},
+		{
+			"brand": "IKOO",
+			"product": "Paddle X Hair Brush - Baby Doll",
+			"price": "Rs. 4,100",
+			"link": "https://cdn02.nnnow.com/web-images/medium/styles/ACOI8DF27GR/1655180513898/1.jpg"
+		},
+		{
+			"brand": "IKOO",
+			"product": "E-Styler Pro Styling Brush - Beluga Black",
+			"price": "Rs. 21,500",
+			"link": "https://cdn09.nnnow.com/web-images/medium/styles/BQ4AL46YG3N/1655180513821/1.jpg"
+		},
+		{
+			"brand": "IKOO",
+			"product": "Home Detangling Brush - Oyster",
+			"price": "Rs. 2,800",
+			"link": "https://cdn16.nnnow.com/web-images/medium/styles/QM2H850EDAR/1655180513828/1.jpg"
+		},
+		{
+			"brand": "IKOO",
+			"product": "Paddle X Pops Hair Brush - Beluga Black",
+			"price": "Rs. 3,100",
+			"link": "https://cdn07.nnnow.com/web-images/medium/styles/OQFJ6S1286A/1655180513791/1.jpg"
+		},
+		{
+			"brand": "IKOO",
+			"product": "Paddle X Hair Brush - Let's Tango",
+			"price": "Rs. 4,100",
+			"link": "https://cdn14.nnnow.com/web-images/medium/styles/AI5GNYRT2U5/1655180513835/1.jpg"
+		}
+	],
+	"hanz-de-fuko": [
+		{
+			"brand": "HANZ DE FUKO",
+			"product": "Quicksand",
+			"price": "Rs. 2,200",
+			"img": "https://cdn04.nnnow.com/web-images/medium/styles/DE79XFX5DJY/1656913188036/1.jpg"
+		},
+		{
+			"brand": "HANZ DE FUKO",
+			"product": "Scheme Cream",
+			"price": "Rs. 2,200",
+			"img": "https://cdn15.nnnow.com/web-images/medium/styles/E0KAX94UDOV/1656913188094/1.jpg"
+		},
+		{
+			"brand": "HANZ DE FUKO",
+			"product": "Claymation",
+			"price": "Rs. 2,200",
+			"img": "https://cdn05.nnnow.com/web-images/medium/styles/R9IG63BL7L3/1656913188153/1.jpg"
+		},
+		{
+			"brand": "HANZ DE FUKO",
+			"product": "Deluxe Mini Kit",
+			"price": "Rs. 1,400",
+			"img": "https://cdn01.nnnow.com/web-images/medium/styles/EX13113BXXQ/1656913188105/1.jpg"
+		},
+		{
+			"brand": "HANZ DE FUKO",
+			"product": "Natural Shampoo",
+			"price": "Rs. 2,200",
+			"img": "https://cdn17.nnnow.com/web-images/medium/styles/U62BAH31SW3/1656913188194/1.jpg"
+		},
+		{
+			"brand": "HANZ DE FUKO",
+			"product": "Natural Conditioner",
+			"price": "Rs. 2,200",
+			"img": "https://cdn17.nnnow.com/web-images/medium/styles/UC0PII0FYPD/1656913188017/1.jpg"
+		},
+		{
+			"brand": "HANZ DE FUKO",
+			"product": "Modify Pomade",
+			"price": "Rs. 2,200",
+			"img": "https://cdn07.nnnow.com/web-images/medium/styles/YRW95857IBT/1656913188132/1.jpg"
+		},
+		{
+			"brand": "HANZ DE FUKO",
+			"product": "Gravity Paste",
+			"price": "Rs. 2,200",
+			"img": "https://cdn08.nnnow.com/web-images/medium/styles/G1ZK1DOW90C/1656913188170/1.jpg"
+		},
+		{
+			"brand": "HANZ DE FUKO",
+			"product": "Heavymade Pomade",
+			"price": "Rs. 2,200",
+			"img": "https://cdn10.nnnow.com/web-images/medium/styles/JH705EGM9MR/1656913188074/1.jpg"
+		},
+		{
+			"brand": "HANZ DE FUKO",
+			"product": "Gravity Paste gel",
+			"price": "Rs. 2,500",
+			"img": "https://cdn08.nnnow.com/web-images/large/styles/G1ZK1DOW90C/1656913188170/1.jpg"
+		}
+	],
+	"pixi": [
+		{
+			"brand": "PIXI",
+			"product": "Vitamin Wakeup Mist",
+			"price": "Rs. 1,480",
+			"img": "https://cdn03.nnnow.com/web-images/large/styles/EB94S3UDUPD/1585571862841/1.jpg"
+		},
+		{
+			"brand": "PIXI",
+			"product": "Endless Silky Eye Pen - Sage Gold",
+			"price": "Rs. 1,190",
+			"img": "https://cdn05.nnnow.com/web-images/large/styles/6CKXCXJV0NN/1585554248551/1.jpg"
+		},
+		{
+			"brand": "PIXI",
+			"product": "Sheer Cheek Gel - Rosy",
+			"price": "Rs. 1,500",
+			"img": "https://cdn03.nnnow.com/web-images/large/styles/HNFS0H9NBQE/1585829779048/1.jpg"
+		},
+		{
+			"brand": "PIXI",
+			"product": "MatteLast Liquid Lipstick- Really Rose",
+			"price": "Rs. 1,390",
+			"img": "https://cdn13.nnnow.com/web-images/large/styles/9YD7CNNDAP1/1583404461449/1.jpg"
+		},
+		{
+			"brand": "PIXI",
+			"product": "Large Lash Mascara - Best Brown",
+			"price": "Rs. 1,580",
+			"img": "https://cdn10.nnnow.com/web-images/large/styles/J47VL7YANSZ/1585820855594/1.jpg"
+		},
+		{
+			"brand": "PIXI",
+			"product": "Endless Shade Stick - Matte Cognac",
+			"price": "Rs. 1,320",
+			"img": "https://cdn17.nnnow.com/web-images/large/styles/07W1AIH0UJH/1583404380139/1.jpg"
+		},
+		{
+			"brand": "PIXI",
+			"product": "Milky Tonic",
+			"price": "Rs. 1,600",
+			"img": "https://cdn00.nnnow.com/web-images/large/styles/5UHE6DK5VB3/1585571862826/1.jpg"
+		},
+		{
+			"brand": "PIXI",
+			"product": "Pat Away Concealing Base - Espresso",
+			"price": "Rs. 1,590",
+			"img": "https://cdn15.nnnow.com/web-images/large/styles/Y8J0CLOJB3L/1585820855598/1.jpg"
+		},
+		{
+			"brand": "PIXI",
+			"product": "Best Of Vitamin-C",
+			"price": "Rs. 2,340",
+			"img": "https://cdn10.nnnow.com/web-images/large/styles/3K88DM40TRD/1585571862821/1.jpg"
+		},
+		{
+			"brand": "PIXI",
+			"product": "Hydrating Milky Lotion",
+			"price": "Rs. 2,550",
+			"img": "https://cdn17.nnnow.com/web-images/large/styles/O18LBSMKAEG/1585571862856/1.jpg"
+		}
+	],
+	"abhati": [
+		{
+			"brand": "ABHATI SUISSE",
+			"product": "Kangi 31 Large Detangling Comb",
+			"price": "Rs. 2,600",
+			"img": "https://cdn01.nnnow.com/web-images/large/styles/WJIF76XQU75/1640925193703/1.jpg"
+		},
+		{
+			"brand": "ABHATI SUISSE",
+			"product": "Chambal Sacred Hair Oil",
+			"price": "Rs. 4,800",
+			"img": "https://cdn04.nnnow.com/web-images/large/styles/HUI4B96O3UT/1639719970213/1.jpg"
+		},
+		{
+			"brand": "ABHATI SUISSE",
+			"product": "Tansa Colour-Depth Shampoo",
+			"price": "Rs. 3,500",
+			"img": "https://cdn10.nnnow.com/web-images/large/styles/TPVQF8XCAI1/1639719991527/1.jpg"
+		},
+		{
+			"brand": "ABHATI SUISSE",
+			"product": "Mahakali Nourishing Conditioner",
+			"price": "Rs. 4,650",
+			"img": "https://cdn05.nnnow.com/web-images/large/styles/AP6L78VM8P0/1639719572394/1.jpg"
+		},
+		{
+			"brand": "ABHATI SUISSE",
+			"product": "Yamuna Nourishing Shampoo",
+			"price": "Rs. 3,600",
+			"img": "https://cdn00.nnnow.com/web-images/large/styles/BQNHJJE2HPV/1639719990723/1.jpg"
+		},
+		{
+			"brand": "ABHATI SUISSE",
+			"product": "Kangi 19 Small Pocket Comb",
+			"price": "Rs. 2,300",
+			"img": "https://cdn06.nnnow.com/web-images/large/styles/UYUUYGN48V4/1640925193686/1.jpg"
+		},
+		{
+			"brand": "ABHATI SUISSE",
+			"product": "Nakki Whipped Volumising Conditioner",
+			"price": "Rs. 3,850",
+			"img": "https://cdn12.nnnow.com/web-images/large/styles/BA6MMU33R3U/1639719626154/1.jpg"
+		},
+		{
+			"brand": "ABHATI SUISSE",
+			"product": "Imlaya Volumising Shampoo",
+			"price": "Rs. 3,600",
+			"img": "https://cdn16.nnnow.com/web-images/large/styles/7PFG3E79Y9B/1639719564674/1.jpg"
+		},
+		{
+			"brand": "ABHATI SUISSE",
+			"product": "Yamuna Nourishing Shampoo",
+			"price": "Rs. 4,300",
+			"img": "https://cdn01.nnnow.com/web-images/large/styles/JBI1ECO8OJV/1639719626193/1.jpg"
+		},
+		{
+			"brand": "ABHATI SUISSE",
+			"product": "Periya Body Cleanser",
+			"price": "Rs. 3,550",
+			"img": "https://cdn03.nnnow.com/web-images/large/styles/WJTAU9LUU2H/1639719992500/1.jpg"
+		}
+	]
+}

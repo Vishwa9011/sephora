@@ -55,7 +55,7 @@ const navbar = () => {
                </div>
           </div>
           <div id="midimg">
-               <a href=""> <img src="./images/SEPHORA.png" alt="logo"></a>
+               <a href="/"> <img src="./images/SEPHORA.png" alt="logo"></a>
           </div>
           <div id="midspan">
                <div>
@@ -78,7 +78,7 @@ const navbar = () => {
 <div id="last">
      <ul id="nav-links">
           <li>
-               <a id="sale" href="">SALE</a>
+               <a id="sale" href="sale.html">SALE</a>
           </li>
           <li>
                <a href="makeup.html"> MAKEUP</a>
