@@ -37,7 +37,7 @@ const goNext = () => {
 	clearInterval(id);
 };
 
-// todo ==> slide image funciton 
+// todo ==> slide image funciton
 const slideImage = () => {
 	console.log("count", count);
 	if (count == slider.length) {

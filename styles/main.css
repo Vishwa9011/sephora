@@ -1,25 +1,19 @@
-body {
-     position: relative;
-     scroll-behavior: smooth;
-}
-
-
 #main {
      width: 100%;
      height: 100%;
-     margin-top: 20px;
+     margin-top: 30px;
      position: relative;
 }
 
 .main-container {
-     width: 80%;
+     width: 90%;
      margin: auto;
      position: relative;
 }
 
 #slider {
      width: 100%;
-     height: 500px;
+     height: 600px;
      position: relative;
 }
 
@@ -75,7 +69,7 @@ body {
 
 /* ! Mid Section */
 
-#mid {
+#mid-image {
      position: relative;
      width: 100%;
      margin-top: 20px;
@@ -123,31 +117,33 @@ body {
 
 }
 
-
-
 /* button */
 
 #gotoTop {
-     margin: 20px 0;
-     width: 100%;
+     width: 180px;
+     margin: 20px auto 0;
      display: flex;
      justify-content: center;
+     align-items: center;
 }
 
 #gotoTop a {
-     padding: 23px 15px;
-     height: 30px;
-     font-size: 1.2rem;
+     width: 100%;
+     padding: 10px 15px;
+     height: 100%;
      cursor: pointer;
      display: flex;
      justify-content: center;
      align-items: center;
      text-decoration: none;
      color: black;
-     font-weight: 600;
      background: #abc72c;
 }
 
 #gotoTop span:first-child {
-     font-size: 1.7rem;
+     font-size: 2rem;
+}
+
+#gotoTop span:last-child {
+     font-size: 1.2rem;
 }

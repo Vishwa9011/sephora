@@ -1,0 +1,27 @@
+main {
+     width: 90%;
+     margin: auto;
+     height: 100%;
+     display: flex;
+     border: 1px solid rebeccapurple;
+}
+
+#Product-sideBar {
+     width: 25%;
+     border: 1px solid red;
+}
+
+#category {
+     width: 100%;
+}
+
+#category div {
+     width: 100%;
+}
+
+
+#product-container {
+     width: 75%;
+     border: 1px solid rebeccapurple;
+}
+

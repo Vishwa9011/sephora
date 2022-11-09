@@ -1,0 +1,449 @@
+p {
+     font-size: 13px;
+     font-weight: lighter;
+}
+
+a {
+     color: #FF3399;
+}
+
+.overlay {
+     width: 100%;
+     height: 100vh;
+     position: fixed;
+     top: 0;
+     left: 0;
+     opacity: .8;
+     z-index: 99;
+     background: rgb(61, 58, 58);
+     display: none;
+     cursor: pointer;
+}
+
+
+.x-btn {
+     border: 0px;
+     background-color: white;
+     font-size: 19px;
+     cursor: pointer;
+     margin-left: 90%;
+     width: 10%;
+     color: #FF3399;
+     font-family: Avenir-NextBold, sans-serif;
+     font-weight: bolder;
+     font-weight: 900;
+}
+
+.x-btn span {
+     font-weight: 900;
+}
+
+.line {
+     height: 1px;
+     width: 70%;
+     margin: auto;
+     background-color: black;
+}
+
+.text {
+     border: 0px solid red;
+     display: inline-block;
+     background-color: #ffff;
+     padding: 5px 10px;
+     top: -16px;
+     position: relative;
+}
+
+#login {
+     border: 0px solid red;
+     text-align: center;
+}
+
+#login-signup {
+     padding: 3px;
+     border: 0px solid grey;
+     width: 25%;
+     height: 80vh;
+     margin: auto;
+     margin-top: 20px;
+     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     z-index: 200;
+     translate: -50% -50%;
+     background: white;
+     display: flex;
+     align-items: center;
+     display: none;
+}
+
+#form1 button, input {
+     width: 90%;
+     padding: 10px;
+}
+
+#form1 input {
+     margin-top: 5px;
+     border: 2px solid #EA0020;
+     padding: 8px;
+}
+
+#form1>p {
+     font-size: 11px;
+     border: 0px solid red;
+     width: 90%;
+     color: #656565;
+     margin: auto;
+     margin-bottom: 3px;
+     text-align: left;
+}
+
+#err {
+     border: 0px solid red;
+     width: 90%;
+     color: red;
+     font-size: 13px;
+     font-weight: lighter;
+     margin: auto;
+     margin-top: 3px;
+     margin-bottom: 5px;
+     text-align: left;
+     visibility: hidden;
+}
+
+.continue {
+     border: 0px;
+     color: white;
+     cursor: pointer;
+     width: 90%;
+     margin: auto;
+     font-size: 1.3rem;
+     padding: 15px !important;
+     margin-bottom: 60px;
+     font-family: Avenir-NextBold, sans-serif;
+     font-weight: bold;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #FF3399;
+}
+
+.gg-btn>img {
+     width: 8.5%;
+}
+
+.fb-btn>img {
+     width: 8%;
+     height: 26px;
+}
+
+.gg-btn>button {
+     color: white;
+     cursor: pointer;
+     font-weight: bold;
+     border: 0px;
+     background-color: #4285F4;
+}
+
+.gg-btn {
+     margin-top: 8px;
+     color: white;
+     cursor: pointer;
+     width: 90%;
+     margin: auto;
+     font-weight: bold;
+     display: flex;
+     padding: 0 7px;
+     border: 0px;
+     align-items: center;
+     background-color: #4285F4;
+}
+
+.fb-btn>button {
+     color: white;
+     cursor: pointer;
+     font-weight: bold;
+
+     border: 0px;
+     background-color: #3B5998;
+}
+
+.fb-btn span, .gg-btn span {
+     font-size: 1.2rem;
+}
+
+.fb-btn {
+     border: 0px;
+     cursor: pointer;
+     color: white;
+     width: 90%;
+     margin: auto;
+     margin-top: 13px;
+     font-weight: bold;
+     display: flex;
+     align-items: center;
+     padding: 0 7px;
+     background-color: #3B5998;
+}
+
+.x-btn+h1 {
+     font-family: Avenir-NextBold, sans-serif;
+     margin-top: 5px;
+     margin-bottom: 20px;
+     font-size: 2.3rem;
+     letter-spacing: 1.4px;
+     font-weight: 800;
+}
+
+.policy {
+     border: 0px solid blue;
+     color: #656565;
+     width: 86.5%;
+     margin: auto;
+     margin-top: 70px;
+     margin-bottom: 30px;
+}
+
+
+#enter {
+     width: 90%;
+     margin: auto;
+}
+
+#enter .name1 input {
+     outline: none;
+     border: none;
+     font-size: 13px;
+     padding: 3px;
+}
+
+#enter>p {
+     text-align: left;
+}
+
+#enter>div:nth-child(2) {
+     border: 0px solid blue;
+     text-align: center;
+     font-family: Avenir-NextBold, sans-serif;
+     font-weight: bolder;
+     width: 70%;
+     margin: auto;
+     margin-top: 12px;
+     margin-bottom: 10px;
+}
+
+#enter>div:nth-child(3) {
+     border: 0px solid red;
+     width: 30%;
+     margin: auto;
+     margin-top: 30px;
+     margin-bottom: 30px;
+}
+
+#enter>p {
+     border: 0px solid red;
+     width: 90%;
+     margin-left: 5%;
+}
+
+#enter h1 {
+     font-size: 2.5rem;
+}
+
+#enter>div:nth-child(5) {
+     border: 2px solid #EA0020;
+     width: 90%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 4px;
+     margin-bottom: 5px;
+     padding: 5px;
+     height: 40px;
+}
+
+#createAccount {
+     width: 90%;
+     margin: auto;
+}
+
+#createAccount h1 {
+     font-size: 2.1rem;
+}
+
+#createAccount p {
+     text-align: left;
+}
+
+#createAccount>div:nth-child(2) {
+     border: 0px solid blue;
+     text-align: center;
+     font-family: Avenir-NextBold, sans-serif;
+     font-weight: bolder;
+     width: 70%;
+     margin: auto;
+     margin-top: 12px;
+     margin-bottom: 10px;
+}
+
+#createAccount>div:nth-child(4)>select {
+     border: 0px solid red;
+     cursor: pointer;
+}
+
+#createAccount>div:nth-child(4)>input {
+     border: 0px;
+}
+
+#createAccount>div:nth-child(4) {
+     border: 2px solid black;
+     width: 90%;
+     margin: auto;
+     display: flex;
+     margin-top: 4px;
+     margin-bottom: 20px;
+     height: 40px;
+}
+
+.name1 {
+     width: 90%;
+     margin: auto;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.name1 input {
+     width: 100% !important;
+     height: 100% !important;
+}
+
+#createAccount>div:nth-child(8) input[type="password"] {
+     width: 100%;
+     height: 100%;
+}
+
+#createAccount>div:nth-child(8) {
+     border: 2px solid black;
+     width: 90%;
+     margin: auto;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 4px;
+     margin-bottom: 20px;
+     padding: 5px;
+     height: 40px;
+}
+
+#pass {
+     border: 0px solid red;
+     width: 80%;
+     outline: 0px;
+}
+
+.name>input {
+     outline: 0px;
+}
+
+.name>select {
+     outline: 0px;
+}
+
+#togglePassword {
+     cursor: pointer;
+}
+
+#TogglePassword {
+     cursor: pointer;
+}
+
+.back-btn {
+     border: 0px;
+     background-color: white;
+     font-size: 19px;
+     cursor: pointer;
+     width: 10%;
+     margin-left: 2%;
+     margin-top: 10px;
+     color: #FF3399;
+     font-family: Avenir-NextBold, sans-serif;
+     font-weight: bolder;
+}
+
+.back-btn span {
+     font-weight: 900;
+
+}
+
+.fp {
+     width: 90%;
+     margin: auto;
+     cursor: pointer;
+     text-align: left;
+     color: #EA0020;
+}
+
+.fp p {
+     text-align: right;
+}
+
+#createAccount>input {
+     border: 2px solid black;
+     padding: 10px;
+     margin-left: 5%;
+     margin-top: 4px;
+     margin-bottom: 20px;
+     outline: 0px;
+}
+
+#createAccount>p {
+     width: 90%;
+     border: 0px solid red;
+     margin-left: 5%;
+     color: #656565;
+}
+
+.continue2 {
+     border: 0px;
+     color: white;
+     cursor: pointer;
+     width: 90%;
+     font-size: 1.3rem;
+     margin-bottom: 60px;
+     margin-left: 5%;
+     padding: 15px;
+     margin-top: 20px;
+     font-family: Avenir-NextBold, sans-serif;
+     font-weight: bold;
+     background-color: #FF3399;
+
+}
+
+.continue3 {
+     border: 0px;
+     color: white;
+     cursor: pointer;
+     width: 90%;
+     margin: auto;
+     margin-top: 30px;
+     font-size: 1.3rem;
+     padding: 15px !important;
+     margin-bottom: 60px;
+     font-family: Avenir-NextBold, sans-serif;
+     font-weight: bold;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background-color: #FF3399;
+}
+
+#enter {
+     display: none;
+}
+
+#createAccount {
+     display: none;
+}

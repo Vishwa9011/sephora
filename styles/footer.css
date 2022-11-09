@@ -1,3 +1,7 @@
+body {
+    margin: 0px;
+}
+
 #footer {
     width: 100%;
     margin: auto;
@@ -23,14 +27,19 @@ a {
 #contact {
     display: flex;
     justify-content: center;
-    height: 40px;
 }
 
 #top {
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
     padding: 25px;
     width: 100%;
     padding-bottom: 50px;
+}
+
+#top h1 {
+    font-size: 2rem;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
 }
 
 #top2 {
@@ -38,18 +47,25 @@ a {
 }
 
 #middle {
-    width: 80%;
+    width: 80.5%;
     margin: auto;
+}
+
+.contact {
+    border: 0px;
+    font-size: 18px;
+    padding: 8px 20px;
 }
 
 #subscribe {
     background-color: black;
     color: white;
-}
-
-.contact {
-    padding: 30px;
-    border: 0px;
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 30px;
+    cursor: pointer;
 }
 
 .bottom {
@@ -57,45 +73,103 @@ a {
     justify-content: center;
     gap: 10px;
     font-size: 15px;
+
 }
 
 .bottom a {
     font-size: 12px;
     border-bottom: none;
-
 }
 
 .bottom a {
     font-size: 12px;
     border-bottom: none;
     text-decoration: none;
-
 }
 
 #faq {
+    margin: auto;
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-top: 40px;
+    width: 70%;
 }
 
 #faq a {
     font-size: 15px;
     font-weight: bold;
     text-decoration: none;
+    letter-spacing: 2px;
 }
 
 #about {
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-bottom: 30px;
 }
 
 #about a {
     font-size: 12px;
-    border-bottom: none;
     text-decoration: none;
+    line-height: 30px;
 }
 
 #middle a:hover {
-    color: rgb(191, 30, 84);
+    color: #f39;
+}
+
+#middleAbout h2 {
+    color: #656565;
+    font-weight: lighter;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-size: 1.2rem;
+}
+
+#socialMedia {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#socialMedia img {
+    width: 20px;
+    height: 20px;
+}
+
+#middle p {
+    font-size: 12.2px;
+    line-height: 1.7;
+    color: #A58E82;
+    margin-top: 6px;
+}
+
+.bottomDown h2 {
+    font-size: 15px;
+}
+
+.bottomDown a, span {
+    font-size: 12.5px;
+    line-height: 30px;
+}
+
+.bottomDown a:hover {
+    color: #f39;
+}
+
+#different {
+    font-family: Avenir-NextBold, sans-serif;
+    font-size: 16px;
+    margin-top: 50px;
+    color: #776C69;
+    letter-spacing: 2px;
+}
+
+
+input {
+    outline: none;
 }
