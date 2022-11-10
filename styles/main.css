@@ -146,3 +146,205 @@
 #gotoTop span:last-child {
      font-size: 1.2rem;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*? --------- Sejal main css----------- */
+
+#beautyPass {
+     width: 95%;
+     margin: auto;
+}
+
+#beautyPass>img {
+     width: 100%;
+     height: 100%;
+}
+
+#lazy-girl {
+     width: 95%;
+     display: block;
+     margin: auto;
+}
+
+#lazyimg {
+     width: 95%;
+     height: 25%;
+}
+
+#lazyimg>img {
+     width: 100%;
+     height: 100%;
+}
+
+#lazy-girl-grid {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(1, auto);
+     gap: 15px;
+}
+
+#lazy-girl-grid>div {
+     width: 100%;
+}
+
+#lazy-girl-grid>div>img {
+     width: 100%;
+     height: 93%;
+}
+
+#fav-brand {
+     width: 95%;
+     display: block;
+     margin: auto;
+     padding: 1%;
+}
+
+#fav-tag {
+     width: 100%;
+     height: 60%;
+     padding: 0% 0% 1% 0%;
+}
+
+#fav-tag>img {
+     width: 100%;
+     height: 100%;
+}
+
+#favimgs {
+     width: 100%;
+     height: 50%;
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
+     gap: 15px;
+}
+
+#favimgs>div {
+     padding: 5px;
+}
+
+#favimgs>div>img {
+     width: 100%;
+     height: 85%;
+}
+
+#newBlock {
+     display: block;
+     width: 95%;
+     margin: auto;
+     padding: 1%;
+}
+
+#newBlocktag {
+     height: 20%;
+     width: 100%;
+
+}
+
+#newBlocktag>img {
+     height: 100%;
+     width: 100%;
+}
+
+#newblockimgs {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     grid-template-rows: repeat(2, 1fr);
+     width: 100%;
+     height: 80%;
+     gap: 10px;
+}
+
+#newblockimgs>div>img {
+     width: 100%;
+     height: 100%;
+}
+
+#sephoraDiaries {
+     width: 95%;
+     margin: 20px auto auto auto;
+     display: block;
+     padding: 2px;
+}
+
+#sephoraDiariestag {
+     width: 100%;
+     height: 25%;
+}
+
+#sephoraDiariestag>img {
+     width: 100%;
+     height: 100%;
+}
+
+#sephoraDiariesimg {
+     height: 70%;
+     width: 100%;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 10px;
+}
+
+#sephoraDiariesimg>div {
+     display: block;
+     height: 100%;
+
+}
+
+#sephoraDiariesimg>div>img {
+     width: 100%;
+     height: 80%;
+}
+
+.sephoraDiariesp {
+     padding: 5px 0px 5px 0px;
+     font-size: 20px;
+}
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+     /* #beautyPass {
+          height: 50px;
+     }
+
+     #lazy-girl {
+          height: 300px;
+     }
+
+     #fav-brand {
+          height: 150px;
+     }
+
+     #newBlock {
+          height: 400px;
+     }
+
+     #sephoraDiaries {
+          height: 400px;
+     } */
+
+     .sephoraDiariesp {
+          font-size: 15px;
+     }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+
+     .sephoraDiariesp {
+          font-size: 12px;
+          margin-top: 10px;
+     }
+
+     .sephoraDiariesp+p {
+          font-size: 8px;
+     }
+}

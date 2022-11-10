@@ -57,3 +57,17 @@ const slideImage = () => {
 
 //todo ------------Beauty Offers in brands----------
 const cardContainer = document.querySelector("#card-container");
+cardContainer.onclick = (event) => {
+	console.log("clicked");
+	console.log(event.target.id);
+	if (
+		event.target.id == "ikoo-img" ||
+		event.target.id == "hanz-de-fuko-img" ||
+		event.target.id == "pixi-img" ||
+		event.target.id == "abhati-img"
+	) {
+		let temp = event.target.id;
+		localStorage.setItem("productBrand", JSON.stringify(temp));
+		window.location.href = "product.html";
+	}
+};

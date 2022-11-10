@@ -63,7 +63,7 @@ a {
      padding: 3px;
      border: 0px solid grey;
      width: 25%;
-     height: 80vh;
+     height: 600px;
      margin: auto;
      margin-top: 20px;
      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -447,3 +447,4 @@ a {
 #createAccount {
      display: none;
 }
+

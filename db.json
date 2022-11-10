@@ -13,69 +13,74 @@
 			"postId": 1
 		}
 	],
-	"profile": {
-		"name": "typicode"
-	},
+	"profile": [
+		{
+			"name": "Karan Yadav",
+			"email": "vishu842301@gmail.com",
+			"password": "karan1234",
+			"phone-number": "1234567890"
+		}
+	],
 	"ikoo": [
 		{
 			"brand": "IKOO",
 			"product": "Paddle X Pops Hair Brush - Let's Tango",
 			"price": "Rs. 3300",
-			"link": "https://cdn12.nnnow.com/web-images/medium/styles/TEVSC5X3JS9/1655180513758/1.jpg"
+			"img": "https://cdn12.nnnow.com/web-images/medium/styles/TEVSC5X3JS9/1655180513758/1.jpg"
 		},
 		{
 			"brand": "IKOO",
 			"product": "E-Styler Jet Styling Brush - Beluga Black",
 			"price": "Rs. 15,200",
-			"link": "https://cdn11.nnnow.com/web-images/medium/styles/08PM20PAB24/1655180513781/1.jpg"
+			"img": "https://cdn11.nnnow.com/web-images/medium/styles/08PM20PAB24/1655180513781/1.jpg"
 		},
 		{
 			"brand": "IKOO",
 			"product": "Paddle X Hair Brush - Manhattan Glam",
 			"price": "Rs. 4,100",
-			"link": "https://cdn03.nnnow.com/web-images/medium/styles/3UZBRXTC9UV/1655180513849/1.jpg"
+			"img": "https://cdn03.nnnow.com/web-images/medium/styles/3UZBRXTC9UV/1655180513849/1.jpg"
 		},
 		{
 			"brand": "IKOO",
 			"product": "Paddle X Pops Hair Brush - Love Affair",
 			"price": "Rs. 3,300",
-			"link": "https://cdn18.nnnow.com/web-images/medium/styles/MM21IQFEDNJ/1655180513924/1.jpg"
+			"img": "https://cdn18.nnnow.com/web-images/medium/styles/MM21IQFEDNJ/1655180513924/1.jpg"
 		},
 		{
 			"brand": "IKOO",
 			"product": "Paddle X Hair Brush - Beluga Black",
 			"price": "Rs. 3,700",
-			"link": "https://cdn13.nnnow.com/web-images/medium/styles/LKP6CZ3JTJG/1655180513765/1.jpg"
+			"img": "https://cdn13.nnnow.com/web-images/medium/styles/LKP6CZ3JTJG/1655180513765/1.jpg"
 		},
 		{
 			"brand": "IKOO",
 			"product": "Paddle X Hair Brush - Baby Doll",
 			"price": "Rs. 4,100",
-			"link": "https://cdn02.nnnow.com/web-images/medium/styles/ACOI8DF27GR/1655180513898/1.jpg"
+			"img": "https://cdn02.nnnow.com/web-images/medium/styles/ACOI8DF27GR/1655180513898/1.jpg"
 		},
 		{
 			"brand": "IKOO",
 			"product": "E-Styler Pro Styling Brush - Beluga Black",
 			"price": "Rs. 21,500",
-			"link": "https://cdn09.nnnow.com/web-images/medium/styles/BQ4AL46YG3N/1655180513821/1.jpg"
+			"img": "https://cdn09.nnnow.com/web-images/medium/styles/BQ4AL46YG3N/1655180513821/1.jpg"
 		},
 		{
 			"brand": "IKOO",
 			"product": "Home Detangling Brush - Oyster",
 			"price": "Rs. 2,800",
-			"link": "https://cdn16.nnnow.com/web-images/medium/styles/QM2H850EDAR/1655180513828/1.jpg"
+			"img": "https://cdn16.nnnow.com/web-images/medium/styles/QM2H850EDAR/1655180513828/1.jpg"
 		},
 		{
 			"brand": "IKOO",
 			"product": "Paddle X Pops Hair Brush - Beluga Black",
 			"price": "Rs. 3,100",
-			"link": "https://cdn07.nnnow.com/web-images/medium/styles/OQFJ6S1286A/1655180513791/1.jpg"
+			"img": "https://cdn07.nnnow.com/web-images/medium/styles/OQFJ6S1286A/1655180513791/1.jpg"
 		},
 		{
 			"brand": "IKOO",
 			"product": "Paddle X Hair Brush - Let's Tango",
 			"price": "Rs. 4,100",
-			"link": "https://cdn14.nnnow.com/web-images/medium/styles/AI5GNYRT2U5/1655180513835/1.jpg"
+			"img": "https://cdn14.nnnow.com/web-images/medium/styles/AI5GNYRT2U5/1655180513835/1.jpg"
 		}
 	],
 	"hanz-de-fuko": [

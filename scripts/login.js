@@ -41,9 +41,9 @@ backBtnEnter.onclick = () => {
 
 let user_name = document.getElementById("emailID");
 let err = document.getElementById("err");
-let login = document.querySelector(".continue");
+let continueWith = document.querySelector(".continue");
 
-login.onclick = () => {
+continueWith.onclick = async () => {
 	let user_name = document.getElementById("emailID").value;
 	let createAccount = document.getElementById("createAccount");
 	let enter = document.getElementById("enter");
@@ -51,27 +51,31 @@ login.onclick = () => {
 	console.log("login: ", login);
 	login.style.display = "none";
 	console.log(user_name);
-	let data = [
-		{ id: 1, email: "ayazkhanm4512@gmail.com" },
-		{ id: 2, email: "ayazkhan1245@gmail.com" },
-		{ id: 3, email: "rahulkore1212@gmail.com" },
-	];
-	let ans = data.filter((el) => {
-		if (el.email == user_name) {
-			return true;
-		} else {
-			return false;
-		}
-	});
-	console.log(ans);
 
-	if (ans.length == 0) {
-		createAccount.style.display = "block";
-		login.style.display = "none";
-	} else if (ans.length > 0) {
-		enter.style.display = "block";
-		login.style.display = "none";
-	}
+	let validate = await checkEmailReg(user_name);
+	console.log("validate: ", validate);
+
+	// let data = [
+	// 	{ id: 1, email: "ayazkhanm4512@gmail.com" },
+	// 	{ id: 2, email: "ayazkhan1245@gmail.com" },
+	// 	{ id: 3, email: "rahulkore1212@gmail.com" },
+	// ];
+	// let ans = data.filter((el) => {
+	// 	if (el.email == user_name) {
+	// 		return true;
+	// 	} else {
+	// 		return false;
+	// 	}
+	// });
+	// console.log(ans);
+
+	// if (ans.length == 0) {
+	// 	createAccount.style.display = "block";
+	// 	login.style.display = "none";
+	// } else if (ans.length > 0) {
+	// 	enter.style.display = "block";
+	// 	login.style.display = "none";
+	// }
 };
 
 user_name.onblur = () => {
@@ -85,9 +89,18 @@ user_name.onblur = () => {
 };
 user_name.oninput = () => {
 	let user_name = document.getElementById("emailID").value;
-	// console.log(user_name)
-	// console.log((user_name.length));
 	if (user_name.includes("@") || user_name == "") {
 		err.style.visibility = "hidden";
 	}
+};
+
+const checkEmailReg = async (user_name) => {
+	const url = ` http://localhost:3000/profile`;
+	const res = await fetch(url);
+	const data = await res.json();
+	console.log("data: ", data);
+
+	return data.find((el) => {
+		return el.email == user_name || el.phone == user_name;
+	});
 };
