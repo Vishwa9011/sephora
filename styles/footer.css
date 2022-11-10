@@ -1,12 +1,13 @@
-body {
-    margin: 0px;
-}
-
 #footer {
     width: 100%;
-    margin: auto;
     font-family: Avenir-Next, sans-serif;
-    font-size: 14px
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#footerTopContainer {
+    background-color: #F2F2F2;
+    width: 100%;
 }
 
 #footer h1,
@@ -30,10 +31,10 @@ a {
 }
 
 #top {
-    background-color: #F2F2F2;
     padding: 25px;
-    width: 100%;
+    width: 94%;
     padding-bottom: 50px;
+    margin: auto;
 }
 
 #top h1 {
@@ -69,21 +70,23 @@ a {
 }
 
 .bottom {
+    width: 100%;
     display: flex;
-    justify-content: center;
-    gap: 10px;
     font-size: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+}
 
+#brands {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
 }
 
 .bottom a {
     font-size: 12px;
-    border-bottom: none;
-}
-
-.bottom a {
-    font-size: 12px;
-    border-bottom: none;
     text-decoration: none;
 }
 
@@ -106,14 +109,24 @@ a {
 #about {
     display: flex;
     justify-content: center;
+    width: 100%;
     gap: 20px;
-    margin-bottom: 30px;
+    align-items: center;
 }
 
 #about a {
     font-size: 12px;
     text-decoration: none;
-    line-height: 30px;
+
+}
+
+#about>span {
+    font-size: 12px;
+    display: flex;
+    width: 10px;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
 }
 
 #middle a:hover {
@@ -142,19 +155,25 @@ a {
 }
 
 #middle p {
-    font-size: 12.2px;
+    font-size: 12.5px;
     line-height: 1.7;
     color: #A58E82;
     margin-top: 6px;
 }
 
-.bottomDown h2 {
-    font-size: 15px;
+.bottomDown {
+    margin-top: 20px;
 }
 
-.bottomDown a, span {
-    font-size: 12.5px;
-    line-height: 30px;
+.bottomDown h2 {
+    font-size: 15px;
+    margin: 10px 0 5px;
+}
+
+.bottomDown a,
+span {
+    font-size: 12px;
+    opacity: .9;
 }
 
 .bottomDown a:hover {
@@ -170,6 +189,119 @@ a {
 }
 
 
-input {
+#footer input {
     outline: none;
+}
+
+@media all and (min-width: 768px) and (max-width: 1041px) {
+    #middle {
+        width: 100%;
+        margin: auto;
+    }
+
+    #middleAbout {
+        width: 95%;
+        margin: auto;
+    }
+
+    #top h1 {
+        font-size: 1.2rem;
+    }
+
+    .contact {
+        width: 40%;
+    }
+
+    #middle p {
+        font-size: 11.5px;
+    }
+
+    #faq {
+        width: 90%;
+    }
+
+    #faq a {
+        font-size: 13px;
+        letter-spacing: 2px;
+    }
+
+    #socialMedia img {
+        width: 18px;
+        height: 18px;
+    }
+
+    .bottomDown a,
+    span {
+        font-size: 12px;
+    }
+
+    .bottomDown h2 {
+        font-size: 13px;
+    }
+
+    #about a {
+        font-size: 11px;
+        text-decoration: none;
+        line-height: 30px;
+    }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+    #middle {
+        width: 100%;
+        margin: auto;
+    }
+
+    #middleAbout {
+        width: 95%;
+        margin: auto;
+    }
+
+    #top h1 {
+        font-size: 1rem;
+    }
+
+    #middle p {
+        font-size: 11px;
+    }
+
+    .contact {
+        width: 75%;
+    }
+
+    #faq {
+        width: 85%;
+    }
+
+    #faq a {
+        font-size: 11px;
+        font-weight: bold;
+        letter-spacing: 0px;
+    }
+
+    #socialMedia img {
+        width: 16px;
+        height: 16px;
+    }
+
+    .bottomDown a,
+    span {
+        font-size: 10px;
+    }
+
+    .bottomDown h2 {
+        font-size: 11px;
+    }
+
+    #about {
+        gap: 2px;
+        width: 100%;
+    }
+
+    #about a {
+        font-size: 10px;
+        text-decoration: none;
+        /* line-height: 30px; */
+    }
+
 }

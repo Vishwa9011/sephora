@@ -1,22 +1,25 @@
 const footer = () => {
-	return `<div id="top">
-                    <h1>GET THE LATEST NEWS & OFFERS IN BEAUTY & FASHION</h1>
-                    <div id="top2">
-                         <div id="contact">
-                              <input class="contact" type="email" placeholder="Enter your email address">
-                              <button id="subscribe">SUBSCRIBE</button>
+	return ` <div id="footer">
+                    <div id="footerTopContainer">
+                    <div id="top">
+                         <h1>GET THE LATEST NEWS & OFFERS IN BEAUTY & FASHION</h1>
+                         <div id="top2">
+                              <div id="contact">
+                                   <input class="contact" type="email" placeholder="Enter your email address">
+                                   <button id="subscribe">SUBSCRIBE</button>
+                              </div>
                          </div>
                     </div>
-               </div>
-               <div id="middle">
+                    </div>
+                    <div id="middle">
                     <div id="middleAbout">
                          <h1 id="different">Sephora online India is a trailblazer in the Indian beauty scene</h1>
                          <p>Are you tired of searching online to get Sephora discounts and coupon codes from third-party
                               websites? Sephora promo codes feature all your favourite makeup brands so you don’t have
                               to look any further. We beat the leading competitor makeup portals with discounts and
-                              deals you can’t find anywhere else. Plus, we have the latest international brands only at
+                              deals you can't find anywhere else. Plus, we have the latest international brands only at
                               Sephora India! We are the only distributor of international prestige beauty. All our
-                              products are authentic, and we’re offering you discounted prices every week!
+                              products are authentic, and we're offering you discounted prices every week!
                          </p>
                          <h2>Discover who we are and what we entail only on NNNOW.com</h2>
                          <p>Owned by LVMH Moet Hennessy Louis Vuitton, the world's leading luxury goods group, Sephora
@@ -29,7 +32,7 @@ const footer = () => {
                          </p>
                          <h2>Shop Our unrivalled range of Sephora products for a more beautiful you</h2>
                          <p>Our array on Sephora NNNOW features trusted classics from Pixi, Elizabeth Arden, Anastasia
-                              Beverly Hills, Clinique, Tom Ford, and Sephora’s own, SEPHORA COLLECTION. Today, Sephora
+                              Beverly Hills, Clinique, Tom Ford, and Sephora's own, SEPHORA COLLECTION. Today, Sephora
                               India online is a
                               powerful beauty presence in the digital space, thanks to its unparalleled assortment of
                               prestige products in every category, unbiased service from beauty experts, interactive
@@ -110,8 +113,6 @@ const footer = () => {
                               <span> | </span>
                               <a href="">Elizabeth Arden</a>
                               <span> | </span>
-                         </div>
-                         <div class="bottom">
                               <a href="">Givenchy</a>
                               <span> | </span>
                               <a href="">Bobbi Brown</a>
@@ -140,8 +141,6 @@ const footer = () => {
                               <span> | </span>
                               <a href="">Carolina Herrera</a>
                               <span> | </span>
-                         </div>
-                         <div class="bottom">
                               <a href="">Davidoff</a>
                               <span> | </span>
                               <a href="">Giorgio Armani</a>
@@ -222,9 +221,8 @@ const footer = () => {
                               <span> | </span>
                               <a href=""> Sephora Instagram</a>
                          </div>
-
                     </div>
-
+                    </div>
                </div>`;
 };
 

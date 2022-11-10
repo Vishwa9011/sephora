@@ -54,3 +54,86 @@ const slideImage = () => {
 		document.querySelector(".next").style.cursor = "pointer";
 	}
 };
+
+// ? Ayaz bhai
+
+const jl_vid = document.querySelector(".jl_video");
+jl_vid.onclick = () => {
+	// console.log("click")
+	let overlay = document.querySelector(".jl_overlay");
+	overlay.style.display = "block";
+	document.querySelector(".jl_iframe").style.display = "block";
+};
+
+const close_Btn = document.querySelector(".jl_x-btn");
+close_Btn.onclick = () => {
+	console.log("close");
+	let overlay = document.querySelector(".jl_overlay");
+	overlay.style.display = "none";
+	// console.log(overlay);
+	// overlay.style.border="1px solid red"
+	// overlay.setAttribute("class", "jl_jl-ol");
+
+	document.querySelector(".jl_iframe").style.display = "none";
+};
+document.querySelector(".jl_overlay").onclick = () => {
+	console.log("nalla");
+	let overlay = document.querySelector(".jl_overlay");
+	overlay.style.display = "none";
+};
+let data1 = [
+	{
+		img: "https://cdn11.nnnow.com/web-images/medium/styles/8V1ZDUHUDR0/1533201155000/1.jpg",
+		brand: "SEPHORA COLLECTION",
+		product: "Beauty Amplifier Smoothing Primer",
+		price: "Rs.1,345",
+	},
+	{
+		img: "https://cdn11.nnnow.com/web-images/medium/styles/8V1ZDUHUDR0/1533201155000/1.jpg",
+		brand: "SEPHORA COLLECTION",
+		product: "Beauty Amplifier Smoothing Primer",
+		price: "Rs.1,345",
+	},
+	{
+		img: "https://cdn11.nnnow.com/web-images/medium/styles/8V1ZDUHUDR0/1533201155000/1.jpg",
+		brand: "SEPHORA COLLECTION",
+		product: "Beauty Amplifier Smoothing Primer",
+		price: "Rs.1,345",
+	},
+];
+const append_jl = (data) => {
+	let container = document.querySelector(".jl_pl-container");
+	container.innerHTML = "";
+	data.forEach((el) => {
+		const showTemplate = `<div class="product-item">
+                                   <div class="product-image">
+                                        <div>
+                                             <img src="${el.img}" alt="">
+                                        </div>
+                                        <div class="product-cart">
+                                             <div>
+                                                  <span class="material-symbols-outlined"> shopping_bag </span>
+                                                  <p>SHOP NNNOW</p>
+                                             </div>
+                                             <div>
+                                                  <span class="material-symbols-outlined"> favorite </span>
+                                                  <p>FAVORITE</p>
+                                             </div>
+                                        </div>
+                                   </div>
+                                   <div class="product-details">
+                                        <div class="offer">
+                                             <img src="https://cdn02.nnnow.com/web-images/master/product_tags/cb6e9f96-922e-42cb-84ae-9337178f87fa/1554297283453/Sale.png"
+                                                  alt="">
+                                             <p>OFFER</p>
+                                        </div>
+                                        <p class="product-brand">${el.brand}</p>
+                                        <p class="product-description">${el.product}</p>
+                                        <p class="product-price">${el.price}</p>
+                                   </div>
+                              </div>`;
+		container.innerHTML += showTemplate;
+	});
+};
+
+append_jl(data1);
