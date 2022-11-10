@@ -68,10 +68,19 @@ const navbar = () => {
                          <span class="material-symbols-outlined" style='color:#f39'>shopping_bag</span>
                     </a>
                </div>
-               <div id="loginBtn" class="loginBtn">
+               <div id="loginBtn"  class="loginBtn">
                     <span class="material-symbols-outlined" style='color:#f39'>person</span>
                     <span><a>Login</a></span>
                </div>
+               <div id="userLogin">
+                    <div id="userId"><span id="loginUserName">Danger</span><span id="loginArrow"></span></div>
+                    <ul id="logOut">
+                         <li><a href="account.html"> <img src="./images/user.png" class="login-img"> <span>My Account</span> </a></li>
+                         <li><a href="order.html"><img src="./images/cube.png" class="login-img"> <span>My Order</span> </a></li>
+                         <li id="signOut"><img src="./images/logout.png" class="login-img"> <span>Sign Out</span> </li>
+                    </ul>
+               </div>
+
           </div>
      </div>
 </div>
@@ -81,7 +90,7 @@ const navbar = () => {
                <a id="sale" href="sale.html">SALE</a>
           </li>
           <li>
-               <a href="makeup.html"> MAKEUP</a>
+                 <a href="makeup.html"> MAKEUP</a>
                <div class="megamenu">
                     <ul>
                          <li>Face</li>
@@ -139,7 +148,7 @@ const navbar = () => {
                     </ul>
                </div>
           <li>
-               <a href="skinCare"> SKINCARE</a>
+               <a href="skincare.html">SKINCARE</a>
                <div class="megamenu">
                     <ul>
                          <li>MOISTURIZERS</li>

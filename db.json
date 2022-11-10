@@ -37,6 +37,14 @@
       "phone_number": "+918423017adf",
       "isAdmin": false,
       "id": 4
+    },
+    {
+      "name": "Vishwa Vivek Yadav",
+      "email": "waringzon@gmail.com",
+      "password": "1234",
+      "phone_number": "7985146622",
+      "isAdmin": false,
+      "id": 5
     }
   ],
   "ikoo": [

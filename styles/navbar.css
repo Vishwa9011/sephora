@@ -166,11 +166,11 @@ nav {
      align-items: center;
 }
 
-#midspan div:not(:last-child) {
+#midspan>div:nth-child(1), #midspan>div:nth-child(2) {
      border-right: 3px solid rgb(194, 192, 192);
 }
 
-#midspan div:last-child {
+#midspan>div:last-child {
      margin-left: 10px;
 }
 
@@ -181,6 +181,97 @@ nav {
 #midspan #loginBtn span:not(:last-child) {
      font-size: 1.5rem;
      padding-right: 5px;
+}
+
+
+#loginBtn+#userLogin {
+     border-right: none;
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     position: relative;
+     display: none;
+}
+
+
+#userLogin>div {
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+#userLogin:hover #logOut {
+     /* display: block; */
+     opacity: 1;
+     visibility: visible;
+}
+
+
+#loginUserName {
+     font-size: 1rem;
+}
+
+#userId:hover #loginArrow {
+     rotate: 45deg;
+}
+
+#loginArrow {
+     width: 6px;
+     height: 6px;
+     border-top: 1px solid #f39;
+     border-left: 1px solid #f39;
+     rotate: 225deg;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+
+#userLogin ul {
+     padding: 5px;
+     z-index: 10;
+     width: 150px;
+     position: absolute;
+     background-color: white;
+     top: 120%;
+     right: 0;
+     transition: all 100ms;
+     visibility: hidden;
+}
+
+#signOut {
+     border-top: 1px solid rgb(230, 226, 226);
+
+}
+
+#userLogin ul li {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+     list-style: none;
+     padding: 10px;
+}
+
+#userLogin ul li a {
+     width: 100%;
+     height: 100%;
+     text-decoration: none;
+     color: black;
+     display: flex;
+     align-items: center;
+     white-space: nowrap;
+}
+
+.login-img {
+     width: 16px;
+     margin-right: 10px;
+}
+
+.login-img+span {
+     font-size: .9rem;
+     opacity: .8;
 }
 
 #last {

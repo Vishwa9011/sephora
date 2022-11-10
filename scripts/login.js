@@ -13,20 +13,22 @@ loginbtn.onclick = () => {
 // todo close the login page
 const closeBtn = document.querySelector(".x-btn");
 closeBtn.onclick = () => {
-	console.log("close");
-	document.querySelector("#login-signup").style.display = "none";
-	document.getElementById("enter").style.display = "none";
-	document.querySelector(".overlay").style.display = "none";
-	document.getElementById("createAccount").style.display = "none";
+	closeLoginPortal();
 };
 
 //todo overlay
-const overlay = (document.querySelector(".overlay").onclick = () => {
+const overlay = document.querySelector(".overlay");
+overlay.onclick = () => {
+	closeLoginPortal();
+};
+
+// cosnt close the login portal
+const closeLoginPortal = () => {
 	document.querySelector("#login-signup").style.display = "none";
 	document.querySelector(".overlay").style.display = "none";
 	document.getElementById("enter").style.display = "none";
 	document.getElementById("createAccount").style.display = "none";
-});
+};
 
 //todo backBtn
 const backBtn = document.querySelector(".back-btn");
@@ -57,7 +59,9 @@ continueWith.onclick = async () => {
 	// ? checking the user input in bac
 	let checkUserInput = await checkEmailReg(user_name);
 	console.log("checkUserInput: ", checkUserInput);
-
+	//todo set the data into localStorage of exsiting user
+	localStorage.setItem("existingUser", JSON.stringify(checkUserInput));
+	err.style.visibility = "visible";
 	// todo
 	if (validation(user_name)) {
 		if (!checkUserInput) {
@@ -66,11 +70,6 @@ continueWith.onclick = async () => {
 		} else {
 			enter.style.display = "block";
 			login.style.display = "none";
-			localStorage.setItem(
-				"existingUser",
-				JSON.stringify(checkUserInput),
-			);
-			err.style.visibility = "visible";
 		}
 		err.style.visibility = "hidden";
 	} else {
@@ -80,13 +79,12 @@ continueWith.onclick = async () => {
 		} else {
 			err.innerHTML = "Please enter a email address.";
 		}
-		//todo set the data into localStorage of exsiting user
 	}
 };
 
 const validation = (user_name) => {
 	return (
-		(user_name.includes("@") && user_name != "") ||
+		user_name.includes("@") ||
 		(checkMobNum(user_name) && user_name.length == 10)
 	);
 };
@@ -167,16 +165,31 @@ registerBtn.onclick = () => {
 	userDetails.checkvalidationForRegister(sendData);
 };
 
+// todo DOM manupulation
+let loginB = document.querySelector("#loginBtn");
+let userLogin = document.querySelector("#userLogin");
+let loginUserName = document.querySelector("#loginUserName");
+let userPass = document.querySelector("#Pass");
+
 // todo login with password for existing uer
-const existingUserData = JSON.parse(localStorage.getItem("existingUser"));
 const loginWithPass = document.querySelector(".continue3");
 loginWithPass.onclick = () => {
-	console.log("existingUserData: ", existingUserData.password);
-	const userPass = document.querySelector("#Pass").value;
+	const existingUserData = JSON.parse(localStorage.getItem("existingUser"));
+	userPass = userPass.value;
 	if (existingUserData.password == userPass) {
 		console.log("Successfully Login");
+		closeLoginPortal();
+		loginB.style.display = "none";
+		userLogin.style.display = "flex";
+		loginUserName.innerHTML = existingUserData.name.split(" ")[0];
 		alert("successfully login");
 	} else {
 		alert("Wrong Password");
 	}
+};
+
+const signOut = document.querySelector("#signOut");
+signOut.onclick = () => {
+	localStorage.clear();
+	window.location.reload();
 };
