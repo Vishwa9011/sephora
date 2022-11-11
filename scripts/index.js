@@ -18,6 +18,7 @@ const navbar_nav_links = document.querySelector("#nav-links");
 console.log("navbar_nav_links: ", navbar_nav_links);
 
 navbar_nav_links.onclick = (event) => {
+	// console.log('event: ', event);
 	let nav_links_id = [
 		"nav-makeup",
 		"nav-skincare",
@@ -30,13 +31,9 @@ navbar_nav_links.onclick = (event) => {
 		let val = event.target.id;
 		val = val.split("-");
 		console.log("val: ", val[1]);
+		localStorage.setItem("goToPage", JSON.stringify(val[1]));
 		window.location.href = `${val[1]}.html`;
 	}
 };
 
 // ?=================================================================?//
-// todo Order Management
-
-document.body.onclick = (event) => {
-	console.log(event.target.className, event.target.id);
-};
