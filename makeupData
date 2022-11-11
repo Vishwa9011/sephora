@@ -1,59 +1,157 @@
-MakeupData = [
+// MakeupData 
+{
+ "justArrived" : [
     {
-        brand:"SEPHORA COLLECTION",
-        product:"Glow Perfection Foundation - 22 Natural",
-        price:"Rs. 1,352",
-        img:"https://cdn11.nnnow.com/web-images/preview/styles/8V1ZDUHUDR0/1533201155000/1.jpg",
-        img2:"https://cdn10.nnnow.com/web-images/preview/styles/8V1ZDUHUDR0/1617175487065/2.jpg",
+        "brand":"SEPHORA COLLECTION",
+        "product":"Glow Perfection Foundation - 22 Natural",
+        "price":"Rs. 1,352",
+        "img":"https://cdn11.nnnow.com/web-images/preview/styles/8V1ZDUHUDR0/1533201155000/1.jpg",
+        "img2":"https://cdn10.nnnow.com/web-images/preview/styles/8V1ZDUHUDR0/1617175487065/2.jpg"
     },
     {
-        brand:"SEPHORA COLLECTION",
-        product:"Beauty Amplifier Smoothing Primer",
-        price:"Rs. 1,320",
-        img:"https://cdn05.nnnow.com/web-images/preview/styles/V21Z2LOB7HR/1533204761626/1.jpg",
-        img2:"https://cdn00.nnnow.com/web-images/preview/styles/V21Z2LOB7HR/1594620678387/2.jpg",
+        "brand":"SEPHORA COLLECTION",
+        "product":"Beauty Amplifier Smoothing Primer",
+        "price":"Rs. 1,320",
+        "img":"https://cdn05.nnnow.com/web-images/preview/styles/V21Z2LOB7HR/1533204761626/1.jpg",
+        "img2":"https://cdn00.nnnow.com/web-images/preview/styles/V21Z2LOB7HR/1594620678387/2.jpg",
     },
     {
-        brand:"SEPHORA COLLECTION",
-        product:"Cream Lip Stain - 94 Cherry Moon",
-        price:"Rs. 1,220",
-        img:"https://cdn13.nnnow.com/web-images/preview/styles/A8G6MLDJJNX/1539589327442/1.jpg",
-        img2:"",
+        "brand":"SEPHORA COLLECTION",
+        "product":"Cream Lip Stain - 94 Cherry Moon",
+        "price":"Rs. 1,220",
+        "img":"https://cdn13.nnnow.com/web-images/preview/styles/A8G6MLDJJNX/1539589327442/1.jpg",
+        "img2":"https://cdn04.nnnow.com/web-images/preview/styles/NYULJ49GXL8/1581676936889/2.jpg"
     },
     {
-        brand:"BENEFIT COSMETICS",
-        product:"GALifornia Powder Blush - Sunny Golden Pink",
-        price:"Rs. 3,100",
-        img:"https://cdn17.nnnow.com/web-images/preview/styles/24SFBYE918Q/1610525740882/1.jpg",
-        img2:"https://cdn16.nnnow.com/web-images/preview/styles/24SFBYE918Q/1610525740880/2.jpg",
+        "brand":"BENEFIT COSMETICS",
+        "product":"GALifornia Powder Blush - Sunny Golden Pink",
+        "price":"Rs. 3,100",
+        "img":"https://cdn17.nnnow.com/web-images/preview/styles/24SFBYE918Q/1610525740882/1.jpg",
+        "img2":"https://cdn16.nnnow.com/web-images/preview/styles/24SFBYE918Q/1610525740880/2.jpg"
     },
     {
-        brand:"BENEFIT COSMETICS",
-        product:"Precisely, My Brow Pencil - 05 - Warm Black-Brown",
-        price:"Rs. 2,390",
-        img:"https://cdn09.nnnow.com/web-images/preview/styles/61JDU6ICLYI/1513148203704/1.jpg",
-        img2:"https://cdn11.nnnow.com/web-images/preview/styles/61JDU6ICLYI/1513148203705/2.jpg",
+        "brand":"BENEFIT COSMETICS",
+        "product":"Precisely, My Brow Pencil - 05 - Warm Black-Brown",
+        "price":"Rs. 2,390",
+        "img":"https://cdn09.nnnow.com/web-images/preview/styles/61JDU6ICLYI/1513148203704/1.jpg",
+        "img2":"https://cdn11.nnnow.com/web-images/preview/styles/61JDU6ICLYI/1513148203705/2.jpg"
     },
     {
-        brand:"SEPHORA COLLECTION",
-        product:"Cream Lip Stain - 41 Vintage Rosewood",
-        price:"Rs. 1,220",
-        img:"https://cdn18.nnnow.com/web-images/preview/styles/LF9B8BFLIIQ/1519382076017/1.jpg",
-        img2:"https://cdn03.nnnow.com/web-images/preview/styles/LF9B8BFLIIQ/1581676936879/2.jpg",
+        "brand":"SEPHORA COLLECTION",
+        "product":"Cream Lip Stain - 41 Vintage Rosewood",
+        "price":"Rs. 1,220",
+        "img":"https://cdn18.nnnow.com/web-images/preview/styles/LF9B8BFLIIQ/1519382076017/1.jpg",
+        "img2":"https://cdn03.nnnow.com/web-images/preview/styles/LF9B8BFLIIQ/1581676936879/2.jpg"
     },
     {
-        brand:"HUDA BEAUTY",
-        product:"#Faux Filter Luminous Matte Full Coverage Liquid Foundation - 400G Macchiato",
-        price:"Rs. 2,805",
-        img:"https://cdn17.nnnow.com/web-images/preview/styles/W84IYEUK3N3/1631791079618/1.jpg",
-        img2:"https://cdn05.nnnow.com/web-images/preview/styles/W84IYEUK3N3/1631791079612/3.jpg",
+        "brand":"HUDA BEAUTY",
+        "product":"#Faux Filter Luminous Matte Full Coverage Liquid Foundation - 400G Macchiato",
+        "price":"Rs. 2,805",
+        "img":"https://cdn17.nnnow.com/web-images/preview/styles/W84IYEUK3N3/1631791079618/1.jpg",
+        "img2":"https://cdn05.nnnow.com/web-images/preview/styles/W84IYEUK3N3/1631791079612/3.jpg",
     }
-    
+],
+"bestSellers":[
+    {
+        "brand":"ANASTASIA BEVERLY HILLS",
+        "product":"Clear Brow Gel",
+        "price":"Rs. 2,500",
+        "img":"https://cdn04.nnnow.com/web-images/preview/styles/NBW6LEDGJ9M/1559114746790/1.jpg",
+        "img2":"https://cdn19.nnnow.com/web-images/preview/styles/NBW6LEDGJ9M/1559114746792/2.jpg"
+    },
+    {
+        "brand":"BENEFIT COSMETICS",
+        "product":"Roller Liner Matte Liquid Eyeliner - Black",
+        "price":"Rs. 2,190",
+        "img":"https://cdn01.nnnow.com/web-images/preview/styles/HL30HBWJ5C7/1610447773879/1.jpg",
+        "img2":"https://cdn01.nnnow.com/web-images/preview/styles/HL30HBWJ5C7/1610447773876/2.jpg"
+    },
+    {
+        "brand":"SEPHORA COLLECTION",
+        "product":"Nourishing Cuticle Care",
+        "price":"Rs. 900",
+        "img":"https://cdn15.nnnow.com/web-images/preview/styles/YH2P21FRGZT/1518073456699/1.jpg",
+        "img2":"https://cdn05.nnnow.com/web-images/preview/styles/YH2P21FRGZT/1518073456700/2.jpg"
+    },
+    {
+        "brand":"ANASTASIA BEVERLY HILLS",
+        "product":"DIPBROW® Pomade - Dark Brown",
+        "price":"Rs. 2,280",
+        "img":"https://cdn07.nnnow.com/web-images/preview/styles/XIFN4DSF1J7/1559120900591/1.jpg",
+        "img2":"https://cdn04.nnnow.com/web-images/preview/styles/XIFN4DSF1J7/1559120900593/2.jpg"
+    },
+    {
+        "brand":"ANASTASIA BEVERLY HILLS",
+        "product":"Norvina Eye Shadow Palette",
+        "price":"Rs. 4,800",
+        "img":"https://cdn16.nnnow.com/web-images/preview/styles/HNO9JRGQ114/1559300926518/1.jpg",
+        "img2":"https://cdn07.nnnow.com/web-images/preview/styles/HNO9JRGQ114/1609995376294/2.jpg"
+    },
+    {
+        "brand":"BENEFIT COSMETICS",
+        "product":"Gimme Brow + Volumizing Eyebrow Gel - 4 - Warm Deep Brown",
+        "price":"Rs. 1,340",
+        "img":"https://cdn13.nnnow.com/web-images/preview/styles/DF7SMDM6VNE/1552567726776/1.jpg",
+        "img2":"https://cdn02.nnnow.com/web-images/preview/styles/DF7SMDM6VNE/1552567726774/2.jpg"
+    },
+    {
+        "brand":"BENEFIT COSMETICS",
+        "product":"The Great Brow Basics - 04 - Medium",
+        "price":"Rs. 3,910",
+        "img":"https://cdn09.nnnow.com/web-images/preview/styles/N01SN2Z35G0/1568981198080/1.jpg",
+        "img2":"https://cdn09.nnnow.com/web-images/preview/styles/N01SN2Z35G0/1568981198078/2.jpg"
+    }
 ]
-// {
-//     brand:"",
-//     product:"",
-//     price:"",
-//     img:"",
-//     img2:"",
-// },
+"lipistick":[
+    {
+        "brand":"SEPHORA COLLECTION",
+        "product":"Rouge Nude Lipstick - 04 Good To Me",
+        "price":"Rs. 610",
+        "img":"https://cdn02.nnnow.com/web-images/preview/styles/QCG568II3OE/1603970726301/1.jpg",
+        "img2":"https://cdn03.nnnow.com/web-images/preview/styles/QCG568II3OE/1603970726297/2.jpg"
+    }, 
+    {
+        "brand":"CLINIQUE",
+        "product":"Pop Matte Lip Color + Primer - Pow Pop",
+        "price":"Rs. 1,599",
+        "img":"https://cdn05.nnnow.com/web-images/preview/styles/4EFC4DM7EQ7/1585910792328/1.jpg",
+        "img2":"https://cdn05.nnnow.com/web-images/preview/styles/4EFC4DM7EQ7/1567664914788/7.jpg"
+    },
+    {
+        "brand":"STILA",
+        "product":"Stay All Day® Liquid Lip Stick - Beso",
+        "price":"Rs. 2,100",
+        "img":"https://cdn18.nnnow.com/web-images/preview/styles/3MOIVT8EAWW/1585660398362/1.jpg",
+        "img2":"https://cdn19.nnnow.com/web-images/preview/styles/3MOIVT8EAWW/1585660398362/2.jpg"
+    },
+    {
+        "brand":"SEPHORA COLLECTION",
+        "product":"Rouge Lacquer Lip Stick - Not Your Baby",
+        "price":"Rs. 1,220",
+        "img":"https://cdn19.nnnow.com/web-images/preview/styles/3EYD3LVWJM1/1560853074412/1.jpg",
+        "img2":"https://cdn05.nnnow.com/web-images/preview/styles/3EYD3LVWJM1/1560853074408/2.jpg"
+    },
+    {
+        "brand":"SEPHORA COLLECTION",
+        "product":"Lip Blush - 09 Desert Cloud (Rosewood)",
+        "price":"Rs. 1,200",
+        "img":"https://cdn16.nnnow.com/web-images/preview/styles/Q0T78LZ8ZUD/1632206084308/1.jpg",
+        "img2":"https://cdn01.nnnow.com/web-images/preview/styles/Q0T78LZ8ZUD/1632206084298/2.jpg"
+    },
+    {
+        "brand":"HUDA BEAUTY",
+        "product":"Liquid Matte Ultra-Comfort Transfer-Proof Lip Stick - Muse",
+        "price":"Rs. 1,615",
+        "img":"https://cdn18.nnnow.com/web-images/preview/styles/LIW31C5VS2M/1653300487818/1.jpg",
+        "img2":"https://cdn04.nnnow.com/web-images/preview/styles/LIW31C5VS2M/1653300487815/2.jpg"
+    },
+    {
+        "brand":"SEPHORA COLLECTION",
+        "product":"Rouge Matte Lipstick - 17 Killing It!",
+        "price":"Rs. 1,220",
+        "img":"https://cdn09.nnnow.com/web-images/preview/styles/8BB9XBMX8Z5/1617867038289/1.jpg",
+        "img2":"https://cdn09.nnnow.com/web-images/preview/styles/8BB9XBMX8Z5/1617867038288/2.jpg"
+    }
+]
+}
+

@@ -17,6 +17,16 @@ const next = () => {
    console.log("next")
    slideImage();
 }
+const img1 = () =>{
+    // console.log("OOOOOO");
+    count =0; 
+    slideImage();
+}
+const img2 = () =>{
+    // console.log("aaaa")
+   count =1 
+   slideImage()
+}
 const slideImage = () => {
     if(count < 0){
       count = des_largeImg.length-1;

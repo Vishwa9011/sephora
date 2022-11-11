@@ -1,51 +1,159 @@
-skincareData:[
+//"skincareData"
+{
+   "justArrived" :[
     {
-    brand:"SHISEIDO",
-    product:"Waso Quick Gentle Cleanser",
-    price:"Rs. 2,200",
-    img:"https://cdn09.nnnow.com/web-images/preview/styles/LK8JYTR9UEY/1593684983302/1.jpg",
-    img2:"https://cdn06.nnnow.com/web-images/preview/styles/LK8JYTR9UEY/1593684983300/2.jpg",
+    "brand":"SHISEIDO",
+    "product":"Waso Quick Gentle Cleanser",
+    "price":"Rs. 2,200",
+    "img":"https://cdn09.nnnow.com/web-images/preview/styles/LK8JYTR9UEY/1593684983302/1.jpg",
+    "img2":"https://cdn06.nnnow.com/web-images/preview/styles/LK8JYTR9UEY/1593684983300/2.jpg"
     },
     {
-        brand:"SHISEIDO",
-        product:"Waso Color-Smart Day Time Moisturizer Oil-Free",
-        price:"Rs. 2,700",
-        img:"https://cdn14.nnnow.com/web-images/preview/styles/0235QYQLU6R/1535611149325/1.jpg",
-        img2:"https://cdn12.nnnow.com/web-images/preview/styles/0235QYQLU6R/1535611149326/2.jpg",
+        "brand":"SHISEIDO",
+        "product":"Waso Color-Smart Day Time Moisturizer Oil-Free",
+        "price":"Rs. 2,700",
+        "img":"https://cdn14.nnnow.com/web-images/preview/styles/0235QYQLU6R/1535611149325/1.jpg",
+        "img2":"https://cdn12.nnnow.com/web-images/preview/styles/0235QYQLU6R/1535611149326/2.jpg"
     },
     {
-        brand:"SHISEIDO",
-        product:"Waso Soft And Cushy Polisher",
-        price:"Rs. 2,300",
-        img:"https://cdn10.nnnow.com/web-images/preview/styles/MYEN8DMERKS/1593757512727/1.jpg",
-        img2:"https://cdn08.nnnow.com/web-images/preview/styles/MYEN8DMERKS/1535611149389/2.jpg",
+        "brand":"SHISEIDO",
+        "product":"Waso Soft And Cushy Polisher",
+        "price":"Rs. 2,300",
+        "img":"https://cdn10.nnnow.com/web-images/preview/styles/MYEN8DMERKS/1593757512727/1.jpg",
+        "img2":"https://cdn08.nnnow.com/web-images/preview/styles/MYEN8DMERKS/1535611149389/2.jpg"
     },
     {
-        brand:"SHISEIDO",
-        product:"Refreshing Cleansing Water",
-        price:"Rs. 2,200",
-        img:"https://cdn09.nnnow.com/web-images/preview/styles/KG8JJIY4Y7C/1593757512690/1.jpg",
-        img2:"https://cdn14.nnnow.com/web-images/preview/styles/KG8JJIY4Y7C/1618914271050/50.jpg",
+        "brand":"SHISEIDO",
+        "product":"Refreshing Cleansing Water",
+        "price":"Rs. 2,200",
+        "img":"https://cdn09.nnnow.com/web-images/preview/styles/KG8JJIY4Y7C/1593757512690/1.jpg",
+        "img2":"https://cdn14.nnnow.com/web-images/preview/styles/KG8JJIY4Y7C/1618914271050/50.jpg"
     },
     {
-        brand:"CLINIQUE",
-        product:"Dramatically Different Moisturizing Gel - Oily And Combination Skin",
-        price:"Rs. 1,638",
-        img:"https://cdn05.nnnow.com/web-images/preview/styles/AHI3HAMXH5V/1494572076433/1.jpg",
-        img2:"https://cdn03.nnnow.com/web-images/preview/styles/AHI3HAMXH5V/1494572076434/2.jpg",
+        "brand":"CLINIQUE",
+        "product":"Dramatically Different Moisturizing Gel - Oily And Combination Skin",
+        "price":"Rs. 1,638",
+        "img":"https://cdn05.nnnow.com/web-images/preview/styles/AHI3HAMXH5V/1494572076433/1.jpg",
+        "img2":"https://cdn03.nnnow.com/web-images/preview/styles/AHI3HAMXH5V/1494572076434/2.jpg"
     },
     {
-        brand:"CLINIQUE",
-        product:"Smart SPF 15 Custom Repair Moisturizer - Combination And Oily Skin",
-        price:"Rs. 5,694",
-        img:"https://cdn06.nnnow.com/web-images/preview/styles/GWPFWHRC4RQ/1494571104810/1.jpg",
-        img2:"https://cdn02.nnnow.com/web-images/preview/styles/GWPFWHRC4RQ/1567665811669/7.jpg",
+        "brand":"CLINIQUE",
+        "product":"Smart SPF 15 Custom Repair Moisturizer - Combination And Oily Skin",
+        "price":"Rs. 5,694",
+        "img":"https://cdn06.nnnow.com/web-images/preview/styles/GWPFWHRC4RQ/1494571104810/1.jpg",
+        "img2":"https://cdn02.nnnow.com/web-images/preview/styles/GWPFWHRC4RQ/1567665811669/7.jpg"
     },
     {
-        brand:"BURT'S BEES",
-        product:"Baby Bee Nourishing Lotion - Original",
-        price:"Rs. 1,550",
-        img:"https://cdn04.nnnow.com/web-images/preview/styles/KIJKUXM7P7W/1640326187321/1.jpg",
-        img2:"https://cdn02.nnnow.com/web-images/preview/styles/KIJKUXM7P7W/1519035539750/2.jpg",
+        "brand":"BURT'S BEES",
+        "product":"Baby Bee Nourishing Lotion - Original",
+        "price":"Rs. 1,550",
+        "img":"https://cdn04.nnnow.com/web-images/preview/styles/KIJKUXM7P7W/1640326187321/1.jpg",
+        "img2":"https://cdn02.nnnow.com/web-images/preview/styles/KIJKUXM7P7W/1519035539750/2.jpg"
+    }
+],
+"BestSellers":[
+    {
+        "brand":"SEPHORA COLLECTION",
+        "product":"High Precision Brush Long Lasting Eyeliner - Black" ,
+        "price": "Rs. 1,150",
+        "img" : "https://cdn08.nnnow.com/web-images/preview/styles/M5ZVMIS526D/1597900132612/1.jpg",
+        "img2" : "https://cdn14.nnnow.com/web-images/preview/styles/M5ZVMIS526D/1486975243486/2.jpg" 
+    },
+    {
+        "brand":"BENEFIT COSMETICS",
+        "product": "Posietint Lip And Cheek Stain Mini - Poppy Pink",
+        "price":"Rs. 1,720" ,
+        "img" : "https://cdn09.nnnow.com/web-images/preview/styles/9WDXRBDTB5E/1583388932261/1.jpg",
+        "img2" : "https://cdn07.nnnow.com/web-images/preview/styles/9WDXRBDTB5E/1583388932259/2.jpg"
+    },
+    {
+        "brand":"SEPHORA COLLECTION",
+        "product": "Cream Lip Stain - 01 Always Red",
+        "price":"Rs. 1,220" ,
+        "img" : "https://cdn00.nnnow.com/web-images/preview/styles/ZESFQB5VJ3A/1563446923625/1.jpg",
+        "img2" : "https://cdn04.nnnow.com/web-images/preview/styles/ZESFQB5VJ3A/1547642189679/2.jpg"
+    }, 
+    {
+        "brand":"BENEFIT COSMETICS",
+        "product":"The POREfessional Face Primer",
+        "price":"Rs. 3,300",
+        "img" :"https://cdn19.nnnow.com/web-images/preview/styles/2PXZRRLJAKQ/1605088422828/1.jpg" ,
+        "img2" :"https://cdn09.nnnow.com/web-images/preview/styles/2PXZRRLJAKQ/1605088422823/2.jpg"
+    },
+    {
+        "brand":"SEPHORA COLLECTION",
+        "product": "Cream Lip Stain - 13 Marvelous Mauve",
+        "price":"Rs. 1,220" ,
+        "img" : "https://cdn13.nnnow.com/web-images/preview/styles/6J372PA7IJG/1495433798675/1.jpg",
+        "img2" : "https://cdn04.nnnow.com/web-images/preview/styles/6J372PA7IJG/1581676936870/2.jpg"
+    },
+    {
+        "brand":"HUDA BEAUTY",
+        "product": "The New Nude Eyeshadow Palette",
+        "price": "Rs. 4,568",
+        "img" :"https://cdn10.nnnow.com/web-images/preview/styles/3UEG2MOM9WJ/1567658710108/1.jpg" ,
+        "img2" : "https://cdn05.nnnow.com/web-images/preview/styles/3UEG2MOM9WJ/1567658710106/2.jpg"
+    },
+    {
+        "brand":"HUDA BEAUTY",
+        "product":"Power Bullet Matte Lipstick - Bachelorette" ,
+        "price": "Rs. 1,695",
+        "img" : "https://cdn05.nnnow.com/web-images/preview/styles/31V9TFOQ175/1569310805711/1.jpg",
+        "img2" :"https://cdn09.nnnow.com/web-images/preview/styles/31V9TFOQ175/1569310805707/2.jpg" 
+    }
+],
+
+"Foundation" :[
+    {
+        "brand":"CLINIQUE",
+        "product":"Even Better Makeup™ SPF 15 - WN54 Honey Wheat" ,
+        "price": "Rs. 2,340",
+        "img" : "https://cdn08.nnnow.com/web-images/preview/styles/6FF2E95DMIS/1572524196475/1.jpg",
+        "img2": "https://cdn15.nnnow.com/web-images/preview/styles/6FF2E95DMIS/1616752871535/50.jpg"
+    },
+    {
+        "brand":"SEPHORA COLLECTION",
+        "product":"Matte Perfection Powder Foundation - 25 Beige" ,
+        "price": "Rs. 1,500",
+        "img" : "https://cdn15.nnnow.com/web-images/large/styles/YI7Z61K5ZJ0/1551250957258/1.jpg",
+        "img2": "https://cdn06.nnnow.com/web-images/preview/styles/YI7Z61K5ZJ0/1617175581971/2.jpg"
+    },
+    {
+        "brand":"HUDA BEAUTY",
+        "product":"Easy Bake Loose Powder Foundation - Pound Cake" ,
+        "price": "Rs. 2,511",
+        "img" : "https://cdn10.nnnow.com/web-images/large/styles/DNKBPJB88B9/1567587911541/1.jpg",
+        "img2": "https://cdn15.nnnow.com/web-images/preview/styles/DNKBPJB88B9/1567587911536/2.jpg"
+    },
+    {
+        "brand":"ANASTASIA BEVERLY HILLS",
+        "product":"Luminous Foundation - 315N" ,
+        "price": "Rs. 3,600",
+        "img" : "https://cdn09.nnnow.com/web-images/preview/styles/UJPEENTWZEN/1583404621758/1.jpg",
+        "img2": "https://cdn07.nnnow.com/web-images/preview/styles/UJPEENTWZEN/1583404621757/2.jpg"
+    },
+    {
+        "brand":"HUDA BEAUTY",
+        "product":"GloWish By Huda Beauty Multidew Skin Tint - 03 Light" ,
+        "price": "Rs. 2,762",
+        "img" : "https://cdn16.nnnow.com/web-images/preview/styles/ZHMH1RCF6CP/1631786534127/1.jpg",
+        "img2": "https://cdn15.nnnow.com/web-images/preview/styles/ZHMH1RCF6CP/1631786534110/2.jpg"
+    },
+    {
+        "brand":"HUDA BEAUTY",
+        "product":"#FauxFilter Skin Finish Buildable Coverage Foundation Stick" ,
+        "price": "Rs. 2,762",
+        "img" : "https://cdn11.nnnow.com/web-images/preview/styles/RJJ9W76L2RT/1609231293282/1.jpg",
+        "img2": "https://cdn00.nnnow.com/web-images/preview/styles/RJJ9W76L2RT/1609231293277/2.jpg"
+    },
+    {
+        "brand":"BENEFIT COSMETICS",
+        "product":"Hello Happy Velvet Powder Foundation - Shade 02" ,
+        "price": "Rs. 3,100",
+        "img" : "https://cdn02.nnnow.com/web-images/preview/styles/35ZMZ9X2RVK/1614240112599/1.jpg",
+        "img2": "https://cdn08.nnnow.com/web-images/preview/styles/35ZMZ9X2RVK/1614240112592/2.jpg"
     }
 ]
+}
+
+

@@ -14,7 +14,7 @@
 }
 #descriptionImage{
     width: 70%;
-    height: 45%;
+    height: 40%;
     display: flex;
 }
 #describtionSmallImage{
@@ -379,7 +379,7 @@
     }
     #addToBag{
         position: fixed;
-        margin-top: -280px;
+        margin-top: -340px;
         width: 100%;
     }
 }
@@ -403,7 +403,7 @@
     }
     #addToBag{
         position: fixed;
-        margin-top: -330px;
+        margin-top: -380px;
         width: 100%;
     }
 }
