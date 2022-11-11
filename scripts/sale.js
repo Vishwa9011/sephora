@@ -5,7 +5,7 @@ const slider = document.querySelectorAll(".slider-image");
 slider.forEach((el, i) => {
 	el.style.left = `${100 * i}%`;
 });
-console.log(slider);
+// console.log(slider);
 
 //todo ==> automatic slide
 let id;

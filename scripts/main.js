@@ -57,30 +57,6 @@ const slideImage = () => {
 
 // ? Ayaz bhai
 
-const jl_vid = document.querySelector(".jl_video");
-jl_vid.onclick = () => {
-	// console.log("click")
-	let overlay = document.querySelector(".jl_overlay");
-	overlay.style.display = "block";
-	document.querySelector(".jl_iframe").style.display = "block";
-};
-
-const close_Btn = document.querySelector(".jl_x-btn");
-close_Btn.onclick = () => {
-	console.log("close");
-	let overlay = document.querySelector(".jl_overlay");
-	overlay.style.display = "none";
-	// console.log(overlay);
-	// overlay.style.border="1px solid red"
-	// overlay.setAttribute("class", "jl_jl-ol");
-
-	document.querySelector(".jl_iframe").style.display = "none";
-};
-document.querySelector(".jl_overlay").onclick = () => {
-	console.log("nalla");
-	let overlay = document.querySelector(".jl_overlay");
-	overlay.style.display = "none";
-};
 let data1 = [
 	{
 		img: "https://cdn11.nnnow.com/web-images/medium/styles/8V1ZDUHUDR0/1533201155000/1.jpg",

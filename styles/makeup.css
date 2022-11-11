@@ -13,7 +13,7 @@
 
 #lhs_shop {
      width: 100%;
-     height: 40rem;
+     /* height: 40rem; */
      display: flex;
 }
 
@@ -23,7 +23,7 @@
 }
 
 #category {
-     width: 25%;
+     width: 20% !important;
      display: flex;
      flex-direction: column;
      align-items: flex-start;
@@ -35,7 +35,116 @@
      font-size: 15px;
 }
 
+
 #rhs_product {
-     width: 75%;
-     border: 1px solid black;
+     width: 80%;
+     /* border: 1px solid black; */
+     position: relative;
+
+}
+
+.slider-cover {
+     height: 340px;
+     position: relative;
+}
+
+#product-slider {
+     width: 100%;
+     height: 100%;
+     position: relative;
+     overflow: hidden;
+     /* border: 3px solid blue; */
+}
+
+#rhs_product #product-container {
+     grid-template-columns: 0;
+     grid-template-rows: 0;
+     position: absolute;
+     display: block;
+     width: 140%;
+     height: 100%;
+     grid-gap: 0;
+     padding: 0;
+     /* border: 2px solid green; */
+}
+
+#rhs_product #product-container>.product-item {
+     /* border: 1px solid crimson; */
+     display: inline-block;
+     width: 208px;
+     height: 100%;
+     position: relative;
+}
+
+#rhs_product #product-container .product-cart {
+     height: 50px;
+}
+
+#rhs_product #product-container .product-image {
+     height: 175px;
+}
+
+#rhs_product #product-container .product-brand {
+     font-size: .9rem;
+     /* letter-spacing: 0; */
+}
+
+#rhs_product #product-container .product-cart span {
+     font-size: 1.5rem;
+}
+
+#rhs_product #product-container .product-cart p {
+     font-size: .6rem;
+}
+
+
+
+#product-slider-next {
+     height: 100%;
+     width: fit-content;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     right: 0;
+     z-index: 10;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     cursor: pointer;
+}
+
+#product-slider-prev {
+     height: 100%;
+     width: fit-content;
+     position: absolute;
+     top: 50%;
+     transform: translateY(-50%);
+     z-index: 10;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     /* left: 10px; */
+     cursor: pointer;
+}
+
+.product-slider-btn:hover {
+     background: rgba(156, 153, 153, .1);
+     opacity: 1;
+}
+
+.product-slider-btn span {
+     transition: 300ms;
+     color: #f39;
+     font-size: 2rem;
+     font-weight: bolder;
+}
+
+/*  */
+.product-slider-sperator {
+     width: 100%;
+     margin: 0px 0 20px;
+}
+
+.product-slider-sperator img {
+     width: 100%;
 }

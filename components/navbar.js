@@ -73,7 +73,7 @@ const navbar = () => {
                     <span><a>Login</a></span>
                </div>
                <div id="userLogin">
-                    <div id="userId"><span id="loginUserName">Danger</span><span id="loginArrow"></span></div>
+                    <div id="userId"><span id="loginUserName"></span><span id="loginArrow"></span></div>
                     <ul id="logOut">
                          <li><a href="account.html"> <img src="./images/user.png" class="login-img"> <span>My Account</span> </a></li>
                          <li><a href="order.html"><img src="./images/cube.png" class="login-img"> <span>My Order</span> </a></li>
@@ -90,7 +90,7 @@ const navbar = () => {
                <a id="sale" href="sale.html">SALE</a>
           </li>
           <li>
-                 <a href="makeup.html"> MAKEUP</a>
+                 <a id="nav-makeup"> MAKEUP</a>
                <div class="megamenu">
                     <ul>
                          <li>Face</li>
@@ -148,7 +148,7 @@ const navbar = () => {
                     </ul>
                </div>
           <li>
-               <a href="skincare.html">SKINCARE</a>
+               <a id="nav-skincare">SKINCARE</a>
                <div class="megamenu">
                     <ul>
                          <li>MOISTURIZERS</li>
@@ -200,7 +200,7 @@ const navbar = () => {
                </div>
           </li>
           <li>
-               <a href="fragrance.html"> FRAGRANCE</a>
+               <a id="nav-fragrance"> FRAGRANCE</a>
                <div class="megamenu">
                     <ul>
                          <li>WOMEN</li>
@@ -217,7 +217,7 @@ const navbar = () => {
                </div>
           </li>
           <li>
-               <a href="haircare.html"> HAIRCARE</a>
+               <a id="nav-haircare"> HAIRCARE</a>
                <div class="megamenu">
                     <ul>
                          <li>SHAMPOO & CONDITIONER</li>
@@ -234,7 +234,7 @@ const navbar = () => {
                </div>
           </li>
           <li>
-               <a href="brushes.html"> TOOLS & BRUSHES</a>
+               <a id="nav-brushes"> TOOLS & BRUSHES</a>
                <div class="megamenu">
                     <ul>
                          <li>BRUSHES</li>
@@ -261,7 +261,7 @@ const navbar = () => {
                </div>
           </li>
           <li>
-               <a href="#"> BRANDS</a>
+               <a id="nav-brands"> BRANDS</a>
                <div class="megamenu">
                     <ul>
                          <li>TOP MAKEUP BRANDS</li>

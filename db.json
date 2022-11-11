@@ -1,16 +1,48 @@
 {
-  "posts": [
+  "cart": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
+      "email": "vishu842301@gmail.com",
+      "product": "1 Million Elixir Eau De Parfum",
+      "img": "https://cdn00.nnnow.com/web-images/large/styles/5UHE6DK5VB3/1585571862826/1.jpg",
+      "price": "11,400"
+    },
+    {
+      "brand": "PIXI",
+      "product": "Vitamin Wakeup Mist",
+      "price": "Rs. 1,480",
+      "img": "https://cdn03.nnnow.com/web-images/large/styles/EB94S3UDUPD/1585571862841/1.jpg",
+      "email": "vishu842301@gmail.com",
+      "id": 2
+    },
+    {
+      "brand": "IKOO",
+      "product": "Paddle X Pops Hair Brush - Let's Tango",
+      "price": "Rs. 3300",
+      "img": "https://cdn12.nnnow.com/web-images/medium/styles/TEVSC5X3JS9/1655180513758/1.jpg",
+      "email": "vishu842301@gmail.com",
+      "id": 3
+    },
+    {
+      "brand": "HANZ DE FUKO",
+      "product": "Quicksand",
+      "price": "Rs. 2,200",
+      "img": "https://cdn04.nnnow.com/web-images/medium/styles/DE79XFX5DJY/1656913188036/1.jpg",
+      "email": "vishu842301@gmail.com",
+      "id": 4
     }
   ],
-  "comments": [
+  "favorite": [
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 1
+    },
+    {
+      "brand": "HANZ DE FUKO",
+      "product": "Quicksand",
+      "price": "Rs. 2,200",
+      "img": "https://cdn04.nnnow.com/web-images/medium/styles/DE79XFX5DJY/1656913188036/1.jpg",
+      "email": "vishu842301@gmail.com",
+      "id": 2
     }
   ],
   "profile": [
@@ -293,6 +325,251 @@
       "product": "Periya Body Cleanser",
       "price": "Rs. 3,550",
       "img": "https://cdn03.nnnow.com/web-images/large/styles/WJTAU9LUU2H/1639719992500/1.jpg"
+    }
+  ],
+  "MakeupData": [
+    {
+      "brand": "SEPHORA COLLECTION",
+      "product": "Glow Perfection Foundation - 22 Natural",
+      "price": "Rs. 1,352",
+      "img": "https://cdn11.nnnow.com/web-images/preview/styles/8V1ZDUHUDR0/1533201155000/1.jpg",
+      "img2": "https://cdn10.nnnow.com/web-images/preview/styles/8V1ZDUHUDR0/1617175487065/2.jpg"
+    },
+    {
+      "brand": "SEPHORA COLLECTION",
+      "product": "Beauty Amplifier Smoothing Primer",
+      "price": "Rs. 1,320",
+      "img": "https://cdn05.nnnow.com/web-images/preview/styles/V21Z2LOB7HR/1533204761626/1.jpg",
+      "img2": "https://cdn00.nnnow.com/web-images/preview/styles/V21Z2LOB7HR/1594620678387/2.jpg"
+    },
+    {
+      "brand": "SEPHORA COLLECTION",
+      "product": "Cream Lip Stain - 94 Cherry Moon",
+      "price": "Rs. 1,220",
+      "img": "https://cdn13.nnnow.com/web-images/preview/styles/A8G6MLDJJNX/1539589327442/1.jpg",
+      "img2": ""
+    },
+    {
+      "brand": "BENEFIT COSMETICS",
+      "product": "GALifornia Powder Blush - Sunny Golden Pink",
+      "price": "Rs. 3,100",
+      "img": "https://cdn17.nnnow.com/web-images/preview/styles/24SFBYE918Q/1610525740882/1.jpg",
+      "img2": "https://cdn16.nnnow.com/web-images/preview/styles/24SFBYE918Q/1610525740880/2.jpg"
+    },
+    {
+      "brand": "BENEFIT COSMETICS",
+      "product": "Precisely, My Brow Pencil - 05 - Warm Black-Brown",
+      "price": "Rs. 2,390",
+      "img": "https://cdn09.nnnow.com/web-images/preview/styles/61JDU6ICLYI/1513148203704/1.jpg",
+      "img2": "https://cdn11.nnnow.com/web-images/preview/styles/61JDU6ICLYI/1513148203705/2.jpg"
+    },
+    {
+      "brand": "SEPHORA COLLECTION",
+      "product": "Cream Lip Stain - 41 Vintage Rosewood",
+      "price": "Rs. 1,220",
+      "img": "https://cdn18.nnnow.com/web-images/preview/styles/LF9B8BFLIIQ/1519382076017/1.jpg",
+      "img2": "https://cdn03.nnnow.com/web-images/preview/styles/LF9B8BFLIIQ/1581676936879/2.jpg"
+    },
+    {
+      "brand": "HUDA BEAUTY",
+      "product": "#Faux Filter Luminous Matte Full Coverage Liquid Foundation - 400G Macchiato",
+      "price": "Rs. 2,805",
+      "img": "https://cdn17.nnnow.com/web-images/preview/styles/W84IYEUK3N3/1631791079618/1.jpg",
+      "img2": "https://cdn05.nnnow.com/web-images/preview/styles/W84IYEUK3N3/1631791079612/3.jpg"
+    }
+  ],
+  "skincareData": [
+    {
+      "brand": "SHISEIDO",
+      "product": "Waso Quick Gentle Cleanser",
+      "price": "Rs. 2,200",
+      "img": "https://cdn09.nnnow.com/web-images/preview/styles/LK8JYTR9UEY/1593684983302/1.jpg",
+      "img2": "https://cdn06.nnnow.com/web-images/preview/styles/LK8JYTR9UEY/1593684983300/2.jpg"
+    },
+    {
+      "brand": "SHISEIDO",
+      "product": "Waso Color-Smart Day Time Moisturizer Oil-Free",
+      "price": "Rs. 2,700",
+      "img": "https://cdn14.nnnow.com/web-images/preview/styles/0235QYQLU6R/1535611149325/1.jpg",
+      "img2": "https://cdn12.nnnow.com/web-images/preview/styles/0235QYQLU6R/1535611149326/2.jpg"
+    },
+    {
+      "brand": "SHISEIDO",
+      "product": "Waso Soft And Cushy Polisher",
+      "price": "Rs. 2,300",
+      "img": "https://cdn10.nnnow.com/web-images/preview/styles/MYEN8DMERKS/1593757512727/1.jpg",
+      "img2": "https://cdn08.nnnow.com/web-images/preview/styles/MYEN8DMERKS/1535611149389/2.jpg"
+    },
+    {
+      "brand": "SHISEIDO",
+      "product": "Refreshing Cleansing Water",
+      "price": "Rs. 2,200",
+      "img": "https://cdn09.nnnow.com/web-images/preview/styles/KG8JJIY4Y7C/1593757512690/1.jpg",
+      "img2": "https://cdn14.nnnow.com/web-images/preview/styles/KG8JJIY4Y7C/1618914271050/50.jpg"
+    },
+    {
+      "brand": "CLINIQUE",
+      "product": "Dramatically Different Moisturizing Gel - Oily And Combination Skin",
+      "price": "Rs. 1,638",
+      "img": "https://cdn05.nnnow.com/web-images/preview/styles/AHI3HAMXH5V/1494572076433/1.jpg",
+      "img2": "https://cdn03.nnnow.com/web-images/preview/styles/AHI3HAMXH5V/1494572076434/2.jpg"
+    },
+    {
+      "brand": "CLINIQUE",
+      "product": "Smart SPF 15 Custom Repair Moisturizer - Combination And Oily Skin",
+      "price": "Rs. 5,694",
+      "img": "https://cdn06.nnnow.com/web-images/preview/styles/GWPFWHRC4RQ/1494571104810/1.jpg",
+      "img2": "https://cdn02.nnnow.com/web-images/preview/styles/GWPFWHRC4RQ/1567665811669/7.jpg"
+    },
+    {
+      "brand": "BURT'S BEES",
+      "product": "Baby Bee Nourishing Lotion - Original",
+      "price": "Rs. 1,550",
+      "img": "https://cdn04.nnnow.com/web-images/preview/styles/KIJKUXM7P7W/1640326187321/1.jpg",
+      "img2": "https://cdn02.nnnow.com/web-images/preview/styles/KIJKUXM7P7W/1519035539750/2.jpg"
+    }
+  ],
+  "fragrance": [
+    {
+      "id": 1,
+      "Just_Arrived": [
+        {
+          "brand": "BURBERRY",
+          "product": "Burberry Hero Eau De Parfum",
+          "price": "Rs. 8,400 - Rs. 9,400",
+          "img": "https://cdn11.nnnow.com/web-images/medium/styles/VDLYY2JHV2V/1662106601741/1.jpg"
+        },
+        {
+          "brand": "TOM FORD",
+          "product": "Noir Extreme Parfum",
+          "price": "Rs. 11,400",
+          "img": "https://cdn04.nnnow.com/web-images/medium/styles/OJKR09QLNST/1666089406236/1.jpg"
+        },
+        {
+          "brand": "CAROLINA HERRERA",
+          "product": "Good Girl Eau De Parfum Legere",
+          "price": "Rs. 7,300 - Rs. 9,300",
+          "img": "https://cdn19.nnnow.com/web-images/medium/styles/SZPNKCRF68K/1663845990767/1.jpg"
+        },
+        {
+          "brand": "CAROLINA HERRERA",
+          "product": "Bad Boy Eau De Parfum",
+          "price": "Rs. 6,500 - Rs. 9,050",
+          "img": "https://cdn12.nnnow.com/web-images/medium/styles/3JQ3QQWEB55/1663845990853/1.jpg"
+        },
+        {
+          "brand": "PACO RABANNE",
+          "product": "Fame Eau De Parfum",
+          "price": "Rs. 7,600 - Rs. 9,900",
+          "img": "https://cdn04.nnnow.com/web-images/medium/styles/SLYXQBAQXR4/1664533524792/1.jpg"
+        },
+        {
+          "brand": "CAROLINA HERRERA",
+          "product": "212 VIP Men Eau De Toilette",
+          "price": "Rs. 5,400",
+          "img": "https://cdn04.nnnow.com/web-images/medium/styles/4JGGE4ETOEP/1663845990924/1.jpg"
+        },
+        {
+          "brand": "MARC JACOBS",
+          "product": "Daisy Ever So Fresh Eau De Parfum",
+          "price": "Rs. 6,700",
+          "img": "https://cdn19.nnnow.com/web-images/medium/styles/Q9YW4N0SFAL/1664528980585/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "Best_Sellers": [
+        {
+          "brand": "TOM FORD",
+          "product": "Black Orchid Eau De Parfum",
+          "price": "Rs. 9,700 - Rs. 13,600",
+          "img": "https://cdn18.nnnow.com/web-images/medium/styles/9220JIJFV8H/1589003350413/1.jpg"
+        },
+        {
+          "brand": "TOM FORD",
+          "product": "Noir Extreme Eau De Parfum",
+          "price": "Rs. 9,700 - Rs. 13,600",
+          "img": "https://cdn07.nnnow.com/web-images/medium/styles/VITHTL168U1/1589003350452/1.jpg"
+        },
+        {
+          "brand": "BVLGARI",
+          "product": "Man Glacial Essence Eau De Parfum",
+          "price": "Rs. 7,500 - Rs. 10,100",
+          "img": "https://cdn17.nnnow.com/web-images/medium/styles/6CWC7M5L481/1610349257790/1.jpg"
+        },
+        {
+          "brand": "PACO RABANNE",
+          "product": "1 Million Elixir Eau De Parfum",
+          "price": "Rs. 9,250 - Rs. 11,350",
+          "img": "https://cdn07.nnnow.com/web-images/medium/styles/D7MJYULTEGZ/1652776303560/1.jpg"
+        },
+        {
+          "brand": "GIVENCHY",
+          "product": "Gentleman Eau De Toilette",
+          "price": "Rs.8,650",
+          "img": "https://cdn11.nnnow.com/web-images/medium/styles/GI3JORUM8Y6/1593071533034/1.jpg"
+        },
+        {
+          "brand": "LANCOME",
+          "product": "La Vie Est Belle Eau De Parfum",
+          "price": "Rs. 5,440 - Rs. 8,700",
+          "img": "https://cdn04.nnnow.com/web-images/medium/styles/2GMA8E8Y68S/1644231721915/1.jpg"
+        },
+        {
+          "brand": "DIOR",
+          "product": "Sauvage Parfum",
+          "price": "Rs. 8,600 - Rs. 17,600",
+          "img": "https://cdn15.nnnow.com/web-images/medium/styles/YRLW7QZFTEA/1637735894017/1.jpg"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "Perfumes_for_women": [
+        {
+          "brand": "ELIZABETH ARDEN",
+          "product": "My Fifth Avenue Eau De Parfum",
+          "price": "Rs. 4325 - Rs. 5,550",
+          "img": "https://cdn03.nnnow.com/web-images/medium/styles/P4FI87Z9XKE/1607690426098/1.jpg"
+        },
+        {
+          "brand": "BURBERRY",
+          "product": "My Burberry Blush Eau De Parfum",
+          "price": "Rs. 6200",
+          "img": "https://cdn18.nnnow.com/web-images/medium/styles/AY5JCJM9RS7/1646282828834/1.jpg"
+        },
+        {
+          "brand": "HUGO BOSS",
+          "product": "HUGO DEEP RED Eau De Parfum",
+          "price": "Rs. 5,600",
+          "img": "https://cdn11.nnnow.com/web-images/medium/styles/4DZP2OD8FVV/1606543797088/1.jpg"
+        },
+        {
+          "brand": "HUGO BOSS",
+          "product": "Boss The Scent Absolute For Her Eau De Parfum",
+          "price": "Rs. 6,600 - Rs. 8,550",
+          "img": "https://cdn11.nnnow.com/web-images/medium/styles/YXI423G04SK/1604487730449/1.jpg"
+        },
+        {
+          "brand": "ELIZABETH ARDEN",
+          "product": "White Tea Wild Rose Eau De Toilette Spray",
+          "price": "Rs. 4,800",
+          "img": "https://cdn16.nnnow.com/web-images/medium/styles/ZDF93AW21CC/1605084283121/1.jpg"
+        },
+        {
+          "brand": "DAVIDOFF",
+          "product": "Cool Water Eau De Toilette",
+          "price": "Rs. 3,700",
+          "img": "https://cdn13.nnnow.com/web-images/medium/styles/GECNEXXJ0F4/1497430747470/1.jpg"
+        },
+        {
+          "brand": "DAVIDOFF",
+          "product": "Cool Water Reborn For Him Eau De Toilette",
+          "price": "Rs. 3,900 - Rs. 4,950",
+          "img": "https://cdn18.nnnow.com/web-images/medium/styles/UUJYVNLDHIQ/1663923503078/1.jpg"
+        }
+      ]
     }
   ]
 }

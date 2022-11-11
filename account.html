@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+     <head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="shortcut icon" href="./images/fav-icon.png" type="image/x-icon">
+          <link rel="stylesheet" href="./styles/style.css" />
+          <link rel="stylesheet" href="./styles/navbar.css">
+          <link rel="stylesheet" href="./styles/main.css">
+          <link rel="stylesheet" href="./styles/footer.css">
+          <link rel="stylesheet" href="./styles/product.css">
+          <link rel="stylesheet" href="./styles/login.css">
+          <link rel="stylesheet"
+               href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+          <title>SEPHORA-MY ACCOUNT</title>
+          <style>
+               #my_account_Pr {
+                    width: 80%;
+                    margin: 30px auto;
+                    height: auto;
+               }
+
+               #my_account_Pr img {
+                    width: 30px;
+                    height: 30px;
+               }
+
+               #my_account_Pr h1 {
+                    font-weight: lighter;
+                    font-size: 1.8rem;
+                    letter-spacing: 2px;
+               }
+
+               .division_Pr>button div {
+                    display: flex;
+               }
+
+               .division_Pr button {
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 120px;
+                    cursor: pointer;
+                    border: none;
+               }
+
+               .division_Pr button>div {
+                    display: flex;
+                    width: 90%;
+                    justify-content: space-between;
+                    align-items: center;
+                    height: 120px;
+                    margin: auto;
+               }
+
+               .division_Pr {
+                    width: 100%;
+                    display: grid;
+                    margin-bottom: 20px;
+               }
+
+               #info_Pr {
+                    background-color: #2ba2e4;
+               }
+
+               #loyal_Pr_Pr {
+                    background-color: #33dece;
+               }
+
+               #address_Pr {
+                    background-color: #36f7a7;
+               }
+
+               #payment_Pr {
+                    background-color: #fab531;
+               }
+
+               .gap_Pr {
+                    gap: 20px;
+                    display: flex;
+                    align-items: center;
+               }
+
+               .info_Box_Pr {
+                    width: 95%;
+                    height: 100%;
+                    margin: 30px auto;
+                    display: none;
+               }
+
+               .info_Box_Pr>div>h2 {
+                    font-family: Avenir-Next, sans-serif;
+                    font-weight: lighter;
+               }
+
+               .myinfo_Pr {
+                    width: 40%;
+                    margin-bottom: 20px;
+                    width: 40%;
+                    margin-bottom: 20px;
+               }
+
+               .myinfo_Pr>div div {
+                    display: flex;
+                    width: 100%;
+                    justify-content: space-between;
+                    margin-bottom: 10px;
+                    color: #b09b9e;
+               }
+
+               .myinfo_Pr input {
+                    width: 100%;
+                    background-color: #f2f2f2;
+                    border: none;
+                    padding: 10px 10px;
+                    font-size: 16px;
+                    outline: none;
+                    cursor: not-allowed;
+                    font-weight: lighter;
+                    color: #a4775f;
+               }
+
+               .myinfo_Pr button {
+                    background-color: white;
+                    width: 30%;
+                    height: auto;
+                    color: #ff53ac;
+                    justify-content: flex-end;
+
+               }
+
+               #myaddress_Pr {
+                    width: 30%;
+                    margin: auto;
+                    text-align: center;
+               }
+
+               #myaddress_Pr p {
+                    font-weight: lighter;
+                    font-size: 15px;
+                    letter-spacing: 0.6px;
+                    font-family: Avenir-Next, sans-serif;
+                    line-height: 1.5;
+               }
+
+               #myaddress_Pr h1 {
+                    font-weight: normal;
+                    font-size: 1.8rem;
+                    letter-spacing: 2px;
+                    font-family: Avenir-Next, sans-serif;
+               }
+
+               #myaddress_Pr h1+div {
+                    width: 80%;
+                    margin: auto;
+                    margin-top: 35px;
+                    margin-bottom: 45px;
+               }
+
+               #myaddress_Pr img {
+                    width: 43%;
+                    height: auto;
+                    margin-top: 35px;
+               }
+
+               #myaddress_Pr button {
+                    background-color: #f39;
+                    width: 60%;
+                    height: 40px;
+                    color: white;
+                    margin: auto;
+                    display: flex;
+                    justify-content: center;
+                    font-weight: bold;
+                    letter-spacing: 1.5px;
+                    margin-bottom: 45px;
+               }
+
+               #mypayment_Pr {
+                    width: 30%;
+                    margin: auto;
+                    text-align: center;
+               }
+
+               #mypayment_Pr p {
+                    font-size: 14px;
+                    line-height: 1.7;
+                    letter-spacing: 0.6px;
+                    font-family: Avenir-Next, sans-serif;
+               }
+
+               #mypayment_Pr h1 {
+                    font-weight: bolder;
+                    font-size: 1.8rem;
+                    letter-spacing: 2px;
+                    font-family: Avenir-Next, sans-serif;
+               }
+
+               #mypayment_Pr h1+div {
+                    width: 110%;
+                    margin: auto;
+               }
+
+               #mypayment_Pr img {
+                    width: 28%;
+                    height: auto;
+                    margin-top: 35px;
+               }
+
+               @media all and (min-width: 768px) and (max-width: 1024px) {
+                    #my_account_Pr {
+                         width: 90%;
+                    }
+
+                    #my_account_Pr h1 {
+                         font-size: 1.4rem;
+                    }
+
+                    #produceLoyal_Pr h2 {
+                         font-size: 1rem;
+                    }
+
+                    #my_account_Pr img {
+                         width: 24px;
+                         height: 24px;
+                    }
+
+                    .info_Box_Pr {
+                         width: 96%;
+                    }
+
+                    .myinfo_Pr input {
+                         font-size: 13px;
+                    }
+
+                    #myaddress_Pr {
+                         width: 50%;
+                    }
+
+                    #myaddress_Pr p {
+                         font-size: 14px;
+                    }
+
+                    #myaddress_Pr h1 {
+                         font-size: 22px;
+                         font-weight: normal;
+                    }
+
+                    #mypayment_Pr img {
+                         width: 40%;
+                         height: 100%;
+                    }
+
+                    #mypayment_Pr {
+                         width: 50%;
+                    }
+
+                    #mypayment_Pr h1 {
+                         font-size: 22px;
+                    }
+
+                    .division_Pr {
+                         width: 100%;
+                    }
+               }
+
+               @media all and (min-width: 320px) and (max-width: 767px) {
+                    #my_account_Pr {
+                         width: 90%;
+                    }
+
+                    #my_account_Pr h1 {
+                         font-size: 1.1rem;
+                    }
+
+                    #produceLoyal_Pr h2 {
+                         font-size: .6rem;
+                    }
+
+                    #my_account_Pr img {
+                         width: 19px;
+                         height: 19px;
+                    }
+
+                    .info_Box_Pr {
+                         width: 96%;
+                    }
+
+                    .myinfo_Pr input {
+                         font-size: 12px;
+                    }
+
+                    #myaddress_Pr {
+                         width: 80%;
+                    }
+
+                    #myaddress_Pr p {
+                         font-size: 13px;
+                    }
+
+                    #myaddress_Pr button {
+                         width: 85%;
+                    }
+
+                    #myaddress_Pr h1 {
+                         font-size: 18px;
+                         font-weight: normal;
+                    }
+
+                    #mypayment_Pr img {
+                         width: 50%;
+                         height: 100%;
+                    }
+
+                    #mypayment_Pr {
+                         width: 70%;
+                    }
+
+                    #mypayment_Pr h1 {
+                         font-size: 22px;
+                    }
+
+                    .division_Pr {
+                         width: 100%;
+                    }
+               }
+
+               @media screen and (max-width: 1000px) {
+                    .myinfo_Pr {
+                         width: 100%;
+                    }
+               }
+          </style>
+     </head>
+
+
+     <body>
+
+          <!-- ? Navbar Start -->
+          <nav id="navbar">
+
+          </nav>
+          <!-- ? Navbar End -->
+
+
+          <!-- ? ACCOUNT START -->
+          <div id="my_account_Pr">
+               <div class="division_Pr">
+                    <button id="info_Pr">
+                         <div>
+                              <div class="gap_Pr"><img src="https://cdn-icons-png.flaticon.com/512/266/266134.png"
+                                        alt="">
+                                   <h1>My Information</h1>
+                              </div>
+                              <div><img src="https://cdn-icons-png.flaticon.com/512/271/271228.png" alt=""></div>
+                         </div>
+                    </button>
+                    <div class="info_Box_Pr" id="produceInfo_Pr">
+                         <div class="myinfo_Pr">
+                              <div>
+                                   <div>
+                                        <p>Name</p>
+                                        <button>edit</button>
+                                   </div>
+                                   <input id="myinfo_PrName" type="text" value="Prince Sharma">
+                              </div>
+                         </div>
+                         <div class="myinfo_Pr">
+                              <div>
+                                   <div>
+                                        <p>Email</p>
+                                   </div>
+                                   <input type="email" value="prince@gmail.com">
+                              </div>
+                         </div>
+                         <div class="myinfo_Pr">
+                              <div>
+                                   <div>
+                                        <p>Phone Number</p>
+                                   </div>
+                                   <input type="number" value="8637085433">
+                              </div>
+                         </div>
+                         <div class="myinfo_Pr">
+                              <div id="">
+                                   <div>
+                                        <p>Password</p>
+                                        <button>change</button>
+                                   </div>
+                                   <input type="password" value="123456789">
+                              </div>
+                         </div>
+                    </div>
+               </div>
+               <div class="division_Pr">
+                    <button id="loyal_Pr_Pr">
+                         <div>
+                              <div class="gap_Pr"><img src="https://cdn-icons-png.flaticon.com/512/453/453364.png"
+                                        alt="">
+                                   <h1>My loyalty</h1>
+                              </div>
+                              <div><img src="https://cdn-icons-png.flaticon.com/512/271/271228.png" alt=""></div>
+                         </div>
+                    </button>
+                    <div class="info_Box_Pr" id="produceLoyal_Pr">
+                         <div>
+                              <h2>No loyalty Data Available</h2>
+                         </div>
+                    </div>
+
+               </div>
+               <div class="division_Pr">
+                    <button id="address_Pr">
+                         <div>
+                              <div class="gap_Pr"><img src="https://cdn-icons-png.flaticon.com/512/2549/2549442.png"
+                                        alt="">
+                                   <h1>My addresses</h1>
+                              </div>
+                              <div><img src="https://cdn-icons-png.flaticon.com/512/271/271228.png" alt=""></div>
+                         </div>
+                    </button>
+                    <div class="info_Box_Pr" id="produceAddress_Pr">
+                         <div id="myaddress_Pr">
+                              <img src="https://static.nnnow.com/client/assets/images/address_map.jpg" alt="">
+                              <h1>No addresses Here</h1>
+                              <div>
+                                   <p>Start shopping for your shipping address to appear</p>
+                              </div>
+                              <button>ADD ADDRESS</button>
+                         </div>
+                    </div>
+
+               </div>
+               <div class="division_Pr">
+                    <button id="payment_Pr">
+                         <div>
+                              <div class="gap_Pr"><img src="https://cdn-icons-png.flaticon.com/512/657/657076.png"
+                                        alt="">
+                                   <h1>My Payment Methods</h1>
+                              </div>
+                              <div><img src="https://cdn-icons-png.flaticon.com/512/271/271228.png" alt=""></div>
+                         </div>
+                    </button>
+                    <div class="info_Box_Pr" id="producePayment_Pr">
+                         <div id="mypayment_Pr">
+                              <img src="https://static.nnnow.com/client/assets/images/sad_smiley.png" alt="">
+                              <h1>OOPS!</h1>
+                              <div>
+                                   <p>You have not set up any payment methods yet.</p>
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+          </div>
+          <div id="gotoTop">
+               <a href="#navbar">
+                    <span class="material-symbols-outlined">
+                         expand_less
+                    </span>
+                    <span>Back to Top</span>
+               </a>
+          </div>
+          </div>
+
+          <!-- ?footer Start -->
+          <footer id="footer">
+
+          </footer>
+          <!-- ?footer End -->
+
+          <!-- ? login -->
+          <div id="loginComponent">
+               <!--  -->
+          </div>
+
+          <script src="./scripts/index.js" type="module"></script>
+          <script src="./scripts/login.js" type="module"></script>
+     </body>
+
+
+</html>
+
+<script>
+     let info = document.getElementById("info_Pr")
+     let infoArrow = document.querySelector("#info_Pr > div > .gap_Pr + div > img")
+
+     let countInfo = 0;
+     info.onclick = () => {
+          countInfo++
+          if (countInfo % 2 == 1) {
+               document.querySelector(".info_Box_Pr").style.display = "block"
+               infoArrow.style.rotate = '90deg'
+          }
+          else {
+               document.querySelector(".info_Box_Pr").style.display = "none";
+               infoArrow.style.rotate = '0deg'
+
+          }
+
+     }
+
+     let loyal = document.getElementById("loyal_Pr_Pr");
+     let loyalArrow = document.querySelector("#loyal_Pr_Pr > div > .gap_Pr + div > img")
+     let countLoyal = 0;
+
+     loyal.onclick = () => {
+          countLoyal++
+          if (countLoyal % 2 == 1) {
+               document.querySelector("#produceLoyal_Pr").style.display = "block";
+               loyalArrow.style.rotate = '90deg'
+          }
+          else {
+               document.querySelector("#produceLoyal_Pr").style.display = "none"
+               loyalArrow.style.rotate = '0deg'
+          }
+     }
+
+     let address = document.getElementById("address_Pr")
+     let addressArrow = document.querySelector("#address_Pr > div > .gap_Pr + div > img")
+
+     let countAddress = 0
+
+     address.onclick = () => {
+          countAddress++
+          if (countAddress % 2 == 1) {
+               document.querySelector("#produceAddress_Pr").style.display = "block"
+               loyalArrow.style.rotate = '90deg'
+          }
+          else {
+               document.querySelector("#produceAddress_Pr").style.display = "none"
+               loyalArrow.style.rotate = '0deg'
+          }
+     }
+
+     let payment = document.getElementById("payment_Pr")
+     let paymentArrow = document.querySelector("#payment_Pr > div > .gap_Pr + div > img")
+
+     let countPayment = 0
+
+     payment.onclick = () => {
+          countPayment++
+          if (countPayment % 2 == 1) {
+               document.querySelector("#producePayment_Pr").style.display = "block"
+               loyalArrow.style.rotate = '90deg'
+          }
+          else {
+               document.querySelector("#producePayment_Pr").style.display = "none"
+               loyalArrow.style.rotate = '0deg'
+          }
+     }
+</script>

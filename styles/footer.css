@@ -44,7 +44,8 @@ a {
 }
 
 #top2 {
-    width: 100%;
+    width: 35%;
+    margin: auto;
 }
 
 #middle {
@@ -65,7 +66,7 @@ a {
     align-items: center;
     font-size: 18px;
     font-weight: bold;
-    padding: 8px 30px;
+    padding: 12px 30px;
     cursor: pointer;
 }
 

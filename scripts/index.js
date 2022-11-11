@@ -1,3 +1,5 @@
+console.log("Welcome in Index.js");
+
 import { footer } from "../components/footer.js";
 import { navbar } from "../components/navbar.js";
 import { loginComp } from "../components/login.js";
@@ -10,3 +12,31 @@ navbarContainer.innerHTML = navbar();
 
 const loginContainer = document.querySelector("#loginComponent");
 loginContainer.innerHTML = loginComp();
+
+// todo nav-links part
+const navbar_nav_links = document.querySelector("#nav-links");
+console.log("navbar_nav_links: ", navbar_nav_links);
+
+navbar_nav_links.onclick = (event) => {
+	let nav_links_id = [
+		"nav-makeup",
+		"nav-skincare",
+		"nav-fragrance",
+		"nav-haircare",
+		"nav-brushes",
+	];
+
+	if (nav_links_id.includes(event.target.id)) {
+		let val = event.target.id;
+		val = val.split("-");
+		console.log("val: ", val[1]);
+		window.location.href = `${val[1]}.html`;
+	}
+};
+
+// ?=================================================================?//
+// todo Order Management
+
+document.body.onclick = (event) => {
+	console.log(event.target.className, event.target.id);
+};

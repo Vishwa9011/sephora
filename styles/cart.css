@@ -101,7 +101,7 @@ header {
 
 
 #lhs_cartDiv .fav-item {
-     height: 150px;
+     height: 190px;
      justify-content: flex-start;
      border-bottom: 1px solid rgb(192, 188, 188);
      margin-top: 5px;
@@ -109,6 +109,7 @@ header {
 
 #lhs_cartDiv .fav-item .detail {
      justify-content: flex-start;
+     height: auto;
 }
 
 #lhs_cartDiv .fav-item .detail>div>p {

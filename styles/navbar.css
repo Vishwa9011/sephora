@@ -306,6 +306,7 @@ nav {
      padding: 10px 15px 22px;
      font-size: 1.2rem;
      font-weight: 600;
+     cursor: pointer;
 }
 
 #nav-links>li>a:hover {

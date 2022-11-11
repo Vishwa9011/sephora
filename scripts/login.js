@@ -2,7 +2,6 @@ console.log("Welcome in Login.js");
 
 //todo display the login page
 const loginbtn = document.querySelector(".loginBtn");
-console.log("loginbtn: ", loginbtn);
 loginbtn.onclick = () => {
 	console.log("login");
 	document.querySelector("#login-signup").style.display = "flex";
@@ -191,5 +190,15 @@ loginWithPass.onclick = () => {
 const signOut = document.querySelector("#signOut");
 signOut.onclick = () => {
 	localStorage.clear();
-	window.location.reload();
+	window.location.href = "index.html";
 };
+
+let checkExistingUser =
+	JSON.parse(localStorage.getItem("existingUser")) || null;
+
+console.log("checkExistingUser: ", checkExistingUser);
+if (checkExistingUser) {
+	loginB.style.display = "none";
+	userLogin.style.display = "flex";
+	loginUserName.innerHTML = checkExistingUser.name.split(" ")[0];
+}
