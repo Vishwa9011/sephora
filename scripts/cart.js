@@ -42,8 +42,8 @@ const appendFilterData = (data) => {
                                              <p>5 more offer</p>
                                         </div>
                                         <div class="move-remove">
-                                             <div><button>Move to Favorites</button></div>
-                                             <div><button>Remove</button></div>
+                                             <div><button onclick="MoveToFavorite('${el.id}')">Move to Favorites</button></div>
+                                             <div><button onclick="RemoveFromCart('${el.id}')">Remove</button></div>
                                         </div>
                                    </div>
 
@@ -63,5 +63,40 @@ const appendFilterData = (data) => {
                                    </div>
                               </div>`;
 		document.querySelector("#lhs_cartDiv").innerHTML += showTemplate;
+	});
+};
+
+// todo remove the product from cart
+const RemoveFromCart = async (id) => {
+	const url = `http://localhost:3000/cart/${id}`;
+	const res = await fetch(url, {
+		method: "DELETE",
+		headers: {
+			"Content-Type": "application/json",
+		},
+	});
+	getCartDataFromDatabase();
+};
+
+// todo move the element into the favorite
+const MoveToFavorite = async (id) => {
+	const url = `http://localhost:3000/cart/${id}`;
+	const res = await fetch(url);
+	const data = await res.json();
+
+	if (data) RemoveFromCart(id);
+
+	//todo adding the data in fav
+	addToFavorite(data);
+};
+
+const addToFavorite = async (data) => {
+	const url = `http://localhost:3000/favorite`;
+	const res = await fetch(url, {
+		method: "POST",
+		body: JSON.stringify(data),
+		headers: {
+			"Content-Type": "application/json",
+		},
 	});
 };

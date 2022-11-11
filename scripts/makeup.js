@@ -12,6 +12,8 @@ const getDataParticularPage = async () => {
 		appendDataOnPage(data[i], i);
 	}
 	// }, 2000);
+
+	localStorage.setItem("currentPageContent", JSON.stringify(data));
 };
 
 getDataParticularPage();
@@ -19,27 +21,23 @@ getDataParticularPage();
 const appendDataOnPage = ({ id, pageData }) => {
 	document.querySelector(`.slider-cover${id} #product-container`).innerHTML =
 		"";
-	pageData.forEach((el) => {
+	pageData.forEach((el, i) => {
 		const showTemplate = `<div class="product-item">
 							<div class="product-image">
 								<div>
-									<img src="${el.img}"
+									<img title="${id}-${i}" src="${el.img}"
 										alt="">
 								</div>
 								<div class="product-cart">
-									<div>
-										<span class="material-symbols-outlined">
-											shopping_bag
-										</span>
-										<p>SHOP NNNOW</p>
-									</div>
-									<div>
-										<span class="material-symbols-outlined">
-											favorite
-										</span>
-										<p>FAVORITE</p>
-									</div>
-								</div>
+                                             <div>
+                                                  <span id="product-shop-now" class="material-symbols-outlined"> shopping_bag </span>
+                                                  <p id="product-shop-now">SHOP NNNOW</p>
+                                             </div>
+                                             <div>
+                                                  <span id="product-fav-add" class="material-symbols-outlined"> favorite </span>
+                                                  <p id="product-fav-add">FAVORITE</p>
+                                             </div>
+                                        </div>
 							</div>
 							<div class="product-details">
 								<div class="offer">
@@ -56,6 +54,89 @@ const appendDataOnPage = ({ id, pageData }) => {
 			`.slider-cover${id} #product-container`,
 		).innerHTML += showTemplate;
 	});
+};
+
+document.body.onclick = (event) => {
+	if (event.target.id == "product-fav-add") {
+		let id =
+			event.target.parentNode.parentNode.parentNode.children[0]
+				.children[0].title;
+		console.log("id: ", id);
+
+		//todo addProductToFavorite();
+		addProductToFavorite(id);
+	}
+
+	if (event.target.id == "product-shop-now") {
+		let id =
+			event.target.parentNode.parentNode.parentNode.children[0]
+				.children[0].title;
+		console.log("id: ", id);
+
+		//todo addProductToCart();
+		addProductToCart(id);
+	}
+};
+
+//todo taking the existing userDetails from ls
+let existingUserDataFromLS = JSON.parse(localStorage.getItem("existingUser"));
+let currentPageContent = JSON.parse(localStorage.getItem("currentPageContent"));
+
+// todo checking and getting the clicked proudct from dom
+const gettingClickedProduct = (id) => {
+	// console.log("temp: ", temp);
+
+	if (existingUserDataFromLS != undefined) {
+		id = id.split("-").map(Number);
+		console.log("id: ", id[0]);
+		console.log("id: ", id[1]);
+		let temp = currentPageContent[id[0] - 1].pageData[id[1]];
+		temp["email"] = existingUserDataFromLS.email;
+		return temp;
+	} else {
+		document.querySelector("#login-signup").style.display = "flex";
+		document.querySelector(".overlay").style.display = "block";
+		document.querySelector("#login").style.display = "block";
+	}
+};
+
+// todo adding the product into the cart database
+const addProductToCart = async (id) => {
+	let clickedProductData = gettingClickedProduct(id);
+	if (clickedProductData) {
+		try {
+			const url = `http://localhost:3000/cart`;
+			const res = await fetch(url, {
+				method: "POST",
+				body: JSON.stringify(clickedProductData),
+				headers: {
+					"Content-Type": "application/json",
+				},
+			});
+			const data = await res.json();
+		} catch (error) {
+			console.log("error: ", error);
+		}
+	}
+};
+
+const addProductToFavorite = async (id) => {
+	let clickedProductData = gettingClickedProduct(id);
+	if (clickedProductData) {
+		try {
+			const url = `http://localhost:3000/favorite`;
+			const res = await fetch(url, {
+				method: "POST",
+				body: JSON.stringify(clickedProductData),
+				headers: {
+					"Content-Type": "application/json",
+				},
+			});
+			const data = await res.json();
+		} catch (error) {
+			console.log("error: ", error);
+		}
+	}
 };
 
 //todo containers
