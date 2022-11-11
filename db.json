@@ -30,6 +30,54 @@
       "img": "https://cdn04.nnnow.com/web-images/medium/styles/DE79XFX5DJY/1656913188036/1.jpg",
       "email": "vishu842301@gmail.com",
       "id": 4
+    },
+    {
+      "brand": "IKOO",
+      "product": "Paddle X Pops Hair Brush - Let's Tango",
+      "price": "Rs. 3300",
+      "img": "https://cdn12.nnnow.com/web-images/medium/styles/TEVSC5X3JS9/1655180513758/1.jpg",
+      "email": "vishu842301@gmail.com",
+      "id": 5
+    },
+    {
+      "brand": "IKOO",
+      "product": "Paddle X Pops Hair Brush - Let's Tango",
+      "price": "Rs. 3300",
+      "img": "https://cdn12.nnnow.com/web-images/medium/styles/TEVSC5X3JS9/1655180513758/1.jpg",
+      "email": "vishu842301@gmail.com",
+      "id": 6
+    },
+    {
+      "brand": "HANZ DE FUKO",
+      "product": "Quicksand",
+      "price": "Rs. 2,200",
+      "img": "https://cdn04.nnnow.com/web-images/medium/styles/DE79XFX5DJY/1656913188036/1.jpg",
+      "email": "vishu842301@gmail.com",
+      "id": 7
+    },
+    {
+      "brand": "HANZ DE FUKO",
+      "product": "Quicksand",
+      "price": "Rs. 2,200",
+      "img": "https://cdn04.nnnow.com/web-images/medium/styles/DE79XFX5DJY/1656913188036/1.jpg",
+      "email": "ayazkhanm4512@gmail.com",
+      "id": 8
+    },
+    {
+      "brand": "IKOO",
+      "product": "Paddle X Pops Hair Brush - Let's Tango",
+      "price": "Rs. 3300",
+      "img": "https://cdn12.nnnow.com/web-images/medium/styles/TEVSC5X3JS9/1655180513758/1.jpg",
+      "email": "ayazkhanm4512@gmail.com",
+      "id": 9
+    },
+    {
+      "brand": "ABHATI SUISSE",
+      "product": "Kangi 31 Large Detangling Comb",
+      "price": "Rs. 2,600",
+      "img": "https://cdn01.nnnow.com/web-images/large/styles/WJIF76XQU75/1640925193703/1.jpg",
+      "email": "warningzone2021@gmail.com",
+      "id": 10
     }
   ],
   "favorite": [
@@ -43,6 +91,14 @@
       "img": "https://cdn04.nnnow.com/web-images/medium/styles/DE79XFX5DJY/1656913188036/1.jpg",
       "email": "vishu842301@gmail.com",
       "id": 2
+    },
+    {
+      "brand": "PIXI",
+      "product": "Vitamin Wakeup Mist",
+      "price": "Rs. 1,480",
+      "img": "https://cdn03.nnnow.com/web-images/large/styles/EB94S3UDUPD/1585571862841/1.jpg",
+      "email": "vishu842301@gmail.com",
+      "id": 3
     }
   ],
   "profile": [
@@ -55,17 +111,17 @@
       "id": 2
     },
     {
-      "name": "Karan",
+      "name": "Ayaz",
       "email": "ayazkhanm4512@gmail.com",
-      "password": "asdfdasdf",
+      "password": "123",
       "phone_number": "sdafasdfasdf",
       "isAdmin": false,
       "id": 3
     },
     {
-      "name": "Karan",
+      "name": "Vishwa Vivek Yadav",
       "email": "warningzone2021@gmail.com",
-      "password": "sadfas",
+      "password": "123",
       "phone_number": "+918423017adf",
       "isAdmin": false,
       "id": 4

@@ -181,6 +181,7 @@ loginWithPass.onclick = () => {
 		loginB.style.display = "none";
 		userLogin.style.display = "flex";
 		loginUserName.innerHTML = existingUserData.name.split(" ")[0];
+		window.location.href = "index.html";
 		alert("successfully login");
 	} else {
 		alert("Wrong Password");

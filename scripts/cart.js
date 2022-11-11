@@ -42,7 +42,7 @@ const appendFilterData = (data) => {
                                              <p>5 more offer</p>
                                         </div>
                                         <div class="move-remove">
-                                             <div><button>Move to bag</button></div>
+                                             <div><button>Move to Favorites</button></div>
                                              <div><button>Remove</button></div>
                                         </div>
                                    </div>
