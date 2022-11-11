@@ -1,0 +1,59 @@
+MakeupData = [
+    {
+        brand:"SEPHORA COLLECTION",
+        product:"Glow Perfection Foundation - 22 Natural",
+        price:"Rs. 1,352",
+        img:"https://cdn11.nnnow.com/web-images/preview/styles/8V1ZDUHUDR0/1533201155000/1.jpg",
+        img2:"https://cdn10.nnnow.com/web-images/preview/styles/8V1ZDUHUDR0/1617175487065/2.jpg",
+    },
+    {
+        brand:"SEPHORA COLLECTION",
+        product:"Beauty Amplifier Smoothing Primer",
+        price:"Rs. 1,320",
+        img:"https://cdn05.nnnow.com/web-images/preview/styles/V21Z2LOB7HR/1533204761626/1.jpg",
+        img2:"https://cdn00.nnnow.com/web-images/preview/styles/V21Z2LOB7HR/1594620678387/2.jpg",
+    },
+    {
+        brand:"SEPHORA COLLECTION",
+        product:"Cream Lip Stain - 94 Cherry Moon",
+        price:"Rs. 1,220",
+        img:"https://cdn13.nnnow.com/web-images/preview/styles/A8G6MLDJJNX/1539589327442/1.jpg",
+        img2:"",
+    },
+    {
+        brand:"BENEFIT COSMETICS",
+        product:"GALifornia Powder Blush - Sunny Golden Pink",
+        price:"Rs. 3,100",
+        img:"https://cdn17.nnnow.com/web-images/preview/styles/24SFBYE918Q/1610525740882/1.jpg",
+        img2:"https://cdn16.nnnow.com/web-images/preview/styles/24SFBYE918Q/1610525740880/2.jpg",
+    },
+    {
+        brand:"BENEFIT COSMETICS",
+        product:"Precisely, My Brow Pencil - 05 - Warm Black-Brown",
+        price:"Rs. 2,390",
+        img:"https://cdn09.nnnow.com/web-images/preview/styles/61JDU6ICLYI/1513148203704/1.jpg",
+        img2:"https://cdn11.nnnow.com/web-images/preview/styles/61JDU6ICLYI/1513148203705/2.jpg",
+    },
+    {
+        brand:"SEPHORA COLLECTION",
+        product:"Cream Lip Stain - 41 Vintage Rosewood",
+        price:"Rs. 1,220",
+        img:"https://cdn18.nnnow.com/web-images/preview/styles/LF9B8BFLIIQ/1519382076017/1.jpg",
+        img2:"https://cdn03.nnnow.com/web-images/preview/styles/LF9B8BFLIIQ/1581676936879/2.jpg",
+    },
+    {
+        brand:"HUDA BEAUTY",
+        product:"#Faux Filter Luminous Matte Full Coverage Liquid Foundation - 400G Macchiato",
+        price:"Rs. 2,805",
+        img:"https://cdn17.nnnow.com/web-images/preview/styles/W84IYEUK3N3/1631791079618/1.jpg",
+        img2:"https://cdn05.nnnow.com/web-images/preview/styles/W84IYEUK3N3/1631791079612/3.jpg",
+    }
+    
+]
+// {
+//     brand:"",
+//     product:"",
+//     price:"",
+//     img:"",
+//     img2:"",
+// },

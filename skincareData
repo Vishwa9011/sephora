@@ -1,0 +1,51 @@
+skincareData:[
+    {
+    brand:"SHISEIDO",
+    product:"Waso Quick Gentle Cleanser",
+    price:"Rs. 2,200",
+    img:"https://cdn09.nnnow.com/web-images/preview/styles/LK8JYTR9UEY/1593684983302/1.jpg",
+    img2:"https://cdn06.nnnow.com/web-images/preview/styles/LK8JYTR9UEY/1593684983300/2.jpg",
+    },
+    {
+        brand:"SHISEIDO",
+        product:"Waso Color-Smart Day Time Moisturizer Oil-Free",
+        price:"Rs. 2,700",
+        img:"https://cdn14.nnnow.com/web-images/preview/styles/0235QYQLU6R/1535611149325/1.jpg",
+        img2:"https://cdn12.nnnow.com/web-images/preview/styles/0235QYQLU6R/1535611149326/2.jpg",
+    },
+    {
+        brand:"SHISEIDO",
+        product:"Waso Soft And Cushy Polisher",
+        price:"Rs. 2,300",
+        img:"https://cdn10.nnnow.com/web-images/preview/styles/MYEN8DMERKS/1593757512727/1.jpg",
+        img2:"https://cdn08.nnnow.com/web-images/preview/styles/MYEN8DMERKS/1535611149389/2.jpg",
+    },
+    {
+        brand:"SHISEIDO",
+        product:"Refreshing Cleansing Water",
+        price:"Rs. 2,200",
+        img:"https://cdn09.nnnow.com/web-images/preview/styles/KG8JJIY4Y7C/1593757512690/1.jpg",
+        img2:"https://cdn14.nnnow.com/web-images/preview/styles/KG8JJIY4Y7C/1618914271050/50.jpg",
+    },
+    {
+        brand:"CLINIQUE",
+        product:"Dramatically Different Moisturizing Gel - Oily And Combination Skin",
+        price:"Rs. 1,638",
+        img:"https://cdn05.nnnow.com/web-images/preview/styles/AHI3HAMXH5V/1494572076433/1.jpg",
+        img2:"https://cdn03.nnnow.com/web-images/preview/styles/AHI3HAMXH5V/1494572076434/2.jpg",
+    },
+    {
+        brand:"CLINIQUE",
+        product:"Smart SPF 15 Custom Repair Moisturizer - Combination And Oily Skin",
+        price:"Rs. 5,694",
+        img:"https://cdn06.nnnow.com/web-images/preview/styles/GWPFWHRC4RQ/1494571104810/1.jpg",
+        img2:"https://cdn02.nnnow.com/web-images/preview/styles/GWPFWHRC4RQ/1567665811669/7.jpg",
+    },
+    {
+        brand:"BURT'S BEES",
+        product:"Baby Bee Nourishing Lotion - Original",
+        price:"Rs. 1,550",
+        img:"https://cdn04.nnnow.com/web-images/preview/styles/KIJKUXM7P7W/1640326187321/1.jpg",
+        img2:"https://cdn02.nnnow.com/web-images/preview/styles/KIJKUXM7P7W/1519035539750/2.jpg",
+    }
+]
