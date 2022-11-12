@@ -353,6 +353,8 @@
           grid-template-columns: repeat(1, 1fr);
           gap: 2px;
      }
+
+
 }
 
 
@@ -519,28 +521,13 @@
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
-     /* #beautyPass {
-          height: 50px;
-     }
 
-     #lazy-girl {
-          height: 300px;
-     }
-
-     #fav-brand {
-          height: 150px;
-     }
-
-     #newBlock {
-          height: 400px;
-     }
-
-     #sephoraDiaries {
-          height: 400px;
-     } */
-
-     .sephoraDiariesp {
+     #slider .sephoraDiariesp {
           font-size: 15px;
+     }
+
+     #slider {
+          height: 450px;
      }
 }
 
@@ -554,4 +541,11 @@
      .sephoraDiariesp+p {
           font-size: 8px;
      }
+
+     
+
+     #slider {
+          height: 350px;
+     }
+
 }

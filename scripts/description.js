@@ -63,6 +63,11 @@ priceContainer.innerHTML = price;
 
 //? todo =========================Add to bag button==============================
 const AddtoBagFromDescription = document.querySelector("#addToBag");
+const AddtoFavFromDescription = document.querySelector("#addtoFavorite");
+
+AddtoFavFromDescription.onclick = () => {
+	addProductToFav();
+};
 
 AddtoBagFromDescription.onclick = () => {
 	addProductToCart();
@@ -76,7 +81,7 @@ let currentPageContent = JSON.parse(localStorage.getItem("productExaminData"));
 const gettingClickedProduct = () => {
 	if (existingUserDataFromLS != undefined) {
 		currentPageContent["email"] = existingUserDataFromLS.email;
-		console.log("currentPageContent: ", currentPageContent);
+		// console.log("currentPageContent: ", currentPageContent);
 		return currentPageContent;
 	} else {
 		document.querySelector("#login-signup").style.display = "flex";
@@ -91,6 +96,25 @@ const addProductToCart = async () => {
 	if (clickedProductData) {
 		try {
 			const url = `http://localhost:3000/cart`;
+			const res = await fetch(url, {
+				method: "POST",
+				body: JSON.stringify(clickedProductData),
+				headers: {
+					"Content-Type": "application/json",
+				},
+			});
+			const data = res.json();
+		} catch (error) {
+			console.log("error: ", error);
+		}
+	}
+};
+
+const addProductToFav = async () => {
+	let clickedProductData = gettingClickedProduct();
+	if (clickedProductData) {
+		try {
+			const url = `http://localhost:3000/favorite`;
 			const res = await fetch(url, {
 				method: "POST",
 				body: JSON.stringify(clickedProductData),

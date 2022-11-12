@@ -64,6 +64,16 @@ const gotoPage = (val) => {
 	window.location.href = `${val}.html`;
 };
 
+// todo navbar navigation
+let number = 0;
+document.getElementById("midGrid").addEventListener("click", () => {
+	console.log(number++);
+	if (number % 2 == 1) {
+		document.getElementById("last").style.display = "flex";
+	} else {
+		document.getElementById("last").style.display = "none";
+	}
+});
 // // todo show the imagedetails
 // document.body.onclick = (event) => {
 // 	console.log(event.target.className);

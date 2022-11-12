@@ -481,3 +481,8 @@
           width: 100%;
      }
 }
+
+
+#addtoFavorite {
+     cursor: pointer;
+}

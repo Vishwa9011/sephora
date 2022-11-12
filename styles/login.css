@@ -1,5 +1,3 @@
-
-
 p {
      font-size: 13px;
      font-weight: lighter;
@@ -450,6 +448,34 @@ a {
      display: none;
 }
 
+
+
+
+@media all and (min-width:100px) and (max-width:400px) {
+     #login-signup {
+          width: 70%;
+          height: 100%;
+          margin: auto;
+     }
+}
+
+@media all and (min-width:400px) and (max-width:700px) {
+     #login-signup {
+          width: 80%;
+          height: 100%;
+          margin: auto;
+     }
+}
+
+@media all and (min-width:410px) and (max-width:1000px) {
+     #login-signup {
+          width: 50%;
+          height: 100%;
+          margin: auto;
+          margin-top: 20px;
+          margin-bottom: 20px;
+     }
+}
 
 
 

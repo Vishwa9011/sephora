@@ -104,6 +104,11 @@ nav {
      /* border: 1px solid red; */
 }
 
+#midGrid {
+     display: none;
+}
+
+
 #mid .mid-nav-container {
      width: 90%;
      height: 100%;
@@ -172,6 +177,11 @@ nav {
 
 #midspan>div:last-child {
      margin-left: 10px;
+}
+
+#star-mid-text>p {
+     font-size: 12px;
+     white-space: nowrap;
 }
 
 #midspan div>a>span {
@@ -279,6 +289,7 @@ nav {
      margin: auto;
      height: 65px;
      position: relative;
+     display: flex;
      border-bottom: .5px solid rgb(222, 222, 222);
 }
 
@@ -374,4 +385,126 @@ nav {
      list-style: none;
      padding: 4px 0;
 
+}
+
+
+
+@media all and (min-width: 768px) and (max-width: 1024px) {
+     #firstR {
+          display: none;
+     }
+
+     #firstM {
+          width: 100%;
+     }
+
+     #firstL {
+          display: none;
+     }
+
+     #star-mid-text {
+          font-size: 10px !important;
+     }
+
+     #midSearch {
+          display: none;
+     }
+
+     #midspan {
+          width: 20%;
+     }
+
+     #midimg {
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          width: 25%;
+     }
+
+     #midGrid {
+          display: flex;
+     }
+
+     #midGrid>span {
+          font-size: 30px;
+     }
+
+     #last {
+          height: 500px;
+          width: 100%;
+     }
+
+     #last>#nav-links {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+     }
+
+     .star>div>span {
+          font-size: 1rem !important;
+     }
+}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
+     #firstR {
+          display: none;
+     }
+
+     #firstM {
+          width: 90%;
+
+     }
+
+     #firstL {
+          display: none;
+     }
+
+     #star-mid-text {
+          font-size: 10px !important;
+     }
+
+     #midSearch {
+          display: none;
+     }
+
+     #midimg {
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          width: 30%;
+     }
+
+     #midGrid {
+          display: flex;
+     }
+
+     #midGrid>span {
+          font-size: 28px;
+
+     }
+
+     #midimg img {
+          width: 90%;
+          height: 100%;
+     }
+
+
+     #midspan {
+          width: 40%;
+     }
+
+     #last {
+          height: 500px;
+          width: 100%;
+     }
+
+     #last>#nav-links {
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+     }
+
+     .star>div>span {
+          font-size: 1rem !important;
+     }
 }

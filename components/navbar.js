@@ -20,7 +20,7 @@ const navbar = () => {
                     <div><span class="material-symbols-outlined" style="color: #ec008c;">star</span>
                     </div>
                </div>
-               <div style="text-align: center; padding:0 10px; font-size: 11px;">
+               <div id="star-mid-text" style="text-align: center; padding:0 10px;">
                     <p>Get 10% OFF on your first purhace.Use code:</p>
                     <p>BEAUTY10</p>
                </div>
@@ -55,8 +55,9 @@ const navbar = () => {
                </div>
           </div>
           <div id="midimg">
-               <a href="/"> <img src="./images/SEPHORA.png" alt="logo"></a>
-          </div>
+               <div id="midGrid"> <span class="material-symbols-outlined">menu</span></div>
+                    <a href="/"> <img src="./images/SEPHORA.png" alt="logo"></a>
+               </div>
           <div id="midspan">
                <div>
                     <a>

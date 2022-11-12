@@ -1,57 +1,25 @@
 {
   "cart": [
     {
-      "brand": "SEPHORA COLLECTION",
-      "product": "Beauty Amplifier Smoothing Primer",
-      "price": "Rs. 1,320",
-      "img": "https://cdn05.nnnow.com/web-images/preview/styles/V21Z2LOB7HR/1533204761626/1.jpg",
-      "img2": "https://cdn00.nnnow.com/web-images/preview/styles/V21Z2LOB7HR/1594620678387/2.jpg",
-      "email": "ayazkhanm4512@gmail.com",
-      "id": 3
+      "id": 200
     },
     {
-      "brand": "PIXI",
-      "product": "Large Lash Mascara - Best Brown",
-      "price": "Rs. 1,580",
-      "img": "https://cdn10.nnnow.com/web-images/large/styles/J47VL7YANSZ/1585820855594/1.jpg",
-      "email": "ayazkhanm4512@gmail.com",
-      "id": 5
+      "img": "https://cdn05.nnnow.com/web-images/medium/styles/UPN1DIYDEOO/1539585373094/1.jpg",
+      "brand": "SEPHORA COLLECTION",
+      "product": "Advanced Brush Set",
+      "price": "Rs. 6,350",
+      "email": "vishu842301@gmail.com",
+      "id": 101
     }
   ],
   "favorite": [
     {
-      "brand": "SHISEIDO",
-      "product": "Waso Soft And Cushy Polisher",
-      "price": "Rs. 2,300",
-      "img": "https://cdn10.nnnow.com/web-images/preview/styles/MYEN8DMERKS/1593757512727/1.jpg",
-      "img2": "https://cdn08.nnnow.com/web-images/preview/styles/MYEN8DMERKS/1535611149389/2.jpg",
-      "email": "vishu842301@gmail.com",
-      "id": 2
-    },
+      "id": 100
+    }
+  ],
+  "orders": [
     {
-      "brand": "BENEFIT COSMETICS",
-      "product": "Posietint Lip And Cheek Stain Mini - Poppy Pink",
-      "price": "Rs. 1,720",
-      "img": "https://cdn09.nnnow.com/web-images/preview/styles/9WDXRBDTB5E/1583388932261/1.jpg",
-      "img2": "https://cdn07.nnnow.com/web-images/preview/styles/9WDXRBDTB5E/1583388932259/2.jpg",
-      "email": "vishu842301@gmail.com",
-      "id": 3
-    },
-    {
-      "img": "https://cdn13.nnnow.com/web-images/preview/styles/A8G6MLDJJNX/1539589327442/1.jpg",
-      "brand": "SEPHORA COLLECTION",
-      "product": "Cream Lip Stain - 94 Cherry Moon",
-      "price": "Rs. 1,220",
-      "email": "ayazkhanm4512@gmail.com",
-      "id": 5
-    },
-    {
-      "brand": "PIXI",
-      "product": "Vitamin Wakeup Mist",
-      "price": "Rs. 1,480",
-      "img": "https://cdn03.nnnow.com/web-images/large/styles/EB94S3UDUPD/1585571862841/1.jpg",
-      "email": "ayazkhanm4512@gmail.com",
-      "id": 7
+      "id": 300
     }
   ],
   "profile": [

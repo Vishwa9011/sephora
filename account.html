@@ -366,9 +366,10 @@
                               <div>
                                    <div>
                                         <p>Name</p>
-                                        <button>edit</button>
+                                        <button onclick="accountEdit()">edit</button>
                                    </div>
-                                   <input id="myinfo_PrName" type="text" value="Prince Sharma">
+                                   <input id="myinfo_PrName" type="text" onblur="changeName()" disabled
+                                        value="Prince Sharma">
                               </div>
                          </div>
                          <div class="myinfo_Pr">
@@ -376,7 +377,7 @@
                                    <div>
                                         <p>Email</p>
                                    </div>
-                                   <input type="email" value="prince@gmail.com">
+                                   <input type="email" id="accountEmail" disabled value="prince@gmail.com">
                               </div>
                          </div>
                          <div class="myinfo_Pr">
@@ -384,16 +385,17 @@
                                    <div>
                                         <p>Phone Number</p>
                                    </div>
-                                   <input type="number" value="8637085433">
+                                   <input type="text" id="accountMob" disabled value="8637085433">
                               </div>
                          </div>
                          <div class="myinfo_Pr">
                               <div id="">
                                    <div>
                                         <p>Password</p>
-                                        <button>change</button>
+                                        <button onclick="changePass()">change</button>
                                    </div>
-                                   <input type="password" value="123456789">
+                                   <input type="password" id="accountPass" onblur="changePassword()" disabled
+                                        value="123456789">
                               </div>
                          </div>
                     </div>
@@ -555,4 +557,26 @@
                loyalArrow.style.rotate = '0deg'
           }
      }
+
+
+     // todo to show the details in account section of the user
+     let accountDetailsOfUser = JSON.parse(localStorage.getItem("existingUser"))
+
+     // destructuring
+     let { name, email, password, phone_number } = accountDetailsOfUser
+     console.log('phone_number: ', phone_number);
+
+     //todo dom manupulation for the account.html
+     let accountName = document.querySelector("#myinfo_PrName")
+     let accountEmail = document.querySelector("#accountEmail")
+     let accounntMob = document.querySelector("#accountMob")
+     let accountPass = document.querySelector("#accountPass")
+
+     accountName.value = name
+     accountEmail.value = email
+     accountPass.value = password
+     accounntMob.value = password
+
+   
+  
 </script>
