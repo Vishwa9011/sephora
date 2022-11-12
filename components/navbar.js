@@ -77,7 +77,7 @@ const navbar = () => {
                     <div id="userId"><span id="loginUserName"></span><span id="loginArrow"></span></div>
                     <ul id="logOut">
                          <li><a href="account.html"> <img src="./images/user.png" class="login-img"> <span>My Account</span> </a></li>
-                         <li><a href="order.html"><img src="./images/cube.png" class="login-img"> <span>My Order</span> </a></li>
+                         <li><a href="myorders.html"><img src="./images/cube.png" class="login-img"> <span>My Order</span> </a></li>
                          <li id="signOut"><img src="./images/logout.png" class="login-img"> <span>Sign Out</span> </li>
                     </ul>
                </div>

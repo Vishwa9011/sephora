@@ -2,32 +2,22 @@
   "cart": [
     {
       "id": 200
-    },
-    {
-      "img": "https://cdn05.nnnow.com/web-images/medium/styles/UPN1DIYDEOO/1539585373094/1.jpg",
-      "brand": "SEPHORA COLLECTION",
-      "product": "Advanced Brush Set",
-      "price": "Rs. 6,350",
-      "email": "vishu842301@gmail.com",
-      "id": 101
-    },
-    {
-      "img": "https://cdn17.nnnow.com/web-images/medium/styles/PSY9GYLUMYU/1634887017760/1.jpg",
-      "brand": "MOROCCANOIL",
-      "product": "Texture Clay Hair Cream",
-      "price": "Rs. 2,340",
-      "email": "vishu842301@gmail.com",
-      "id": 201
     }
   ],
   "favorite": [
     {
-      "id": 100
+      "id": 101
     }
   ],
   "orders": [
     {
-      "id": 300
+      "brand": "SEPHORA COLLECTION",
+      "product": "Cream Lip Stain - 94 Cherry Moon",
+      "price": "Rs. 1,220",
+      "img": "https://cdn13.nnnow.com/web-images/preview/styles/A8G6MLDJJNX/1539589327442/1.jpg",
+      "img2": "https://cdn04.nnnow.com/web-images/preview/styles/NYULJ49GXL8/1581676936889/2.jpg",
+      "email": "vishu842301@gmail.com",
+      "id": 201
     }
   ],
   "profile": [
@@ -667,19 +657,19 @@
         {
           "brand": "CAROLINA HERRERA",
           "product": "Good Girl Eau De Parfum Legere",
-          "price": "Rs. 7,300 - Rs. 9,300",
+          "price": "Rs. 7,300",
           "img": "https://cdn19.nnnow.com/web-images/medium/styles/SZPNKCRF68K/1663845990767/1.jpg"
         },
         {
           "brand": "CAROLINA HERRERA",
           "product": "Bad Boy Eau De Parfum",
-          "price": "Rs. 6,500 - Rs. 9,050",
+          "price": "Rs. 6,500",
           "img": "https://cdn12.nnnow.com/web-images/medium/styles/3JQ3QQWEB55/1663845990853/1.jpg"
         },
         {
           "brand": "PACO RABANNE",
           "product": "Fame Eau De Parfum",
-          "price": "Rs. 7,600 - Rs. 9,900",
+          "price": "Rs. 7,600",
           "img": "https://cdn04.nnnow.com/web-images/medium/styles/SLYXQBAQXR4/1664533524792/1.jpg"
         },
         {
@@ -702,25 +692,25 @@
         {
           "brand": "TOM FORD",
           "product": "Black Orchid Eau De Parfum",
-          "price": "Rs. 9,700 - Rs. 13,600",
+          "price": "Rs. 9,700",
           "img": "https://cdn18.nnnow.com/web-images/medium/styles/9220JIJFV8H/1589003350413/1.jpg"
         },
         {
           "brand": "TOM FORD",
           "product": "Noir Extreme Eau De Parfum",
-          "price": "Rs. 9,700 - Rs. 13,600",
+          "price": "Rs. 9,700",
           "img": "https://cdn07.nnnow.com/web-images/medium/styles/VITHTL168U1/1589003350452/1.jpg"
         },
         {
           "brand": "BVLGARI",
           "product": "Man Glacial Essence Eau De Parfum",
-          "price": "Rs. 7,500 - Rs. 10,100",
+          "price": "Rs. 7,500",
           "img": "https://cdn17.nnnow.com/web-images/medium/styles/6CWC7M5L481/1610349257790/1.jpg"
         },
         {
           "brand": "PACO RABANNE",
           "product": "1 Million Elixir Eau De Parfum",
-          "price": "Rs. 9,250 - Rs. 11,350",
+          "price": "Rs. 9,250",
           "img": "https://cdn07.nnnow.com/web-images/medium/styles/D7MJYULTEGZ/1652776303560/1.jpg"
         },
         {
@@ -732,13 +722,13 @@
         {
           "brand": "LANCOME",
           "product": "La Vie Est Belle Eau De Parfum",
-          "price": "Rs. 5,440 - Rs. 8,700",
+          "price": "Rs. 5,440",
           "img": "https://cdn04.nnnow.com/web-images/medium/styles/2GMA8E8Y68S/1644231721915/1.jpg"
         },
         {
           "brand": "DIOR",
           "product": "Sauvage Parfum",
-          "price": "Rs. 8,600 - Rs. 17,600",
+          "price": "Rs. 8,600",
           "img": "https://cdn15.nnnow.com/web-images/medium/styles/YRLW7QZFTEA/1637735894017/1.jpg"
         }
       ]
@@ -749,7 +739,7 @@
         {
           "brand": "ELIZABETH ARDEN",
           "product": "My Fifth Avenue Eau De Parfum",
-          "price": "Rs. 4325 - Rs. 5,550",
+          "price": "Rs. 4325",
           "img": "https://cdn03.nnnow.com/web-images/medium/styles/P4FI87Z9XKE/1607690426098/1.jpg"
         },
         {
@@ -767,7 +757,7 @@
         {
           "brand": "HUGO BOSS",
           "product": "Boss The Scent Absolute For Her Eau De Parfum",
-          "price": "Rs. 6,600 - Rs. 8,550",
+          "price": "Rs. 6,600",
           "img": "https://cdn11.nnnow.com/web-images/medium/styles/YXI423G04SK/1604487730449/1.jpg"
         },
         {
@@ -785,7 +775,7 @@
         {
           "brand": "DAVIDOFF",
           "product": "Cool Water Reborn For Him Eau De Toilette",
-          "price": "Rs. 3,900 - Rs. 4,950",
+          "price": "Rs. 3,900",
           "img": "https://cdn18.nnnow.com/web-images/medium/styles/UUJYVNLDHIQ/1663923503078/1.jpg"
         }
       ]
@@ -816,7 +806,7 @@
         {
           "brand": "SEPHORA COLLECTION",
           "product": "Face Konjac Radiance Sponge",
-          "price": "Rs. 920 - Rs. 950",
+          "price": "Rs. 920",
           "img": "https://cdn16.nnnow.com/web-images/medium/styles/8CNXO3WNP02/1533194318316/1.jpg"
         },
         {
@@ -959,13 +949,13 @@
         {
           "brand": "MOROCCANOIL",
           "product": "Moisture Repair Shampoo",
-          "price": "Rs. 900 - Rs. 1,890",
+          "price": "Rs. 900",
           "img": "https://cdn13.nnnow.com/web-images/medium/styles/FCNE5T2TV5T/1634887143628/1.jpg"
         },
         {
           "brand": "MOROCCANOIL",
           "product": "Moisture Repair Conditioner",
-          "price": "Rs. 900 - Rs. 1,890",
+          "price": "Rs. 900",
           "img": "https://cdn18.nnnow.com/web-images/medium/styles/ROAP1AH5IAH/1634887017734/1.jpg"
         },
         {
@@ -994,7 +984,7 @@
         {
           "brand": "AVEDA",
           "product": "Nutriplenish Shampoo Deep Moisture",
-          "price": "Rs. 750 - Rs. 2,450",
+          "price": "Rs. 750",
           "img": "https://cdn18.nnnow.com/web-images/medium/styles/BTCF3SBOYMY/1580451959426/1.jpg"
         },
         {
@@ -1024,7 +1014,7 @@
         {
           "brand": "AVEDA",
           "product": "Nutriplenish Conditioner Deep Moisture",
-          "price": "Rs. 850 - Rs. 3,200",
+          "price": "Rs. 850",
           "img": "https://cdn11.nnnow.com/web-images/medium/styles/GSYDXLHZLUU/1580451959414/1.jpg"
         }
       ]

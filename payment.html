@@ -10,19 +10,15 @@
           <title>SEPHORA - Payment</title>
 
      </head>
+
      <body>
           <div id="container">
                <header>
                     <div id="cart-navbar">
                          <div>
                               <a href="/">
-                                   <img id="logo" src="" alt="logo">
+                                   <img id="logo" src="./images/SEPHORA.png" alt="logo">
                               </a>
-                         </div>
-                         <div id="login_div">
-                              <i class="fa-sharp fa-solid fa-user">
-                              </i>
-                              <span>Login</span>
                          </div>
                     </div>
                </header>
@@ -47,7 +43,7 @@
                                              </div>
                                         </div>
                                         <div>
-                                             <h3>Rs. 1,233</h3>
+                                             <h3 id="totalPrice__">Rs. 1,233</h3>
                                         </div>
                                    </div>
                                    <div id="payableSection_Pr">
@@ -217,7 +213,6 @@
                                    </div>
                               </div>
                               <div id="rhs_div">
-
                                    <div id="total_div">
                                         <div id="item_details">
                                              <h4 id="overview">OVERVIEW</h4>
@@ -236,103 +231,13 @@
                     </div>
                </main>
           </div>
-          
+
+          <div id="loader">
+               <div>
+                    <img src="./images/Eclipse-0.9s-191px (2).gif" alt="">
+               </div>
+          </div>
+          <script src="./scripts/checkout.js"></script>
      </body>
 
 </html>
-
-<script>
-     let cardPayment = document.querySelector("#C_D_card")
-
-     cardPayment.onclick = () => {
-          document.querySelector("#cardPayment").style.display = "block"
-
-          document.querySelector("#popularbanks").style.display = "none"
-
-          document.querySelector("#otherWallets").style.display = "none"
-
-          document.querySelector("#UPIpayment").style.display = "none"
-     }
-
-     let netPayment = document.querySelector("#N_banking")
-     netPayment.onclick = () => {
-          document.querySelector("#cardPayment").style.display = "none"
-
-          document.querySelector("#popularbanks").style.display = "block"
-
-          document.querySelector("#otherWallets").style.display = "none"
-
-          document.querySelector("#UPIpayment").style.display = "none"
-     }
-
-     let walletPayment = document.querySelector("#O_wallets")
-     walletPayment.onclick = () => {
-          document.querySelector("#cardPayment").style.display = "none"
-
-          document.querySelector("#popularbanks").style.display = "none"
-
-          document.querySelector("#otherWallets").style.display = "block"
-
-          document.querySelector("#UPIpayment").style.display = "none"
-     }
-
-     let upiPayment = document.querySelector("#Upi")
-     upiPayment.onclick = () => {
-          document.querySelector("#cardPayment").style.display = "none"
-
-          document.querySelector("#popularbanks").style.display = "none"
-
-          document.querySelector("#otherWallets").style.display = "none"
-
-          document.querySelector("#UPIpayment").style.display = "block"
-     }
-
-     let COD = document.querySelector("#Cash_on_Delivery")
-     let CODcount = 0;
-     COD.onclick = () => {
-          document.querySelector("#cardPayment").style.display = "none"
-
-          document.querySelector("#popularbanks").style.display = "none"
-
-          document.querySelector("#otherWallets").style.display = "none"
-
-          document.querySelector("#UPIpayment").style.display = "none"
-
-          CODcount++
-     }
-
-     let select = document.querySelector("#selectBanks")
-
-     var count = 0
-     console.log('count:', count)
-     select.onclick = () => {
-          count++
-     }
-
-     var OWcount = 0;
-     let selctOW = document.querySelector("#otherWallets_button")
-     selctOW.onclick = () => {
-          OWcount++
-     }
-
-     let checkout = document.querySelector(".checkout")
-
-     checkout.onclick = () => {
-          let cardNo = document.querySelector("#cardNo").value
-          let cardName = document.querySelector("#cardName").value
-          let cardCVV = document.querySelector("#cardCVV").value
-          let upiCod = document.querySelector("#thisIsUpi").value
-          let alert1 = document.querySelector("#makeCardP1None")
-          let alert2 = document.querySelector("#makeCardP2None")
-
-          if (cardNo.length != 16 || cardName.length < 3 || cardCVV.length != 3) {
-               alert1.style.display = "block"
-               alert2.style.display = "block"
-          }
-          if ((cardNo.length == 16 && cardName.length >= 3 && cardCVV.length == 3) || count >= 2 || OWcount >= 1 || upiCod.includes(">") || CODcount > 0) {
-               alert("Your order has been placed")
-               alert1.style.display = "none"
-               alert2.style.display = "none"
-          }
-     }
-</script>

@@ -22,8 +22,25 @@ const filterDataForUser = (data) => {
 		return el["email"] == existingUserDataFromLS.email;
 	});
 	console.log("temp: ", temp);
-	getTotalPrice(temp);
-	appendFilterData(temp);
+	if (temp.length) {
+		getTotalPrice(temp);
+		appendFilterData(temp);
+	} else {
+		console.log("empty");
+		appendEmpty();
+	}
+};
+
+// todo empty
+const appendEmpty = () => {
+	document.querySelector("#lhs_cartDiv").innerHTML = `<div id="EmptyBag">
+												<div id="EmptyCart">
+													<img src="./images/cart.jpeg" alt="">
+												</div>
+												<div id="shop_more">
+													<a href="sale.html"><button>SHOP NOW</button></a>
+												</div>
+											</div>`;
 };
 
 const appendFilterData = (data) => {
@@ -111,7 +128,12 @@ let add = 0;
 const getTotalPrice = (data) => {
 	add = data.reduce((acc, el) => {
 		let val = el.price.split(".")[1].split(",");
-		return acc + +(val[0] + val[1]);
+		console.log("val: ", val);
+		if (val[1]) {
+			return acc + +(val[0] + val[1] || 0);
+		} else {
+			return acc + +val[0];
+		}
 	}, 0);
 	document.querySelector(
 		"#subtotal>span+span",
@@ -161,8 +183,8 @@ const charges = (discount, add) => {
 	let gst = document.querySelector("#gst>span+span");
 	let totalPrice = document.querySelector("#total>span+span");
 
-	//
-	let gstPrice = +(discount || add * 0.18).toFixed(2);
+	//finding the gst
+	let gstPrice = +((discount || add) * 0.18).toFixed(2);
 	deliveryCharge.innerHTML = `Rs. 40`;
 	gst.innerHTML = `Rs. ${gstPrice}`;
 	totalPrice.innerHTML = `Rs. ${(
@@ -184,6 +206,8 @@ checkoutBTN.onclick = (event) => {
 	console.log("event: ", event);
 	let addressBar = document.querySelector("#AddressBody_Pr");
 	if (AddressData) {
+		let amountDetails = { discount, add };
+		localStorage.setItem("amountDetails", JSON.stringify(amountDetails));
 		window.location.href = "payment.html";
 	} else {
 		addressBar.style.display = "block";

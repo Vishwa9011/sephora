@@ -1,8 +1,8 @@
-console.log("Welcome in favorites.js");
+console.log("Welcome in myorders.js");
 
 let existingUserDataFromLS = JSON.parse(localStorage.getItem("existingUser"));
 const getFavDataFromDatabase = async () => {
-	const url = `http://localhost:3000/favorite`;
+	const url = `http://localhost:3000/orders`;
 	const res = await fetch(url);
 	const data = await res.json();
 	console.log("data: ", data);
@@ -28,7 +28,7 @@ const filterDataForUser = (data) => {
 const appendEmpty = () => {
 	document.querySelector("#fav-container").innerHTML = `<div id="EmptyBag">
 												<div id="EmptyCart">
-													<img src="./images/favorite.jpeg" alt="">
+													<img src="./images/myorders.jpeg" alt="">
 												</div>
 												<div id="shop_more">
 													<a href="sale.html"><button>SHOP NOW</button></a>
@@ -64,12 +64,8 @@ const appendFilterData = (data) => {
                                         <div class="product-price">
                                              <p>${el.price}</p>
                                         </div>
-                                        <div class="product-more-offer">
-                                             <p>5 more offer</p>
-                                        </div>
                                         <div class="move-remove">
-                                             <div><button onclick="moveToBag('${el.id}')">Move to bag</button></div>
-                                             <div><button onclick="RemoveFromFav('${el.id}')">Remove</button></div>
+                                             <div><button onclick="RemoveFromOrder('${el.id}')">Cancel Order</button></div>
                                         </div>
                                    </div>
                               </div>`;
@@ -78,8 +74,8 @@ const appendFilterData = (data) => {
 };
 
 // todo remove the product from cart
-const RemoveFromFav = async (id) => {
-	const url = `http://localhost:3000/favorite/${id}`;
+const RemoveFromOrder = async (id) => {
+	const url = `http://localhost:3000/orders/${id}`;
 	const res = await fetch(url, {
 		method: "DELETE",
 		headers: {
@@ -87,27 +83,4 @@ const RemoveFromFav = async (id) => {
 		},
 	});
 	getFavDataFromDatabase();
-};
-
-// todo move the element into the favorite
-const moveToBag = async (id) => {
-	const url = `http://localhost:3000/favorite/${id}`;
-	const res = await fetch(url);
-	const data = await res.json();
-
-	if (data) RemoveFromFav(id);
-
-	//todo adding the data in fav
-	addToBag(data);
-};
-
-const addToBag = async (data) => {
-	const url = `http://localhost:3000/cart`;
-	const res = await fetch(url, {
-		method: "POST",
-		body: JSON.stringify(data),
-		headers: {
-			"Content-Type": "application/json",
-		},
-	});
 };

@@ -2,6 +2,27 @@ header {
      width: 100%;
 }
 
+#EmptyBag {
+     width: 100%;
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     position: relative !important;
+}
+
+#shop_more button {
+     padding: 15px 20px;
+     font-size: 1.4rem;
+     background: #f39;
+     color: white;
+     border: none;
+     font-weight: 600;
+     cursor: pointer;
+}
+
+
 .show-address {
      width: 90%;
      margin: auto;
