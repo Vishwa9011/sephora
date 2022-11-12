@@ -205,6 +205,10 @@ span {
         margin: auto;
     }
 
+    #top2 {
+        width: 75%;
+    }
+
     #top h1 {
         font-size: 1.2rem;
     }
@@ -260,6 +264,10 @@ span {
 
     #top h1 {
         font-size: 1rem;
+    }
+
+    #top2 {
+        width: 90%;
     }
 
     #middle p {

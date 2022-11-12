@@ -22,11 +22,10 @@ const appendDataOnPage = ({ id, pageData }) => {
 	document.querySelector(`.slider-cover${id} #product-container`).innerHTML =
 		"";
 	pageData.forEach((el, i) => {
-		const showTemplate = `<div class="product-item">
-							<div class="product-image">
-								<div>
-									<img title="${id}-${i}" src="${el.img}"
-										alt="">
+		const showTemplate = `<div class="product-item" >
+							<div class="product-image" >
+								<div onclick="CreateDescription('${el.img}','${el.brand}','${el.product}','${el.price}')">
+									<img title="${id}-${i}" src="${el.img}"	alt="">
 								</div>
 								<div class="product-cart">
                                              <div>
@@ -39,7 +38,7 @@ const appendDataOnPage = ({ id, pageData }) => {
                                              </div>
                                         </div>
 							</div>
-							<div class="product-details">
+							<div class="product-details" onclick="CreateDescription('${el.img}','${el.brand}','${el.product}','${el.price}')">
 								<div class="offer">
 									<img src="https://cdn02.nnnow.com/web-images/master/product_tags/cb6e9f96-922e-42cb-84ae-9337178f87fa/1554297283453/Sale.png"
 										alt="">
@@ -202,4 +201,12 @@ product_slide_next3.onclick = () => {
 };
 product_slide_prev3.onclick = () => {
 	product_slider_container3.scrollLeft -= 208;
+};
+
+// todo descritpion
+
+const CreateDescription = (img, brand, product, price) => {
+	let obj = { img, brand, product, price };
+	localStorage.setItem("productExaminData", JSON.stringify(obj));
+	window.location.href = "description.html";
 };

@@ -59,13 +59,13 @@ const navbar = () => {
           </div>
           <div id="midspan">
                <div>
-                    <a href="favorite.html">
-                         <span class="material-symbols-outlined" style='color:#f39'>favorite</span>
+                    <a>
+                         <span id="gotoFavPage" class="material-symbols-outlined" style='color:#f39'>favorite</span>
                     </a>
                </div>
                <div>
-                    <a href="cart.html">
-                         <span class="material-symbols-outlined" style='color:#f39'>shopping_bag</span>
+                    <a>
+                         <span id="gotoCartPage" class="material-symbols-outlined" style='color:#f39'>shopping_bag</span>
                     </a>
                </div>
                <div id="loginBtn"  class="loginBtn">
@@ -80,7 +80,6 @@ const navbar = () => {
                          <li id="signOut"><img src="./images/logout.png" class="login-img"> <span>Sign Out</span> </li>
                     </ul>
                </div>
-
           </div>
      </div>
 </div>

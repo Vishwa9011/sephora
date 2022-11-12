@@ -337,7 +337,7 @@ nav {
      box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
      visibility: hidden;
      opacity: 0;
-     transition: 200ms;
+     transition: 100ms;
      display: grid;
      grid-template-columns: repeat(5, 1fr);
      justify-content: center;
@@ -347,7 +347,7 @@ nav {
 
 .megamenu ul {
      width: 100%;
-     transition: 600ms;
+     transition: 0ms;
 }
 
 .megamenu ul>li {

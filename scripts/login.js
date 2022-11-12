@@ -27,6 +27,7 @@ const closeLoginPortal = () => {
 	document.querySelector(".overlay").style.display = "none";
 	document.getElementById("enter").style.display = "none";
 	document.getElementById("createAccount").style.display = "none";
+	document.querySelector("#login").style.display = "none";
 };
 
 //todo backBtn
@@ -176,13 +177,13 @@ loginWithPass.onclick = () => {
 	const existingUserData = JSON.parse(localStorage.getItem("existingUser"));
 	userPass = userPass.value;
 	if (existingUserData.password == userPass) {
-		console.log("Successfully Login");
+		// console.log("Successfully Login");
 		closeLoginPortal();
 		loginB.style.display = "none";
 		userLogin.style.display = "flex";
 		loginUserName.innerHTML = existingUserData.name.split(" ")[0];
-		window.location.href = "index.html";
 		alert("successfully login");
+		window.location.href = "index.html";
 	} else {
 		alert("Wrong Password");
 	}
@@ -197,7 +198,7 @@ signOut.onclick = () => {
 let checkExistingUser =
 	JSON.parse(localStorage.getItem("existingUser")) || null;
 
-console.log("checkExistingUser: ", checkExistingUser);
+// console.log("checkExistingUser: ", checkExistingUser);
 if (checkExistingUser) {
 	loginB.style.display = "none";
 	userLogin.style.display = "flex";

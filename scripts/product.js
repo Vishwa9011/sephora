@@ -27,7 +27,7 @@ const appendProductBrandData = async (data) => {
 		const showTemplate = `<div class="product-item">
                                    <div class="product-image">
                                         <div>
-                                             <img title="${i}" src="${el.img}" alt="">
+                                             <img title="${i}" src="${el.img}" alt="" onclick="CreateDescription('${i}')">
                                         </div>
                                         <div class="product-cart">
                                              <div>
@@ -40,7 +40,7 @@ const appendProductBrandData = async (data) => {
                                              </div>
                                         </div>
                                    </div>
-                                   <div class="product-details">
+                                   <div class="product-details" onclick="CreateDescription('${i}')">
                                         <div class="offer">
                                              <img src="https://cdn02.nnnow.com/web-images/master/product_tags/cb6e9f96-922e-42cb-84ae-9337178f87fa/1554297283453/Sale.png"
                                                   alt="">
@@ -139,4 +139,17 @@ const addProductToFavorite = async (id) => {
 			console.log("error: ", error);
 		}
 	}
+};
+
+// todo show the product details in the description
+const CreateDescription = (Index) => {
+	let sale_product_data = JSON.parse(
+		localStorage.getItem("sale-product-data"),
+	);
+
+	localStorage.setItem(
+		"productExaminData",
+		JSON.stringify(sale_product_data[Index]),
+	);
+	window.location.href = "description.html";
 };

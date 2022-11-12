@@ -17,6 +17,7 @@ const filterDataForUser = (data) => {
 		return el["email"] == existingUserDataFromLS.email;
 	});
 	console.log("temp: ", temp);
+	getTotalPrice(temp);
 	appendFilterData(temp);
 };
 
@@ -99,4 +100,47 @@ const addToFavorite = async (data) => {
 			"Content-Type": "application/json",
 		},
 	});
+};
+
+// todo finding the total price;
+let add = 0;
+const getTotalPrice = (data) => {
+	add = data.reduce((acc, el) => {
+		let val = el.price.split(".")[1].split(",");
+		return acc + +(val[0] + val[1]);
+	}, 0);
+
+	console.log({ add });
+	document.querySelector("#subtotal>span+span").innerHTML = `Rs. ${add}`;
+	charges(0, add);
+};
+
+// todo taking the promocode throw prompt
+let discount = 0;
+document.querySelector("#promo_code").onclick = () => {
+	let discountSpan = document.querySelector("#discount>span+span");
+	let val = prompt("Please Enter The promoCode");
+	if (val === "SEPHORA30") {
+		discount = (add * 0.3).toFixed(2);
+		discountSpan.innerHTML = `- Rs. ${discount}`;
+		discount = add - discount;
+		charges(discount, add);
+	}
+};
+
+//
+const charges = (discount, add) => {
+	let deliveryCharge = document.querySelector("#delivery_charges>span+span");
+	let gst = document.querySelector("#gst>span+span");
+	let totalPrice = document.querySelector("#total>span+span");
+	let gstPrice = +(add * 0.18).toFixed(2);
+	deliveryCharge.innerHTML = `Rs. 40`;
+	gst.innerHTML = `Rs. ${gstPrice}`;
+	totalPrice.innerHTML = `Rs. ${(discount || add) + 40 + gstPrice}`;
+};
+
+// TODO redirect to Sale when click the see more
+
+document.querySelector(".shop_more").onclick = () => {
+	window.location.href = "sale.html";
 };
