@@ -13,6 +13,7 @@
           <link rel="stylesheet" href="./styles/cart.css">
           <link rel="stylesheet" href="./styles/style.css">
           <link rel="stylesheet" href="./styles/favorite.css">
+          <link rel="stylesheet" href="./styles/address.css">
      </head>
 
      <body>
@@ -23,11 +24,6 @@
                               <img id="logo" src="./images/SEPHORA.png" alt="logo">
                          </a>
                     </div>
-                    <!-- <div id="login_div">
-                         <i class="fa-sharp fa-solid fa-user">
-                         </i>
-                         <span>Login</span>
-                    </div> -->
                </div>
           </header>
           <main id="cart-main">
@@ -38,10 +34,12 @@
                     </div>
                </div>
                <div id="all_eliments">
-
+                    <div class="show-address">
+                         <!-- addres -->
+                    </div>
                     <div id="main_div">
                          <div id="lhs_cartDiv">
-                             <!--  -->
+                              <!--  -->
                          </div>
                          <div id="rhs_div">
                               <div id="promo_code">
@@ -70,11 +68,143 @@
           </main>
 
 
-          <!--  --> 
-
+          <!--  -->
+          <section id="addressBarContainer">
+               <div id="overlay"></div>
+               <div id="AddressBody_Pr">
+                    <div id="addContainer_Pr">
+                         <div id="addTop_Pr">
+                              <div>
+                                   <button id="backToCart"><img
+                                             src="https://cdn-icons-png.flaticon.com/128/271/271220.png"
+                                             alt=""></button>
+                              </div>
+                              <div>
+                                   <h1 id="addAddressHead">Add Address</h1>
+                              </div>
+                         </div>
+                         <div class="nameAddress_Pr">
+                              <div>
+                                   <p>Name*</p>
+                              </div>
+                              <div><input id="addAddressName" type="text" placeholder="Name"></div>
+                              <div>
+                                   <p id="nameAlert_Pr">Plug in altleast 3 characters.</p>
+                              </div>
+                         </div>
+                         <div class="nameAddress_Pr">
+                              <div>
+                                   <p>Address*</p>
+                              </div>
+                              <div><input id="addAddressAddress" type="text"
+                                        placeholder="(House/Flat No.,Building,Street,Area/Locality)"></div>
+                              <div>
+                                   <p id="addressAlert_Pr">Please enter your address.</p>
+                              </div>
+                         </div>
+                         <div class="boxPhonePincode_Pr">
+                              <div class="phonePincode_Pr">
+                                   <div>
+                                        <p>Phone*</p>
+                                   </div>
+                                   <div><input id="addAddressPhone" type="number"></div>
+                                   <div>
+                                        <p id="phoneAlert_Pr">Please enter a valid phone number.</p>
+                                   </div>
+                              </div>
+                              <div class="phonePincode_Pr">
+                                   <div>
+                                        <p>Alternate Number</p>
+                                   </div>
+                                   <div><input id="addAddressAltNum" type="number"></div>
+                              </div>
+                         </div>
+                         <div class="boxPhonePincode_Pr">
+                              <div class="phonePincode_Pr">
+                                   <div>
+                                        <p>Pincode*</p>
+                                   </div>
+                                   <div><input id="addAddressPincode" type="number"></div>
+                                   <div>
+                                        <p id="pincodeAlert_Pr">We need a valid 6-digit pincode. Try again, please.</p>
+                                   </div>
+                              </div>
+                              <div class="phonePincode_Pr">
+                                   <div>
+                                        <p>Landmark</p>
+                                   </div>
+                                   <div><input id="addAddressLandmark" type="text"></div>
+                              </div>
+                         </div>
+                    </div>
+                    <div id="addAddressSubmit_Pr">
+                         <div id="addAddressSubmitButton_Pr">
+                              <button id="addAddressSubmitBtn_Pr">SAVE & PLACE ORDER</button>
+                         </div>
+                    </div>
+               </div>
+          </section>
 
           <!-- <script src="./scripts/index.js" type="module"></script> -->
           <script src="./scripts/cart.js"></script>
+
      </body>
+     <script>
+          let addAddressSubmitBtn = document.querySelector("#addAddressSubmitBtn_Pr")
+          let addressData = []
+          let name = document.querySelector("#addAddressName")
+          name.addEventListener('change', (event) => {
+               let nameAlert = document.querySelector("#nameAlert_Pr")
+               nameAlert.style.display = "none"
+          });
+
+
+          // todo addressing
+          addAddressSubmitBtn.onclick = () => {
+               let name = document.querySelector("#addAddressName").value
+               let address = document.getElementById("addAddressAddress").value
+               let phone = document.getElementById("addAddressPhone").value
+               let pincode = document.getElementById("addAddressPincode").value
+               let nameAlert = document.querySelector("#nameAlert_Pr")
+               let addressAlert = document.querySelector("#addressAlert_Pr")
+               let phoneAlert = document.querySelector("#phoneAlert_Pr")
+               let phonePincode = document.querySelector("#pincodeAlert_Pr")
+
+               if (name.length - 1 < 3) {
+                    nameAlert.style.display = "block"
+               }
+               if (address.length - 1 < 1) {
+                    addressAlert.style.display = "block"
+               }
+               if (phone.length - 1 <= 9) {
+                    phoneAlert.style.display = "block"
+               }
+               if (pincode.length - 1 <= 5) {
+                    phonePincode.style.display = "block"
+               }
+               if (name.length - 1 >= 3 && address.length - 1 > 1 && phone.length == 10 && pincode.length == 6) {
+                    let obj =
+                    {
+                         name: document.getElementById("addAddressName").value,
+                         address: document.getElementById("addAddressAddress").value,
+                         phone: document.getElementById("addAddressPhone").value,
+                         alternateNumber: document.getElementById("addAddressAltNum").value,
+                         pincode: document.getElementById("addAddressPincode").value,
+                         landmark: document.getElementById("addAddressLandmark").value,
+                    }
+                    localStorage.setItem("AddressData", JSON.stringify(obj))
+
+                    // todo when user give the address and click on the place order
+                    document.querySelector("#AddressBody_Pr").style.display = 'none'
+                    document.querySelector("#overlay").style.display = 'none'
+                    nameAlert.style.display = "none"
+                    addressAlert.style.display = "none"
+                    phoneAlert.style.display = "none"
+                    phonePincode.style.display = "none"
+                    window.location.reload()
+               }
+          }
+
+     </script>
 
 </html>

@@ -1,5 +1,10 @@
 console.log("Welome in cart.js");
 
+let AddressData = JSON.parse(localStorage.getItem("AddressData"));
+let showAddress = document.querySelector(".show-address");
+if (AddressData) {
+	showAddress.innerHTML = `🏠${AddressData.name},${AddressData.address},${AddressData.pincode}`;
+}
 let existingUserDataFromLS = JSON.parse(localStorage.getItem("existingUser"));
 
 const getCartDataFromDatabase = async () => {
@@ -23,7 +28,7 @@ const filterDataForUser = (data) => {
 
 const appendFilterData = (data) => {
 	document.querySelector("#lhs_cartDiv").innerHTML = "";
-	data.forEach((el) => {
+	data.forEach((el, i) => {
 		const showTemplate = `<div class="fav-item">
                                    <div class="fav-image">
                                         <img title="${el.id}" src="${el.img}"
@@ -51,14 +56,14 @@ const appendFilterData = (data) => {
                                    <div class="fav-item-last">
                                         <div>
                                              <span>Qty: </span>
-                                             <select name="quantity" id="Cart-product-qantity">
+                                             <select name="quantity" onchange="SelectItemQty('${el.price}','${i}')" class="qty-${i}" id="Cart-product-qantity">
                                                   <option value="1">1</option>
                                                   <option value="2">2</option>
                                                   <option value="3">3</option>
                                                   <option value="4">4</option>
                                              </select>
                                         </div>
-                                        <div class="product-price">
+                                        <div class="product-price" id="p-${i}">
                                              <p>${el.price}</p>
                                         </div>
                                    </div>
@@ -86,7 +91,6 @@ const MoveToFavorite = async (id) => {
 	const data = await res.json();
 
 	if (data) RemoveFromCart(id);
-
 	//todo adding the data in fav
 	addToFavorite(data);
 };
@@ -109,10 +113,32 @@ const getTotalPrice = (data) => {
 		let val = el.price.split(".")[1].split(",");
 		return acc + +(val[0] + val[1]);
 	}, 0);
-
-	console.log({ add });
-	document.querySelector("#subtotal>span+span").innerHTML = `Rs. ${add}`;
+	document.querySelector(
+		"#subtotal>span+span",
+	).innerHTML = `Rs. ${add.toLocaleString("en-IN")}`;
 	charges(0, add);
+};
+
+// todo change the price when user inrease the quantity
+let prevQty = 1;
+const SelectItemQty = (price, index) => {
+	let qtyVal = document.querySelector(`.qty-${index}`).value;
+
+	//FINDING THE PRICE
+	price = price.split(".")[1].trim().split(",");
+	price = price[0] + price[1];
+	add -= +price * prevQty;
+	add += +price * +qtyVal;
+	console.log("add: ", add);
+
+	charges(discount, add);
+	prevQty = +qtyVal;
+
+	showValue = (+price * +qtyVal).toLocaleString("en-IN");
+	document.querySelector(
+		"#subtotal>span+span",
+	).innerHTML = `Rs. ${add.toLocaleString("en-IN")}`;
+	document.querySelector(`#p-${index}>p`).innerHTML = `Rs. ${showValue}`;
 };
 
 // todo taking the promocode throw prompt
@@ -121,26 +147,64 @@ document.querySelector("#promo_code").onclick = () => {
 	let discountSpan = document.querySelector("#discount>span+span");
 	let val = prompt("Please Enter The promoCode");
 	if (val === "SEPHORA30") {
-		discount = (add * 0.3).toFixed(2);
-		discountSpan.innerHTML = `- Rs. ${discount}`;
+		discount = +(add * 0.3).toFixed(2);
+		discountSpan.innerHTML = `- Rs. ${discount.toLocaleString("en-IN")}`;
 		discount = add - discount;
 		charges(discount, add);
 	}
 };
 
-//
+//todo finding the best amount fo user
 const charges = (discount, add) => {
+	//
 	let deliveryCharge = document.querySelector("#delivery_charges>span+span");
 	let gst = document.querySelector("#gst>span+span");
 	let totalPrice = document.querySelector("#total>span+span");
-	let gstPrice = +(add * 0.18).toFixed(2);
+
+	//
+	let gstPrice = +(discount || add * 0.18).toFixed(2);
 	deliveryCharge.innerHTML = `Rs. 40`;
 	gst.innerHTML = `Rs. ${gstPrice}`;
-	totalPrice.innerHTML = `Rs. ${(discount || add) + 40 + gstPrice}`;
+	totalPrice.innerHTML = `Rs. ${(
+		(discount || add) +
+		40 +
+		gstPrice
+	).toLocaleString("en-IN")}`;
 };
 
 // TODO redirect to Sale when click the see more
 
 document.querySelector(".shop_more").onclick = () => {
 	window.location.href = "sale.html";
+};
+
+let overlay = document.querySelector("#overlay");
+let checkoutBTN = document.querySelector(".checkout");
+checkoutBTN.onclick = (event) => {
+	console.log("event: ", event);
+	let addressBar = document.querySelector("#AddressBody_Pr");
+	if (AddressData) {
+		window.location.href = "payment.html";
+	} else {
+		addressBar.style.display = "block";
+		overlay.style.display = "block";
+	}
+};
+
+// todo close address bar by clicking on the overlay
+overlay.onclick = () => {
+	closeAddressBar();
+};
+
+//todo close address bar by clicking on the backbutton
+let backToCart = document.querySelector("#backToCart");
+backToCart.onclick = () => {
+	closeAddressBar();
+};
+
+// todo close the AddressBar ()
+const closeAddressBar = () => {
+	let addressBar = document.querySelector("#AddressBody_Pr");
+	addressBar.style.display = "none";
+	overlay.style.display = "none";
 };

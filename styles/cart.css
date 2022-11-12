@@ -2,6 +2,14 @@ header {
      width: 100%;
 }
 
+.show-address {
+     width: 90%;
+     margin: auto;
+     font-size: 1rem;
+     font-weight: 600;
+     letter-spacing: 1px;
+}
+
 #cart-navbar {
      width: 90%;
      height: 60px;

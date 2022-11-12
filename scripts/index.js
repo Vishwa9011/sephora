@@ -40,7 +40,6 @@ navbar_nav_links.onclick = (event) => {
 let existingUserDataFromLS = JSON.parse(localStorage.getItem("existingUser"));
 
 navbarContainer.onclick = (event) => {
-	// console.log("event: ", event.target.id);
 	if (event.target.id == "gotoFavPage") {
 		if (existingUserDataFromLS) {
 			gotoPage("favorite");
@@ -61,6 +60,7 @@ navbarContainer.onclick = (event) => {
 };
 
 const gotoPage = (val) => {
+	localStorage.removeItem("AddressData");
 	window.location.href = `${val}.html`;
 };
 
@@ -74,22 +74,3 @@ document.getElementById("midGrid").addEventListener("click", () => {
 		document.getElementById("last").style.display = "none";
 	}
 });
-// // todo show the imagedetails
-// document.body.onclick = (event) => {
-// 	console.log(event.target.className);
-// 	if (event.target.parentNode.parentNode.className === "product-image") {
-// 		let src =
-// 			document.querySelector(".product-image").children[0].children[0]
-// 				.src;
-// 		let brand =
-// 			document.querySelector(".product-image").nextElementSibling
-// 				.children[1].innerHTML;
-// 		let description =
-// 			document.querySelector(".product-image").nextElementSibling
-// 				.children[2].innerHTML;
-// 		let price =
-// 			document.querySelector(".product-image").nextElementSibling
-// 				.children[3].innerHTML;
-// 		console.log({ src, brand, description, price });
-// 	}
-// };
