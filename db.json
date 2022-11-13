@@ -2,11 +2,27 @@
   "cart": [
     {
       "id": 200
+    },
+    {
+      "brand": "HANZ DE FUKO",
+      "product": "Quicksand",
+      "price": "Rs. 2,200",
+      "img": "https://cdn04.nnnow.com/web-images/medium/styles/DE79XFX5DJY/1656913188036/1.jpg",
+      "email": "atanu@gmail.com",
+      "id": 201
     }
   ],
   "favorite": [
     {
       "id": 101
+    },
+    {
+      "brand": "PIXI",
+      "product": "Large Lash Mascara - Best Brown",
+      "price": "Rs. 1,580",
+      "img": "https://cdn10.nnnow.com/web-images/large/styles/J47VL7YANSZ/1585820855594/1.jpg",
+      "email": "warningzone2021@gmail.com",
+      "id": 102
     }
   ],
   "orders": [
@@ -60,6 +76,14 @@
       "phone_number": "23123123123",
       "isAdmin": false,
       "id": 6
+    },
+    {
+      "name": "Atanu",
+      "email": "atanu@gmail.com",
+      "password": "123",
+      "phone_number": "8101303481",
+      "isAdmin": false,
+      "id": 7
     }
   ],
   "ikoo": [

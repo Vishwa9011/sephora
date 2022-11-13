@@ -77,7 +77,7 @@ continueWith.onclick = async () => {
 			if (user_name.length != 10)
 				err.innerHTML = "Please enter a valid mobile.";
 		} else {
-			err.innerHTML = "Please enter a email address.";
+			err.innerHTML = "Please enter valid email address.";
 		}
 	}
 };
@@ -104,7 +104,7 @@ const checkEmailReg = async (user_name) => {
 	// console.log("data: ", data);
 
 	return data.find((el) => {
-		return el.email == user_name || el.phone == user_name;
+		return el.email == user_name || el.phone_number == user_name;
 	});
 };
 

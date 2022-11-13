@@ -135,6 +135,7 @@ const fetchCartData = async () => {
 	// todo filterdata for user
 	temp = data.filter((el) => el.email == existingUser.email);
 
+	//
 	if (temp[0] == undefined) {
 		localStorage.setItem("flag", JSON.stringify("false"));
 		clearInterval(slow);
