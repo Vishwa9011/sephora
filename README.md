@@ -1,7 +1,6 @@
 #### sephora
 
-`https://bit.ly/3UGdLU7`
+# Landing Page
 
-silider img 1 => https://logan.nnnow.com/content/dam/nnnow-project/04-nov-2022/SC_Offerpagedesktop.jpg
-silider img 2 => https://logan.nnnow.com/content/dam/nnnow-project/…2/se/SephoraandExclusives_TopBannerdesktop(1).jpg
-https://logan.nnnow.com/content/dam/nnnow-project/13-sep-2022/se/SephoraandExclusives_TopBannerdesktop(1).jpg
+![Screenshot 2023-01-08 154042](https://user-images.githubusercontent.com/112635764/211190502-9f8840ea-d6fc-4176-b33f-543047c81b4a.png)
+
