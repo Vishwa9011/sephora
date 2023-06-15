@@ -2,7 +2,7 @@ console.log("Welcome in myorders.js");
 
 let existingUserDataFromLS = JSON.parse(localStorage.getItem("existingUser"));
 const getFavDataFromDatabase = async () => {
-	const url = `http://localhost:3000/orders`;
+	const url = `https://sephors.onrender.com/orders`;
 	const res = await fetch(url);
 	const data = await res.json();
 	console.log("data: ", data);
@@ -75,7 +75,7 @@ const appendFilterData = (data) => {
 
 // todo remove the product from cart
 const RemoveFromOrder = async (id) => {
-	const url = `http://localhost:3000/orders/${id}`;
+	const url = `https://sephors.onrender.com/orders/${id}`;
 	const res = await fetch(url, {
 		method: "DELETE",
 		headers: {

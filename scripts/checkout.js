@@ -129,7 +129,7 @@ let existingUser = JSON.parse(localStorage.getItem("existingUser"));
 let temp;
 let slow;
 const fetchCartData = async () => {
-	const res = await fetch(`http://localhost:3000/cart`);
+	const res = await fetch(`https://sephors.onrender.com/cart`);
 	const data = await res.json();
 
 	// todo filterdata for user
@@ -149,7 +149,7 @@ const fetchCartData = async () => {
 };
 
 const MoveToMYOrder = async (id) => {
-	const url = `http://localhost:3000/cart/${id}`;
+	const url = `https://sephors.onrender.com/cart/${id}`;
 	const res = await fetch(url);
 	const data = await res.json();
 
@@ -161,7 +161,7 @@ const MoveToMYOrder = async (id) => {
 };
 
 const addToOrders = async (data) => {
-	const url = `http://localhost:3000/orders`;
+	const url = `https://sephors.onrender.com/orders`;
 	const res = await fetch(url, {
 		method: "POST",
 		body: JSON.stringify(data),
@@ -173,7 +173,7 @@ const addToOrders = async (data) => {
 
 // todo remove the product from cart
 const RemoveFromCart = async (id) => {
-	const url = `http://localhost:3000/cart/${id}`;
+	const url = `https://sephors.onrender.com/cart/${id}`;
 	const res = await fetch(url, {
 		method: "DELETE",
 		headers: {

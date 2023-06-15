@@ -8,7 +8,7 @@ if (AddressData) {
 let existingUserDataFromLS = JSON.parse(localStorage.getItem("existingUser"));
 
 const getCartDataFromDatabase = async () => {
-	const url = `http://localhost:3000/cart`;
+	const url = `https://sephors.onrender.com/cart`;
 	const res = await fetch(url);
 	const data = await res.json();
 	console.log("data: ", data);
@@ -91,7 +91,7 @@ const appendFilterData = (data) => {
 
 // todo remove the product from cart
 const RemoveFromCart = async (id) => {
-	const url = `http://localhost:3000/cart/${id}`;
+	const url = `https://sephors.onrender.com/cart/${id}`;
 	const res = await fetch(url, {
 		method: "DELETE",
 		headers: {
@@ -103,7 +103,7 @@ const RemoveFromCart = async (id) => {
 
 // todo move the element into the favorite
 const MoveToFavorite = async (id) => {
-	const url = `http://localhost:3000/cart/${id}`;
+	const url = `https://sephors.onrender.com/cart/${id}`;
 	const res = await fetch(url);
 	const data = await res.json();
 
@@ -113,7 +113,7 @@ const MoveToFavorite = async (id) => {
 };
 
 const addToFavorite = async (data) => {
-	const url = `http://localhost:3000/favorite`;
+	const url = `https://sephors.onrender.com/favorite`;
 	const res = await fetch(url, {
 		method: "POST",
 		body: JSON.stringify(data),

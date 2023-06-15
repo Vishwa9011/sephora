@@ -95,7 +95,7 @@ const addProductToCart = async () => {
 	let clickedProductData = gettingClickedProduct();
 	if (clickedProductData) {
 		try {
-			const url = `http://localhost:3000/cart`;
+			const url = `https://sephors.onrender.com/cart`;
 			const res = await fetch(url, {
 				method: "POST",
 				body: JSON.stringify(clickedProductData),
@@ -114,7 +114,7 @@ const addProductToFav = async () => {
 	let clickedProductData = gettingClickedProduct();
 	if (clickedProductData) {
 		try {
-			const url = `http://localhost:3000/favorite`;
+			const url = `https://sephors.onrender.com/favorite`;
 			const res = await fetch(url, {
 				method: "POST",
 				body: JSON.stringify(clickedProductData),

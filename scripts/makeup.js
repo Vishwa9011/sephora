@@ -3,7 +3,7 @@ console.log("welcome in makeup.js");
 let goToPageName = JSON.parse(localStorage.getItem("goToPage"));
 
 const getDataParticularPage = async () => {
-	const url = ` http://localhost:3000/${goToPageName}`;
+	const url = `https://sephors.onrender.com/${goToPageName}`;
 	const res = await fetch(url);
 	const data = await res.json();
 	console.log("data: ", data);
@@ -104,7 +104,7 @@ const addProductToCart = async (id) => {
 	let clickedProductData = gettingClickedProduct(id);
 	if (clickedProductData) {
 		try {
-			const url = `http://localhost:3000/cart`;
+			const url = `https://sephors.onrender.com/cart`;
 			const res = await fetch(url, {
 				method: "POST",
 				body: JSON.stringify(clickedProductData),
@@ -123,7 +123,7 @@ const addProductToFavorite = async (id) => {
 	let clickedProductData = gettingClickedProduct(id);
 	if (clickedProductData) {
 		try {
-			const url = `http://localhost:3000/favorite`;
+			const url = `https://sephors.onrender.com/favorite`;
 			const res = await fetch(url, {
 				method: "POST",
 				body: JSON.stringify(clickedProductData),

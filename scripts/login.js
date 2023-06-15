@@ -98,7 +98,7 @@ const checkMobNum = (mob) => {
 };
 
 const checkEmailReg = async (user_name) => {
-	const url = ` http://localhost:3000/profile`;
+	const url = `https://sephors.onrender.com/profile`;
 	const res = await fetch(url);
 	const data = await res.json();
 	// console.log("data: ", data);
@@ -128,7 +128,7 @@ class User {
 	async userRegisteration(userData) {
 		console.log("userData: ", userData);
 		try {
-			const url = `http://localhost:3000/profile`;
+			const url = `https://sephors.onrender.com/profile`;
 			const res = await fetch(url, {
 				method: "POST",
 				body: JSON.stringify(userData),

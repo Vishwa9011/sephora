@@ -2,7 +2,7 @@ console.log("Welcome in favorites.js");
 
 let existingUserDataFromLS = JSON.parse(localStorage.getItem("existingUser"));
 const getFavDataFromDatabase = async () => {
-	const url = `http://localhost:3000/favorite`;
+	const url = `https://sephors.onrender.com/favorite`;
 	const res = await fetch(url);
 	const data = await res.json();
 	console.log("data: ", data);
@@ -79,7 +79,7 @@ const appendFilterData = (data) => {
 
 // todo remove the product from cart
 const RemoveFromFav = async (id) => {
-	const url = `http://localhost:3000/favorite/${id}`;
+	const url = `https://sephors.onrender.com/favorite/${id}`;
 	const res = await fetch(url, {
 		method: "DELETE",
 		headers: {
@@ -91,7 +91,7 @@ const RemoveFromFav = async (id) => {
 
 // todo move the element into the favorite
 const moveToBag = async (id) => {
-	const url = `http://localhost:3000/favorite/${id}`;
+	const url = `https://sephors.onrender.com/favorite/${id}`;
 	const res = await fetch(url);
 	const data = await res.json();
 
@@ -102,7 +102,7 @@ const moveToBag = async (id) => {
 };
 
 const addToBag = async (data) => {
-	const url = `http://localhost:3000/cart`;
+	const url = `https://sephors.onrender.com/cart`;
 	const res = await fetch(url, {
 		method: "POST",
 		body: JSON.stringify(data),

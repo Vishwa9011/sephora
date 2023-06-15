@@ -11,7 +11,7 @@ const getBrandName = () => {
 
 const getProductData = async () => {
 	const productBrand = getBrandName();
-	const url = `http://localhost:3000/${productBrand}`;
+	const url = `https://sephors.onrender.com/${productBrand}`;
 	const res = await fetch(url);
 	const data = await res.json();
 	console.log("data: ", data);
@@ -107,7 +107,7 @@ const addProductToCart = async (id) => {
 	let clickedProductData = gettingClickedProduct(id);
 	if (clickedProductData) {
 		try {
-			const url = `http://localhost:3000/cart`;
+			const url = `https://sephors.onrender.com/cart`;
 			const res = await fetch(url, {
 				method: "POST",
 				body: JSON.stringify(clickedProductData),
@@ -126,7 +126,7 @@ const addProductToFavorite = async (id) => {
 	let clickedProductData = gettingClickedProduct(id);
 	if (clickedProductData) {
 		try {
-			const url = `http://localhost:3000/favorite`;
+			const url = `https://sephors.onrender.com/favorite`;
 			const res = await fetch(url, {
 				method: "POST",
 				body: JSON.stringify(clickedProductData),
