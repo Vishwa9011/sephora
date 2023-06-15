@@ -1,0 +1,1094 @@
+{
+    "cart": [
+      {
+        "id": 200
+      },
+      {
+        "brand": "HANZ DE FUKO",
+        "product": "Quicksand",
+        "price": "Rs. 2,200",
+        "img": "https://cdn04.nnnow.com/web-images/medium/styles/DE79XFX5DJY/1656913188036/1.jpg",
+        "email": "atanu@gmail.com",
+        "id": 201
+      }
+    ],
+    "favorite": [
+      {
+        "id": 101
+      },
+      {
+        "brand": "PIXI",
+        "product": "Large Lash Mascara - Best Brown",
+        "price": "Rs. 1,580",
+        "img": "https://cdn10.nnnow.com/web-images/large/styles/J47VL7YANSZ/1585820855594/1.jpg",
+        "email": "warningzone2021@gmail.com",
+        "id": 102
+      }
+    ],
+    "orders": [
+      {
+        "brand": "SEPHORA COLLECTION",
+        "product": "Cream Lip Stain - 94 Cherry Moon",
+        "price": "Rs. 1,220",
+        "img": "https://cdn13.nnnow.com/web-images/preview/styles/A8G6MLDJJNX/1539589327442/1.jpg",
+        "img2": "https://cdn04.nnnow.com/web-images/preview/styles/NYULJ49GXL8/1581676936889/2.jpg",
+        "email": "vishu842301@gmail.com",
+        "id": 201
+      }
+    ],
+    "profile": [
+      {
+        "name": "Karan",
+        "email": "vishu842301@gmail.com",
+        "password": "karan123",
+        "phone_number": "+918423017075",
+        "isAdmin": true,
+        "id": 2
+      },
+      {
+        "name": "Ayaz",
+        "email": "ayazkhanm4512@gmail.com",
+        "password": "123",
+        "phone_number": "sdafasdfasdf",
+        "isAdmin": true,
+        "id": 3
+      },
+      {
+        "name": "Vishwa Vivek Yadav",
+        "email": "warningzone2021@gmail.com",
+        "password": "123",
+        "phone_number": "+918423017adf",
+        "isAdmin": false,
+        "id": 4
+      },
+      {
+        "name": "Vishwa Vivek Yadav",
+        "email": "waringzon@gmail.com",
+        "password": "1234",
+        "phone_number": "7985146622",
+        "isAdmin": false,
+        "id": 5
+      },
+      {
+        "name": "Sejal",
+        "email": "sejal123@gmail.com",
+        "password": "123",
+        "phone_number": "23123123123",
+        "isAdmin": false,
+        "id": 6
+      },
+      {
+        "name": "Atanu",
+        "email": "atanu@gmail.com",
+        "password": "123",
+        "phone_number": "8101303481",
+        "isAdmin": false,
+        "id": 7
+      }
+    ],
+    "ikoo": [
+      {
+        "brand": "IKOO",
+        "product": "Paddle X Pops Hair Brush - Let's Tango",
+        "price": "Rs. 3300",
+        "img": "https://cdn12.nnnow.com/web-images/medium/styles/TEVSC5X3JS9/1655180513758/1.jpg"
+      },
+      {
+        "brand": "IKOO",
+        "product": "E-Styler Jet Styling Brush - Beluga Black",
+        "price": "Rs. 15,200",
+        "img": "https://cdn11.nnnow.com/web-images/medium/styles/08PM20PAB24/1655180513781/1.jpg"
+      },
+      {
+        "brand": "IKOO",
+        "product": "Paddle X Hair Brush - Manhattan Glam",
+        "price": "Rs. 4,100",
+        "img": "https://cdn03.nnnow.com/web-images/medium/styles/3UZBRXTC9UV/1655180513849/1.jpg"
+      },
+      {
+        "brand": "IKOO",
+        "product": "Paddle X Pops Hair Brush - Love Affair",
+        "price": "Rs. 3,300",
+        "img": "https://cdn18.nnnow.com/web-images/medium/styles/MM21IQFEDNJ/1655180513924/1.jpg"
+      },
+      {
+        "brand": "IKOO",
+        "product": "Paddle X Hair Brush - Beluga Black",
+        "price": "Rs. 3,700",
+        "img": "https://cdn13.nnnow.com/web-images/medium/styles/LKP6CZ3JTJG/1655180513765/1.jpg"
+      },
+      {
+        "brand": "IKOO",
+        "product": "Paddle X Hair Brush - Baby Doll",
+        "price": "Rs. 4,100",
+        "img": "https://cdn02.nnnow.com/web-images/medium/styles/ACOI8DF27GR/1655180513898/1.jpg"
+      },
+      {
+        "brand": "IKOO",
+        "product": "E-Styler Pro Styling Brush - Beluga Black",
+        "price": "Rs. 21,500",
+        "img": "https://cdn09.nnnow.com/web-images/medium/styles/BQ4AL46YG3N/1655180513821/1.jpg"
+      },
+      {
+        "brand": "IKOO",
+        "product": "Home Detangling Brush - Oyster",
+        "price": "Rs. 2,800",
+        "img": "https://cdn16.nnnow.com/web-images/medium/styles/QM2H850EDAR/1655180513828/1.jpg"
+      },
+      {
+        "brand": "IKOO",
+        "product": "Paddle X Pops Hair Brush - Beluga Black",
+        "price": "Rs. 3,100",
+        "img": "https://cdn07.nnnow.com/web-images/medium/styles/OQFJ6S1286A/1655180513791/1.jpg"
+      },
+      {
+        "brand": "IKOO",
+        "product": "Paddle X Hair Brush - Let's Tango",
+        "price": "Rs. 4,100",
+        "img": "https://cdn14.nnnow.com/web-images/medium/styles/AI5GNYRT2U5/1655180513835/1.jpg"
+      }
+    ],
+    "hanz-de-fuko": [
+      {
+        "brand": "HANZ DE FUKO",
+        "product": "Quicksand",
+        "price": "Rs. 2,200",
+        "img": "https://cdn04.nnnow.com/web-images/medium/styles/DE79XFX5DJY/1656913188036/1.jpg"
+      },
+      {
+        "brand": "HANZ DE FUKO",
+        "product": "Scheme Cream",
+        "price": "Rs. 2,200",
+        "img": "https://cdn15.nnnow.com/web-images/medium/styles/E0KAX94UDOV/1656913188094/1.jpg"
+      },
+      {
+        "brand": "HANZ DE FUKO",
+        "product": "Claymation",
+        "price": "Rs. 2,200",
+        "img": "https://cdn05.nnnow.com/web-images/medium/styles/R9IG63BL7L3/1656913188153/1.jpg"
+      },
+      {
+        "brand": "HANZ DE FUKO",
+        "product": "Deluxe Mini Kit",
+        "price": "Rs. 1,400",
+        "img": "https://cdn01.nnnow.com/web-images/medium/styles/EX13113BXXQ/1656913188105/1.jpg"
+      },
+      {
+        "brand": "HANZ DE FUKO",
+        "product": "Natural Shampoo",
+        "price": "Rs. 2,200",
+        "img": "https://cdn17.nnnow.com/web-images/medium/styles/U62BAH31SW3/1656913188194/1.jpg"
+      },
+      {
+        "brand": "HANZ DE FUKO",
+        "product": "Natural Conditioner",
+        "price": "Rs. 2,200",
+        "img": "https://cdn17.nnnow.com/web-images/medium/styles/UC0PII0FYPD/1656913188017/1.jpg"
+      },
+      {
+        "brand": "HANZ DE FUKO",
+        "product": "Modify Pomade",
+        "price": "Rs. 2,200",
+        "img": "https://cdn07.nnnow.com/web-images/medium/styles/YRW95857IBT/1656913188132/1.jpg"
+      },
+      {
+        "brand": "HANZ DE FUKO",
+        "product": "Gravity Paste",
+        "price": "Rs. 2,200",
+        "img": "https://cdn08.nnnow.com/web-images/medium/styles/G1ZK1DOW90C/1656913188170/1.jpg"
+      },
+      {
+        "brand": "HANZ DE FUKO",
+        "product": "Heavymade Pomade",
+        "price": "Rs. 2,200",
+        "img": "https://cdn10.nnnow.com/web-images/medium/styles/JH705EGM9MR/1656913188074/1.jpg"
+      },
+      {
+        "brand": "HANZ DE FUKO",
+        "product": "Gravity Paste gel",
+        "price": "Rs. 2,500",
+        "img": "https://cdn08.nnnow.com/web-images/large/styles/G1ZK1DOW90C/1656913188170/1.jpg"
+      }
+    ],
+    "pixi": [
+      {
+        "brand": "PIXI",
+        "product": "Vitamin Wakeup Mist",
+        "price": "Rs. 1,480",
+        "img": "https://cdn03.nnnow.com/web-images/large/styles/EB94S3UDUPD/1585571862841/1.jpg"
+      },
+      {
+        "brand": "PIXI",
+        "product": "Endless Silky Eye Pen - Sage Gold",
+        "price": "Rs. 1,190",
+        "img": "https://cdn05.nnnow.com/web-images/large/styles/6CKXCXJV0NN/1585554248551/1.jpg"
+      },
+      {
+        "brand": "PIXI",
+        "product": "Sheer Cheek Gel - Rosy",
+        "price": "Rs. 1,500",
+        "img": "https://cdn03.nnnow.com/web-images/large/styles/HNFS0H9NBQE/1585829779048/1.jpg"
+      },
+      {
+        "brand": "PIXI",
+        "product": "MatteLast Liquid Lipstick- Really Rose",
+        "price": "Rs. 1,390",
+        "img": "https://cdn13.nnnow.com/web-images/large/styles/9YD7CNNDAP1/1583404461449/1.jpg"
+      },
+      {
+        "brand": "PIXI",
+        "product": "Large Lash Mascara - Best Brown",
+        "price": "Rs. 1,580",
+        "img": "https://cdn10.nnnow.com/web-images/large/styles/J47VL7YANSZ/1585820855594/1.jpg"
+      },
+      {
+        "brand": "PIXI",
+        "product": "Endless Shade Stick - Matte Cognac",
+        "price": "Rs. 1,320",
+        "img": "https://cdn17.nnnow.com/web-images/large/styles/07W1AIH0UJH/1583404380139/1.jpg"
+      },
+      {
+        "brand": "PIXI",
+        "product": "Milky Tonic",
+        "price": "Rs. 1,600",
+        "img": "https://cdn00.nnnow.com/web-images/large/styles/5UHE6DK5VB3/1585571862826/1.jpg"
+      },
+      {
+        "brand": "PIXI",
+        "product": "Pat Away Concealing Base - Espresso",
+        "price": "Rs. 1,590",
+        "img": "https://cdn15.nnnow.com/web-images/large/styles/Y8J0CLOJB3L/1585820855598/1.jpg"
+      },
+      {
+        "brand": "PIXI",
+        "product": "Best Of Vitamin-C",
+        "price": "Rs. 2,340",
+        "img": "https://cdn10.nnnow.com/web-images/large/styles/3K88DM40TRD/1585571862821/1.jpg"
+      },
+      {
+        "brand": "PIXI",
+        "product": "Hydrating Milky Lotion",
+        "price": "Rs. 2,550",
+        "img": "https://cdn17.nnnow.com/web-images/large/styles/O18LBSMKAEG/1585571862856/1.jpg"
+      }
+    ],
+    "abhati": [
+      {
+        "brand": "ABHATI SUISSE",
+        "product": "Kangi 31 Large Detangling Comb",
+        "price": "Rs. 2,600",
+        "img": "https://cdn01.nnnow.com/web-images/large/styles/WJIF76XQU75/1640925193703/1.jpg"
+      },
+      {
+        "brand": "ABHATI SUISSE",
+        "product": "Chambal Sacred Hair Oil",
+        "price": "Rs. 4,800",
+        "img": "https://cdn04.nnnow.com/web-images/large/styles/HUI4B96O3UT/1639719970213/1.jpg"
+      },
+      {
+        "brand": "ABHATI SUISSE",
+        "product": "Tansa Colour-Depth Shampoo",
+        "price": "Rs. 3,500",
+        "img": "https://cdn10.nnnow.com/web-images/large/styles/TPVQF8XCAI1/1639719991527/1.jpg"
+      },
+      {
+        "brand": "ABHATI SUISSE",
+        "product": "Mahakali Nourishing Conditioner",
+        "price": "Rs. 4,650",
+        "img": "https://cdn05.nnnow.com/web-images/large/styles/AP6L78VM8P0/1639719572394/1.jpg"
+      },
+      {
+        "brand": "ABHATI SUISSE",
+        "product": "Yamuna Nourishing Shampoo",
+        "price": "Rs. 3,600",
+        "img": "https://cdn00.nnnow.com/web-images/large/styles/BQNHJJE2HPV/1639719990723/1.jpg"
+      },
+      {
+        "brand": "ABHATI SUISSE",
+        "product": "Kangi 19 Small Pocket Comb",
+        "price": "Rs. 2,300",
+        "img": "https://cdn06.nnnow.com/web-images/large/styles/UYUUYGN48V4/1640925193686/1.jpg"
+      },
+      {
+        "brand": "ABHATI SUISSE",
+        "product": "Nakki Whipped Volumising Conditioner",
+        "price": "Rs. 3,850",
+        "img": "https://cdn12.nnnow.com/web-images/large/styles/BA6MMU33R3U/1639719626154/1.jpg"
+      },
+      {
+        "brand": "ABHATI SUISSE",
+        "product": "Imlaya Volumising Shampoo",
+        "price": "Rs. 3,600",
+        "img": "https://cdn16.nnnow.com/web-images/large/styles/7PFG3E79Y9B/1639719564674/1.jpg"
+      },
+      {
+        "brand": "ABHATI SUISSE",
+        "product": "Yamuna Nourishing Shampoo",
+        "price": "Rs. 4,300",
+        "img": "https://cdn01.nnnow.com/web-images/large/styles/JBI1ECO8OJV/1639719626193/1.jpg"
+      },
+      {
+        "brand": "ABHATI SUISSE",
+        "product": "Periya Body Cleanser",
+        "price": "Rs. 3,550",
+        "img": "https://cdn03.nnnow.com/web-images/large/styles/WJTAU9LUU2H/1639719992500/1.jpg"
+      }
+    ],
+    "makeup": [
+      {
+        "id": 1,
+        "pageData": [
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Glow Perfection Foundation - 22 Natural",
+            "price": "Rs. 1,352",
+            "img": "https://cdn11.nnnow.com/web-images/preview/styles/8V1ZDUHUDR0/1533201155000/1.jpg",
+            "img2": "https://cdn10.nnnow.com/web-images/preview/styles/8V1ZDUHUDR0/1617175487065/2.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Beauty Amplifier Smoothing Primer",
+            "price": "Rs. 1,320",
+            "img": "https://cdn05.nnnow.com/web-images/preview/styles/V21Z2LOB7HR/1533204761626/1.jpg",
+            "img2": "https://cdn00.nnnow.com/web-images/preview/styles/V21Z2LOB7HR/1594620678387/2.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Cream Lip Stain - 94 Cherry Moon",
+            "price": "Rs. 1,220",
+            "img": "https://cdn13.nnnow.com/web-images/preview/styles/A8G6MLDJJNX/1539589327442/1.jpg",
+            "img2": "https://cdn04.nnnow.com/web-images/preview/styles/NYULJ49GXL8/1581676936889/2.jpg"
+          },
+          {
+            "brand": "BENEFIT COSMETICS",
+            "product": "GALifornia Powder Blush - Sunny Golden Pink",
+            "price": "Rs. 3,100",
+            "img": "https://cdn17.nnnow.com/web-images/preview/styles/24SFBYE918Q/1610525740882/1.jpg",
+            "img2": "https://cdn16.nnnow.com/web-images/preview/styles/24SFBYE918Q/1610525740880/2.jpg"
+          },
+          {
+            "brand": "BENEFIT COSMETICS",
+            "product": "Precisely, My Brow Pencil - 05 - Warm Black-Brown",
+            "price": "Rs. 2,390",
+            "img": "https://cdn09.nnnow.com/web-images/preview/styles/61JDU6ICLYI/1513148203704/1.jpg",
+            "img2": "https://cdn11.nnnow.com/web-images/preview/styles/61JDU6ICLYI/1513148203705/2.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Cream Lip Stain - 41 Vintage Rosewood",
+            "price": "Rs. 1,220",
+            "img": "https://cdn18.nnnow.com/web-images/preview/styles/LF9B8BFLIIQ/1519382076017/1.jpg",
+            "img2": "https://cdn03.nnnow.com/web-images/preview/styles/LF9B8BFLIIQ/1581676936879/2.jpg"
+          },
+          {
+            "brand": "HUDA BEAUTY",
+            "product": "#Faux Filter Luminous Matte Full Coverage Liquid Foundation - 400G Macchiato",
+            "price": "Rs. 2,805",
+            "img": "https://cdn17.nnnow.com/web-images/preview/styles/W84IYEUK3N3/1631791079618/1.jpg",
+            "img2": "https://cdn05.nnnow.com/web-images/preview/styles/W84IYEUK3N3/1631791079612/3.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "pageData": [
+          {
+            "brand": "ANASTASIA BEVERLY HILLS",
+            "product": "Clear Brow Gel",
+            "price": "Rs. 2,500",
+            "img": "https://cdn04.nnnow.com/web-images/preview/styles/NBW6LEDGJ9M/1559114746790/1.jpg",
+            "img2": "https://cdn19.nnnow.com/web-images/preview/styles/NBW6LEDGJ9M/1559114746792/2.jpg"
+          },
+          {
+            "brand": "BENEFIT COSMETICS",
+            "product": "Roller Liner Matte Liquid Eyeliner - Black",
+            "price": "Rs. 2,190",
+            "img": "https://cdn01.nnnow.com/web-images/preview/styles/HL30HBWJ5C7/1610447773879/1.jpg",
+            "img2": "https://cdn01.nnnow.com/web-images/preview/styles/HL30HBWJ5C7/1610447773876/2.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Nourishing Cuticle Care",
+            "price": "Rs. 900",
+            "img": "https://cdn15.nnnow.com/web-images/preview/styles/YH2P21FRGZT/1518073456699/1.jpg",
+            "img2": "https://cdn05.nnnow.com/web-images/preview/styles/YH2P21FRGZT/1518073456700/2.jpg"
+          },
+          {
+            "brand": "ANASTASIA BEVERLY HILLS",
+            "product": "DIPBROW® Pomade - Dark Brown",
+            "price": "Rs. 2,280",
+            "img": "https://cdn07.nnnow.com/web-images/preview/styles/XIFN4DSF1J7/1559120900591/1.jpg",
+            "img2": "https://cdn04.nnnow.com/web-images/preview/styles/XIFN4DSF1J7/1559120900593/2.jpg"
+          },
+          {
+            "brand": "ANASTASIA BEVERLY HILLS",
+            "product": "Norvina Eye Shadow Palette",
+            "price": "Rs. 4,800",
+            "img": "https://cdn16.nnnow.com/web-images/preview/styles/HNO9JRGQ114/1559300926518/1.jpg",
+            "img2": "https://cdn07.nnnow.com/web-images/preview/styles/HNO9JRGQ114/1609995376294/2.jpg"
+          },
+          {
+            "brand": "BENEFIT COSMETICS",
+            "product": "Gimme Brow + Volumizing Eyebrow Gel - 4 - Warm Deep Brown",
+            "price": "Rs. 1,340",
+            "img": "https://cdn13.nnnow.com/web-images/preview/styles/DF7SMDM6VNE/1552567726776/1.jpg",
+            "img2": "https://cdn02.nnnow.com/web-images/preview/styles/DF7SMDM6VNE/1552567726774/2.jpg"
+          },
+          {
+            "brand": "BENEFIT COSMETICS",
+            "product": "The Great Brow Basics - 04 - Medium",
+            "price": "Rs. 3,910",
+            "img": "https://cdn09.nnnow.com/web-images/preview/styles/N01SN2Z35G0/1568981198080/1.jpg",
+            "img2": "https://cdn09.nnnow.com/web-images/preview/styles/N01SN2Z35G0/1568981198078/2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "pageData": [
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Rouge Nude Lipstick - 04 Good To Me",
+            "price": "Rs. 610",
+            "img": "https://cdn02.nnnow.com/web-images/preview/styles/QCG568II3OE/1603970726301/1.jpg",
+            "img2": "https://cdn03.nnnow.com/web-images/preview/styles/QCG568II3OE/1603970726297/2.jpg"
+          },
+          {
+            "brand": "CLINIQUE",
+            "product": "Pop Matte Lip Color + Primer - Pow Pop",
+            "price": "Rs. 1,599",
+            "img": "https://cdn05.nnnow.com/web-images/preview/styles/4EFC4DM7EQ7/1585910792328/1.jpg",
+            "img2": "https://cdn05.nnnow.com/web-images/preview/styles/4EFC4DM7EQ7/1567664914788/7.jpg"
+          },
+          {
+            "brand": "STILA",
+            "product": "Stay All Day® Liquid Lip Stick - Beso",
+            "price": "Rs. 2,100",
+            "img": "https://cdn18.nnnow.com/web-images/preview/styles/3MOIVT8EAWW/1585660398362/1.jpg",
+            "img2": "https://cdn19.nnnow.com/web-images/preview/styles/3MOIVT8EAWW/1585660398362/2.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Rouge Lacquer Lip Stick - Not Your Baby",
+            "price": "Rs. 1,220",
+            "img": "https://cdn19.nnnow.com/web-images/preview/styles/3EYD3LVWJM1/1560853074412/1.jpg",
+            "img2": "https://cdn05.nnnow.com/web-images/preview/styles/3EYD3LVWJM1/1560853074408/2.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Lip Blush - 09 Desert Cloud (Rosewood)",
+            "price": "Rs. 1,200",
+            "img": "https://cdn16.nnnow.com/web-images/preview/styles/Q0T78LZ8ZUD/1632206084308/1.jpg",
+            "img2": "https://cdn01.nnnow.com/web-images/preview/styles/Q0T78LZ8ZUD/1632206084298/2.jpg"
+          },
+          {
+            "brand": "HUDA BEAUTY",
+            "product": "Liquid Matte Ultra-Comfort Transfer-Proof Lip Stick - Muse",
+            "price": "Rs. 1,615",
+            "img": "https://cdn18.nnnow.com/web-images/preview/styles/LIW31C5VS2M/1653300487818/1.jpg",
+            "img2": "https://cdn04.nnnow.com/web-images/preview/styles/LIW31C5VS2M/1653300487815/2.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Rouge Matte Lipstick - 17 Killing It!",
+            "price": "Rs. 1,220",
+            "img": "https://cdn09.nnnow.com/web-images/preview/styles/8BB9XBMX8Z5/1617867038289/1.jpg",
+            "img2": "https://cdn09.nnnow.com/web-images/preview/styles/8BB9XBMX8Z5/1617867038288/2.jpg"
+          }
+        ]
+      }
+    ],
+    "skincare": [
+      {
+        "id": 1,
+        "pageData": [
+          {
+            "brand": "SHISEIDO",
+            "product": "Waso Quick Gentle Cleanser",
+            "price": "Rs. 2,200",
+            "img": "https://cdn09.nnnow.com/web-images/preview/styles/LK8JYTR9UEY/1593684983302/1.jpg",
+            "img2": "https://cdn06.nnnow.com/web-images/preview/styles/LK8JYTR9UEY/1593684983300/2.jpg"
+          },
+          {
+            "brand": "SHISEIDO",
+            "product": "Waso Color-Smart Day Time Moisturizer Oil-Free",
+            "price": "Rs. 2,700",
+            "img": "https://cdn14.nnnow.com/web-images/preview/styles/0235QYQLU6R/1535611149325/1.jpg",
+            "img2": "https://cdn12.nnnow.com/web-images/preview/styles/0235QYQLU6R/1535611149326/2.jpg"
+          },
+          {
+            "brand": "SHISEIDO",
+            "product": "Waso Soft And Cushy Polisher",
+            "price": "Rs. 2,300",
+            "img": "https://cdn10.nnnow.com/web-images/preview/styles/MYEN8DMERKS/1593757512727/1.jpg",
+            "img2": "https://cdn08.nnnow.com/web-images/preview/styles/MYEN8DMERKS/1535611149389/2.jpg"
+          },
+          {
+            "brand": "SHISEIDO",
+            "product": "Refreshing Cleansing Water",
+            "price": "Rs. 2,200",
+            "img": "https://cdn09.nnnow.com/web-images/preview/styles/KG8JJIY4Y7C/1593757512690/1.jpg",
+            "img2": "https://cdn14.nnnow.com/web-images/preview/styles/KG8JJIY4Y7C/1618914271050/50.jpg"
+          },
+          {
+            "brand": "CLINIQUE",
+            "product": "Dramatically Different Moisturizing Gel - Oily And Combination Skin",
+            "price": "Rs. 1,638",
+            "img": "https://cdn05.nnnow.com/web-images/preview/styles/AHI3HAMXH5V/1494572076433/1.jpg",
+            "img2": "https://cdn03.nnnow.com/web-images/preview/styles/AHI3HAMXH5V/1494572076434/2.jpg"
+          },
+          {
+            "brand": "CLINIQUE",
+            "product": "Smart SPF 15 Custom Repair Moisturizer - Combination And Oily Skin",
+            "price": "Rs. 5,694",
+            "img": "https://cdn06.nnnow.com/web-images/preview/styles/GWPFWHRC4RQ/1494571104810/1.jpg",
+            "img2": "https://cdn02.nnnow.com/web-images/preview/styles/GWPFWHRC4RQ/1567665811669/7.jpg"
+          },
+          {
+            "brand": "BURT'S BEES",
+            "product": "Baby Bee Nourishing Lotion - Original",
+            "price": "Rs. 1,550",
+            "img": "https://cdn04.nnnow.com/web-images/preview/styles/KIJKUXM7P7W/1640326187321/1.jpg",
+            "img2": "https://cdn02.nnnow.com/web-images/preview/styles/KIJKUXM7P7W/1519035539750/2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "pageData": [
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "High Precision Brush Long Lasting Eyeliner - Black",
+            "price": "Rs. 1,150",
+            "img": "https://cdn08.nnnow.com/web-images/preview/styles/M5ZVMIS526D/1597900132612/1.jpg",
+            "img2": "https://cdn14.nnnow.com/web-images/preview/styles/M5ZVMIS526D/1486975243486/2.jpg"
+          },
+          {
+            "brand": "BENEFIT COSMETICS",
+            "product": "Posietint Lip And Cheek Stain Mini - Poppy Pink",
+            "price": "Rs. 1,720",
+            "img": "https://cdn09.nnnow.com/web-images/preview/styles/9WDXRBDTB5E/1583388932261/1.jpg",
+            "img2": "https://cdn07.nnnow.com/web-images/preview/styles/9WDXRBDTB5E/1583388932259/2.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Cream Lip Stain - 01 Always Red",
+            "price": "Rs. 1,220",
+            "img": "https://cdn00.nnnow.com/web-images/preview/styles/ZESFQB5VJ3A/1563446923625/1.jpg",
+            "img2": "https://cdn04.nnnow.com/web-images/preview/styles/ZESFQB5VJ3A/1547642189679/2.jpg"
+          },
+          {
+            "brand": "BENEFIT COSMETICS",
+            "product": "The POREfessional Face Primer",
+            "price": "Rs. 3,300",
+            "img": "https://cdn19.nnnow.com/web-images/preview/styles/2PXZRRLJAKQ/1605088422828/1.jpg",
+            "img2": "https://cdn09.nnnow.com/web-images/preview/styles/2PXZRRLJAKQ/1605088422823/2.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Cream Lip Stain - 13 Marvelous Mauve",
+            "price": "Rs. 1,220",
+            "img": "https://cdn13.nnnow.com/web-images/preview/styles/6J372PA7IJG/1495433798675/1.jpg",
+            "img2": "https://cdn04.nnnow.com/web-images/preview/styles/6J372PA7IJG/1581676936870/2.jpg"
+          },
+          {
+            "brand": "HUDA BEAUTY",
+            "product": "The New Nude Eyeshadow Palette",
+            "price": "Rs. 4,568",
+            "img": "https://cdn10.nnnow.com/web-images/preview/styles/3UEG2MOM9WJ/1567658710108/1.jpg",
+            "img2": "https://cdn05.nnnow.com/web-images/preview/styles/3UEG2MOM9WJ/1567658710106/2.jpg"
+          },
+          {
+            "brand": "HUDA BEAUTY",
+            "product": "Power Bullet Matte Lipstick - Bachelorette",
+            "price": "Rs. 1,695",
+            "img": "https://cdn05.nnnow.com/web-images/preview/styles/31V9TFOQ175/1569310805711/1.jpg",
+            "img2": "https://cdn09.nnnow.com/web-images/preview/styles/31V9TFOQ175/1569310805707/2.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "pageData": [
+          {
+            "brand": "CLINIQUE",
+            "product": "Even Better Makeup™ SPF 15 - WN54 Honey Wheat",
+            "price": "Rs. 2,340",
+            "img": "https://cdn08.nnnow.com/web-images/preview/styles/6FF2E95DMIS/1572524196475/1.jpg",
+            "img2": "https://cdn15.nnnow.com/web-images/preview/styles/6FF2E95DMIS/1616752871535/50.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Matte Perfection Powder Foundation - 25 Beige",
+            "price": "Rs. 1,500",
+            "img": "https://cdn15.nnnow.com/web-images/large/styles/YI7Z61K5ZJ0/1551250957258/1.jpg",
+            "img2": "https://cdn06.nnnow.com/web-images/preview/styles/YI7Z61K5ZJ0/1617175581971/2.jpg"
+          },
+          {
+            "brand": "HUDA BEAUTY",
+            "product": "Easy Bake Loose Powder Foundation - Pound Cake",
+            "price": "Rs. 2,511",
+            "img": "https://cdn10.nnnow.com/web-images/large/styles/DNKBPJB88B9/1567587911541/1.jpg",
+            "img2": "https://cdn15.nnnow.com/web-images/preview/styles/DNKBPJB88B9/1567587911536/2.jpg"
+          },
+          {
+            "brand": "ANASTASIA BEVERLY HILLS",
+            "product": "Luminous Foundation - 315N",
+            "price": "Rs. 3,600",
+            "img": "https://cdn09.nnnow.com/web-images/preview/styles/UJPEENTWZEN/1583404621758/1.jpg",
+            "img2": "https://cdn07.nnnow.com/web-images/preview/styles/UJPEENTWZEN/1583404621757/2.jpg"
+          },
+          {
+            "brand": "HUDA BEAUTY",
+            "product": "GloWish By Huda Beauty Multidew Skin Tint - 03 Light",
+            "price": "Rs. 2,762",
+            "img": "https://cdn16.nnnow.com/web-images/preview/styles/ZHMH1RCF6CP/1631786534127/1.jpg",
+            "img2": "https://cdn15.nnnow.com/web-images/preview/styles/ZHMH1RCF6CP/1631786534110/2.jpg"
+          },
+          {
+            "brand": "HUDA BEAUTY",
+            "product": "#FauxFilter Skin Finish Buildable Coverage Foundation Stick",
+            "price": "Rs. 2,762",
+            "img": "https://cdn11.nnnow.com/web-images/preview/styles/RJJ9W76L2RT/1609231293282/1.jpg",
+            "img2": "https://cdn00.nnnow.com/web-images/preview/styles/RJJ9W76L2RT/1609231293277/2.jpg"
+          },
+          {
+            "brand": "BENEFIT COSMETICS",
+            "product": "Hello Happy Velvet Powder Foundation - Shade 02",
+            "price": "Rs. 3,100",
+            "img": "https://cdn02.nnnow.com/web-images/preview/styles/35ZMZ9X2RVK/1614240112599/1.jpg",
+            "img2": "https://cdn08.nnnow.com/web-images/preview/styles/35ZMZ9X2RVK/1614240112592/2.jpg"
+          }
+        ]
+      }
+    ],
+    "fragrance": [
+      {
+        "id": 1,
+        "pageData": [
+          {
+            "brand": "BURBERRY",
+            "product": "Burberry Hero Eau De Parfum",
+            "price": "Rs. 8,400 - Rs. 9,400",
+            "img": "https://cdn11.nnnow.com/web-images/medium/styles/VDLYY2JHV2V/1662106601741/1.jpg"
+          },
+          {
+            "brand": "TOM FORD",
+            "product": "Noir Extreme Parfum",
+            "price": "Rs. 11,400",
+            "img": "https://cdn04.nnnow.com/web-images/medium/styles/OJKR09QLNST/1666089406236/1.jpg"
+          },
+          {
+            "brand": "CAROLINA HERRERA",
+            "product": "Good Girl Eau De Parfum Legere",
+            "price": "Rs. 7,300",
+            "img": "https://cdn19.nnnow.com/web-images/medium/styles/SZPNKCRF68K/1663845990767/1.jpg"
+          },
+          {
+            "brand": "CAROLINA HERRERA",
+            "product": "Bad Boy Eau De Parfum",
+            "price": "Rs. 6,500",
+            "img": "https://cdn12.nnnow.com/web-images/medium/styles/3JQ3QQWEB55/1663845990853/1.jpg"
+          },
+          {
+            "brand": "PACO RABANNE",
+            "product": "Fame Eau De Parfum",
+            "price": "Rs. 7,600",
+            "img": "https://cdn04.nnnow.com/web-images/medium/styles/SLYXQBAQXR4/1664533524792/1.jpg"
+          },
+          {
+            "brand": "CAROLINA HERRERA",
+            "product": "212 VIP Men Eau De Toilette",
+            "price": "Rs. 5,400",
+            "img": "https://cdn04.nnnow.com/web-images/medium/styles/4JGGE4ETOEP/1663845990924/1.jpg"
+          },
+          {
+            "brand": "MARC JACOBS",
+            "product": "Daisy Ever So Fresh Eau De Parfum",
+            "price": "Rs. 6,700",
+            "img": "https://cdn19.nnnow.com/web-images/medium/styles/Q9YW4N0SFAL/1664528980585/1.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "pageData": [
+          {
+            "brand": "TOM FORD",
+            "product": "Black Orchid Eau De Parfum",
+            "price": "Rs. 9,700",
+            "img": "https://cdn18.nnnow.com/web-images/medium/styles/9220JIJFV8H/1589003350413/1.jpg"
+          },
+          {
+            "brand": "TOM FORD",
+            "product": "Noir Extreme Eau De Parfum",
+            "price": "Rs. 9,700",
+            "img": "https://cdn07.nnnow.com/web-images/medium/styles/VITHTL168U1/1589003350452/1.jpg"
+          },
+          {
+            "brand": "BVLGARI",
+            "product": "Man Glacial Essence Eau De Parfum",
+            "price": "Rs. 7,500",
+            "img": "https://cdn17.nnnow.com/web-images/medium/styles/6CWC7M5L481/1610349257790/1.jpg"
+          },
+          {
+            "brand": "PACO RABANNE",
+            "product": "1 Million Elixir Eau De Parfum",
+            "price": "Rs. 9,250",
+            "img": "https://cdn07.nnnow.com/web-images/medium/styles/D7MJYULTEGZ/1652776303560/1.jpg"
+          },
+          {
+            "brand": "GIVENCHY",
+            "product": "Gentleman Eau De Toilette",
+            "price": "Rs.8,650",
+            "img": "https://cdn11.nnnow.com/web-images/medium/styles/GI3JORUM8Y6/1593071533034/1.jpg"
+          },
+          {
+            "brand": "LANCOME",
+            "product": "La Vie Est Belle Eau De Parfum",
+            "price": "Rs. 5,440",
+            "img": "https://cdn04.nnnow.com/web-images/medium/styles/2GMA8E8Y68S/1644231721915/1.jpg"
+          },
+          {
+            "brand": "DIOR",
+            "product": "Sauvage Parfum",
+            "price": "Rs. 8,600",
+            "img": "https://cdn15.nnnow.com/web-images/medium/styles/YRLW7QZFTEA/1637735894017/1.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "pageData": [
+          {
+            "brand": "ELIZABETH ARDEN",
+            "product": "My Fifth Avenue Eau De Parfum",
+            "price": "Rs. 4325",
+            "img": "https://cdn03.nnnow.com/web-images/medium/styles/P4FI87Z9XKE/1607690426098/1.jpg"
+          },
+          {
+            "brand": "BURBERRY",
+            "product": "My Burberry Blush Eau De Parfum",
+            "price": "Rs. 6200",
+            "img": "https://cdn18.nnnow.com/web-images/medium/styles/AY5JCJM9RS7/1646282828834/1.jpg"
+          },
+          {
+            "brand": "HUGO BOSS",
+            "product": "HUGO DEEP RED Eau De Parfum",
+            "price": "Rs. 5,600",
+            "img": "https://cdn11.nnnow.com/web-images/medium/styles/4DZP2OD8FVV/1606543797088/1.jpg"
+          },
+          {
+            "brand": "HUGO BOSS",
+            "product": "Boss The Scent Absolute For Her Eau De Parfum",
+            "price": "Rs. 6,600",
+            "img": "https://cdn11.nnnow.com/web-images/medium/styles/YXI423G04SK/1604487730449/1.jpg"
+          },
+          {
+            "brand": "ELIZABETH ARDEN",
+            "product": "White Tea Wild Rose Eau De Toilette Spray",
+            "price": "Rs. 4,800",
+            "img": "https://cdn16.nnnow.com/web-images/medium/styles/ZDF93AW21CC/1605084283121/1.jpg"
+          },
+          {
+            "brand": "DAVIDOFF",
+            "product": "Cool Water Eau De Toilette",
+            "price": "Rs. 3,700",
+            "img": "https://cdn13.nnnow.com/web-images/medium/styles/GECNEXXJ0F4/1497430747470/1.jpg"
+          },
+          {
+            "brand": "DAVIDOFF",
+            "product": "Cool Water Reborn For Him Eau De Toilette",
+            "price": "Rs. 3,900",
+            "img": "https://cdn18.nnnow.com/web-images/medium/styles/UUJYVNLDHIQ/1663923503078/1.jpg"
+          }
+        ]
+      }
+    ],
+    "brushes": [
+      {
+        "id": 1,
+        "pageData": [
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Retractable Complextion Brush",
+            "price": "Rs. 1,900",
+            "img": "https://cdn13.nnnow.com/web-images/medium/styles/WISXKMTSCKV/1533194318322/1.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Advanced Brush Set",
+            "price": "Rs. 6,350",
+            "img": "https://cdn05.nnnow.com/web-images/medium/styles/UPN1DIYDEOO/1539585373094/1.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Retractable Lip Brush",
+            "price": "Rs. 1,800",
+            "img": "https://cdn10.nnnow.com/web-images/medium/styles/E3ATWR0QI78/1533194318319/1.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Face Konjac Radiance Sponge",
+            "price": "Rs. 920",
+            "img": "https://cdn16.nnnow.com/web-images/medium/styles/8CNXO3WNP02/1533194318316/1.jpg"
+          },
+          {
+            "brand": "MAKE UP FOR EVER",
+            "product": "Instant Brush Cleanser",
+            "price": "Rs. 1,800",
+            "img": "https://cdn19.nnnow.com/web-images/medium/styles/X8JIWKM2HL1/1517466587226/1.jpg"
+          },
+          {
+            "brand": "SMASHBOX",
+            "product": "Buildable Cheek Brush",
+            "price": "Rs. 3,060",
+            "img": "https://cdn07.nnnow.com/web-images/medium/styles/B52J53900ZD/1525433681241/1.jpg"
+          },
+          {
+            "brand": "SMASHBOX",
+            "product": "Blurring Concealer Brush",
+            "price": "Rs. 1,870",
+            "img": "https://cdn16.nnnow.com/web-images/medium/styles/QBNUP4RRW6N/1525433681249/1.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "pageData": [
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Multi-Texture Sponge",
+            "price": "Rs. 500",
+            "img": "https://cdn11.nnnow.com/web-images/medium/styles/V3WGKJS6KW8/1583391560342/1.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Pro Bent Liner Brush 23",
+            "price": "Rs. 2,110",
+            "img": "https://cdn18.nnnow.com/web-images/medium/styles/Z4JQV20T2HM/1518073456727/1.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Eyelash Curler",
+            "price": "Rs. 1,790",
+            "img": "https://cdn06.nnnow.com/web-images/medium/styles/O1YJQ3LMNO6/1585728189816/1.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Pro Foundation Brush #47",
+            "price": "Rs. 2,500",
+            "img": "https://cdn05.nnnow.com/web-images/medium/styles/SFJGB37DTO2/1560852958803/1.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Advanced Brush Set",
+            "price": "Rs. 6,350",
+            "img": "https://cdn05.nnnow.com/web-images/medium/styles/UPN1DIYDEOO/1539585373094/1.jpg"
+          },
+          {
+            "brand": "ANASTASIA BEVERLY HILLS",
+            "product": "Tapered Blending Brush #23A",
+            "price": "Rs. 2,800",
+            "img": "https://cdn07.nnnow.com/web-images/medium/styles/SZAQ4AGR2OK/1560421515006/1.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Pro Precision Crease Brush 17",
+            "price": "Rs. 3,200",
+            "img": "https://cdn02.nnnow.com/web-images/medium/styles/FSKQ5AJQA76/1491888383474/1.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "pageData": [
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Face Konjac Sponge",
+            "price": "Rs. 980",
+            "img": "https://cdn04.nnnow.com/web-images/medium/styles/LNOKEUIHEQC/1583391560346/1.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Classic Blush Brush #04",
+            "price": "Rs. 1,200",
+            "img": "https://cdn15.nnnow.com/web-images/medium/styles/366XPCD0TVA/1560852958825/1.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Silicone Makeup Sponge",
+            "price": "Rs. 980",
+            "img": "https://cdn04.nnnow.com/web-images/medium/styles/F96TP8TMHOO/1583391560382/1.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Classic Foundation Brush #01",
+            "price": "Rs. 1,200",
+            "img": "https://cdn01.nnnow.com/web-images/medium/styles/JT4ECFC9Q96/1560852958783/1.jpg"
+          },
+          {
+            "brand": "SHISEIDO",
+            "product": "Daiya Fude Face Duo Brush",
+            "price": "Rs. 3,600",
+            "img": "https://cdn16.nnnow.com/web-images/medium/styles/S9HBP9JJUYI/1549870556596/1.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Classic Smudge Brush #10",
+            "price": "Rs. 900",
+            "img": "https://cdn13.nnnow.com/web-images/medium/styles/AW2FUPSFXQ7/1560852958851/1.jpg"
+          },
+          {
+            "brand": "SEPHORA COLLECTION",
+            "product": "Pro Concealer Brush #57",
+            "price": "Rs. 2,100",
+            "img": "https://cdn15.nnnow.com/web-images/medium/styles/2OQ5IHLJNL4/1644913483501/1.jpg"
+          }
+        ]
+      }
+    ],
+    "haircare": [
+      {
+        "id": 1,
+        "pageData": [
+          {
+            "brand": "OLAPLEX",
+            "product": "N4 Bond Maintenance Shampoo",
+            "price": "Rs. 2,950",
+            "img": "https://cdn09.nnnow.com/web-images/medium/styles/NAG35MWAZB5/1603956012732/1.jpg"
+          },
+          {
+            "brand": "OLAPLEX",
+            "product": "N5 Bond Maintenance Conditioner",
+            "price": "Rs. 2,950",
+            "img": "https://cdn00.nnnow.com/web-images/medium/styles/RB2GD0T4W14/1603859985717/1.jpg"
+          },
+          {
+            "brand": "OLAPLEX",
+            "product": "No. 7 Bonding Oil",
+            "price": "Rs. 2,950",
+            "img": "https://cdn11.nnnow.com/web-images/medium/styles/KHFROVPTCI2/1633928766886/1.jpg"
+          },
+          {
+            "brand": "MOROCCANOIL",
+            "product": "Moisture Repair Shampoo",
+            "price": "Rs. 900",
+            "img": "https://cdn13.nnnow.com/web-images/medium/styles/FCNE5T2TV5T/1634887143628/1.jpg"
+          },
+          {
+            "brand": "MOROCCANOIL",
+            "product": "Moisture Repair Conditioner",
+            "price": "Rs. 900",
+            "img": "https://cdn18.nnnow.com/web-images/medium/styles/ROAP1AH5IAH/1634887017734/1.jpg"
+          },
+          {
+            "brand": "OUAI",
+            "product": "Detox Shampoo",
+            "price": "Rs. 3,400",
+            "img": "https://cdn11.nnnow.com/web-images/medium/styles/KR54NI5C40N/1652252614163/1.jpg"
+          },
+          {
+            "brand": "MOROCCANOIL",
+            "product": "All in One Leave In Conditioner",
+            "price": "Rs. 2,610",
+            "img": "https://cdn18.nnnow.com/web-images/medium/styles/E4PUAGOMU8E/1653375921600/1.jpg"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "pageData": [
+          {
+            "brand": "OUAI",
+            "product": "Matte Pomade",
+            "price": "Rs. 2,700",
+            "img": "https://cdn11.nnnow.com/web-images/medium/styles/NXSX9L9VBBL/1652252632363/1.jpg"
+          },
+          {
+            "brand": "AVEDA",
+            "product": "Nutriplenish Shampoo Deep Moisture",
+            "price": "Rs. 750",
+            "img": "https://cdn18.nnnow.com/web-images/medium/styles/BTCF3SBOYMY/1580451959426/1.jpg"
+          },
+          {
+            "brand": "AVEDA",
+            "product": "Be Curly Curl Enhancer",
+            "price": "Rs. 850",
+            "img": "https://cdn03.nnnow.com/web-images/medium/styles/RA54LTCGGYE/1586865417841/1.jpg"
+          },
+          {
+            "brand": "AVEDA",
+            "product": "Cherry Almond Softening Shampoo",
+            "price": "Rs. 1,700",
+            "img": "https://cdn14.nnnow.com/web-images/medium/styles/ZXCZQG4LPA2/1586865417849/1.jpg"
+          },
+          {
+            "brand": "AVEDA",
+            "product": "Sap Moss Weightless Hydration Shampoo",
+            "price": "Rs. 2,450",
+            "img": "https://cdn13.nnnow.com/web-images/medium/styles/F8JPSETLF92/1586865417816/1.jpg"
+          },
+          {
+            "brand": "AVEDA",
+            "product": "Volumizing Tonic",
+            "price": "Rs. 850",
+            "img": "https://cdn08.nnnow.com/web-images/medium/styles/ZXDKDH6NBRG/1586865417850/1.jpg"
+          },
+          {
+            "brand": "AVEDA",
+            "product": "Nutriplenish Conditioner Deep Moisture",
+            "price": "Rs. 850",
+            "img": "https://cdn11.nnnow.com/web-images/medium/styles/GSYDXLHZLUU/1580451959414/1.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "pageData": [
+          {
+            "brand": "MOROCCANOIL",
+            "product": "Luminous Hairspray Extra Strong",
+            "price": "Rs. 2,160",
+            "img": "https://cdn19.nnnow.com/web-images/medium/styles/SNX3WCF7MD8/1634886962080/1.jpg"
+          },
+          {
+            "brand": "OUAI",
+            "product": "Volume Spray",
+            "price": "Rs. 2,900",
+            "img": "https://cdn00.nnnow.com/web-images/medium/styles/V73BE2NW20M/1652252643744/1.jpg"
+          },
+          {
+            "brand": "OLAPLEX",
+            "product": "N6 Bond Smoother",
+            "price": "Rs. 2,950",
+            "img": "https://cdn02.nnnow.com/web-images/medium/styles/0SY7OCB8YQD/1662448603131/1.jpg"
+          },
+          {
+            "brand": "MOROCCANOIL",
+            "product": "Texture Clay Hair Cream",
+            "price": "Rs. 2,340",
+            "img": "https://cdn17.nnnow.com/web-images/medium/styles/PSY9GYLUMYU/1634887017760/1.jpg"
+          },
+          {
+            "brand": "MOROCCANOIL",
+            "product": "Root Boost Hair Spray",
+            "price": "Rs. 2,160",
+            "img": "https://cdn02.nnnow.com/web-images/medium/styles/VJJNDGIRV6T/1634886962094/1.jpg"
+          },
+          {
+            "brand": "MOROCCANOIL",
+            "product": "Thickening Lotion",
+            "price": "Rs. 2,340",
+            "img": "https://cdn09.nnnow.com/web-images/medium/styles/VF7GS6611AY/1634886962122/1.jpg"
+          },
+          {
+            "brand": "OUAI",
+            "product": "Finishing Creme",
+            "price": "Rs. 2,700",
+            "img": "https://cdn00.nnnow.com/web-images/medium/styles/644ZRGY12NH/1652252610548/1.jpg"
+          }
+        ]
+      }
+    ]
+  }
